@@ -577,14 +577,68 @@ img {
   color: var(--text-secondary);
 }
 
+/* ---- Mobile Menu Button ---- */
+.mobile-menu-btn {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  z-index: 1001;
+}
+
+.mobile-menu-btn span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--text-primary);
+  border-radius: 2px;
+  transition: 0.3s;
+}
+
 /* ---- Responsive ---- */
 @media (max-width: 768px) {
   .hero h1 { font-size: 2rem; }
   .tools-grid { grid-template-columns: 1fr; }
   .featured-card { grid-template-columns: 1fr; }
-  .site-nav { display: none; }
   .footer-content { flex-direction: column; gap: var(--space-md); }
   .tool-single .pros-cons { grid-template-columns: 1fr; }
+
+  .mobile-menu-btn { display: flex; }
+
+  .site-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--bg-primary);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-lg);
+    z-index: 1000;
+    padding: var(--space-xl);
+  }
+
+  .site-nav.nav-open {
+    display: flex;
+  }
+
+  .site-nav li { list-style: none; }
+
+  .site-nav a {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+
+  .site-nav .mega-dropdown {
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
