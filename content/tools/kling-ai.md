@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Kling AI generates high-quality AI video from text or images at prices significantly below Runway. Free tier is more generous. Quality is close to Runway's Gen-3 and improving fast. Best for solo builders who need AI video without Runway's price tag."
 freedom_score: 4
 freedom_label: "Leash Detected"
+fs_lockin: 2
+fs_solo: 4
+fs_cost: 3
+fs_portability: 2
+fs_opensource: 1
 free_tier: "Yes — daily free credits"
 last_tested: "February 2026"
 verdict: "90% of Runway's quality at 50% of the price. If budget matters for your video content, start here."

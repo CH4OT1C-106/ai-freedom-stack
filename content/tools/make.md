@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Make is a visual automation platform that connects apps and services into automated workflows. More powerful than Zapier, easier than n8n. Free tier gives 1,000 operations/month. Best for solo builders who want serious automation without self-hosting."
 freedom_score: 5
 freedom_label: "Proceed with Caution"
+fs_lockin: 2
+fs_solo: 4
+fs_cost: 3
+fs_portability: 2
+fs_opensource: 1
 free_tier: "Yes — 1,000 ops/month, 2 active scenarios"
 last_tested: "February 2026"
 verdict: "Solid middle ground. More power than Zapier, less setup than n8n. Good choice if you don't want to self-host but need real automation."

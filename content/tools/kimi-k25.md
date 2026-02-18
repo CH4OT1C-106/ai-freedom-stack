@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Kimi K2.5 is Moonshot AI's trillion-parameter MoE model with native Agent Swarm for multi-agent research. The only frontier model that decomposes complex queries across specialized agents automatically. API-only pricing. Best for deep research and competitive intelligence."
 freedom_score: 6
 freedom_label: "Proceed with Caution"
+fs_lockin: 3
+fs_solo: 4
+fs_cost: 4
+fs_portability: 3
+fs_opensource: 1
 free_tier: "No"
 last_tested: "February 2026"
 verdict: "Best-in-class for complex research tasks. Agent Swarm is a genuine innovation nobody else has. Not for casual use — this is a specialist tool."

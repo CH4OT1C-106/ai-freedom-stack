@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "ComfyUI is a free, open-source node-based interface for Stable Diffusion. Build visual workflows for image generation, upscaling, inpainting, and more. Steeper learning curve than alternatives but vastly more powerful. Best for solo builders who want repeatable, automatable image pipelines."
 freedom_score: 10
 freedom_label: "Freedom First"
+fs_lockin: 5
+fs_solo: 4
+fs_cost: 5
+fs_portability: 5
+fs_opensource: 5
 free_tier: "Entirely free — open source"
 last_tested: "February 2026"
 verdict: "If Stable Diffusion is the engine, ComfyUI is the cockpit. Not for beginners, but once you learn it, you'll never go back to simple prompt boxes."

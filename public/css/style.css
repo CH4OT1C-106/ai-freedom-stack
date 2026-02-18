@@ -1240,3 +1240,27 @@ img {
   .section-grid { grid-template-columns: 1fr; }
   .content-single { padding: var(--space-lg) var(--space-md); }
 }
+
+/* ---- Freedom Score Breakdown ---- */
+.freedom-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.freedom-row:last-child {
+  border-bottom: none;
+}
+
+.freedom-factor-label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.freedom-stars {
+  font-size: 0.95rem;
+  color: #eab308;
+  letter-spacing: 1px;
+}

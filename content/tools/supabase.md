@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Supabase is an open-source backend platform built on Postgres. Database, authentication, file storage, real-time subscriptions, and edge functions — all in one. Free tier is generous enough to launch a real product. The best backend for solo builders who want power without DevOps."
 freedom_score: 8
 freedom_label: "Builder Friendly"
+fs_lockin: 4
+fs_solo: 5
+fs_cost: 4
+fs_portability: 4
+fs_opensource: 5
 free_tier: "Yes — 2 projects, 500MB database, 1GB storage"
 last_tested: "February 2026"
 verdict: "The backend every solo builder should start with. Generous free tier, real Postgres underneath, and you can self-host if you outgrow the cloud."

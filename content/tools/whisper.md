@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Whisper is OpenAI's open-source speech-to-text model. Run it locally for free with near-perfect accuracy across 99 languages. Handles accents, background noise, and technical jargon better than any alternative. Essential for content creators doing transcription, subtitles, or repurposing audio content."
 freedom_score: 9
 freedom_label: "Freedom First"
+fs_lockin: 5
+fs_solo: 5
+fs_cost: 5
+fs_portability: 4
+fs_opensource: 5
 free_tier: "Entirely free locally — open source"
 last_tested: "February 2026"
 verdict: "The best speech-to-text available, and it's free. If you're paying for transcription services, stop."

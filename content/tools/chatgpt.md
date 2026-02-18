@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "ChatGPT is the most versatile AI tool available. GPT-4o handles text, code, image generation, web browsing, file analysis, and plugins in a single interface. Free tier is generous. Best for solo builders who want one tool that does everything acceptably rather than multiple tools that each excel."
 freedom_score: 5
 freedom_label: "Proceed with Caution"
+fs_lockin: 3
+fs_solo: 5
+fs_cost: 3
+fs_portability: 3
+fs_opensource: 1
 free_tier: "Yes — GPT-4o with limits"
 last_tested: "February 2026"
 verdict: "The Swiss army knife of AI. Does everything well, nothing best. If you only get one AI subscription, this is the safe pick."

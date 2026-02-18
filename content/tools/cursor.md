@@ -12,6 +12,11 @@ featured: true
 answer_capsule: "Cursor is the best AI code editor for solo builders in 2026. Built on VS Code with deep AI integration, it lets you write, refactor, and debug code using natural language. Free tier available, $20/mo for unlimited AI. Essential for any solo developer building products."
 freedom_score: 7
 freedom_label: "Builder Friendly"
+fs_lockin: 4
+fs_solo: 5
+fs_cost: 4
+fs_portability: 3
+fs_opensource: 1
 free_tier: "Yes — limited AI completions"
 last_tested: "February 2026"
 verdict: "The best AI coding tool for solo builders. If you're writing any code at all, Cursor pays for itself in hours saved on the first day."

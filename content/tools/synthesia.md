@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Synthesia creates professional AI avatar videos from text scripts. More polished and enterprise-focused than HeyGen. Best for training videos, corporate content, and multilingual production. Too expensive for most solo builders — better options exist for YouTube and social content."
 freedom_score: 3
 freedom_label: "Leash Detected"
+fs_lockin: 2
+fs_solo: 2
+fs_cost: 2
+fs_portability: 1
+fs_opensource: 1
 free_tier: "1 free demo video"
 last_tested: "February 2026"
 verdict: "The enterprise avatar video tool. If you're making corporate training content at scale, it's solid. For solo builders on YouTube, skip it."

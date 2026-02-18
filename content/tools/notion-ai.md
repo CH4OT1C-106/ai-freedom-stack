@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Notion AI adds writing assistance, summarization, and brainstorming directly inside Notion's workspace. Useful if you already live in Notion. Not worth switching to Notion for. At $10/mo on top of your plan, the value only makes sense for heavy Notion users."
 freedom_score: 4
 freedom_label: "Leash Detected"
+fs_lockin: 2
+fs_solo: 3
+fs_cost: 2
+fs_portability: 2
+fs_opensource: 1
 free_tier: "No — requires Notion plan + AI add-on"
 last_tested: "February 2026"
 verdict: "Convenient if you're already in Notion. Not a reason to start using Notion. Claude or ChatGPT do everything Notion AI does, better."

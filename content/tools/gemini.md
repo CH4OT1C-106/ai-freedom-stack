@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Gemini is Google's frontier AI model with the largest context window available — over 1 million tokens. Free tier includes image generation and web search. Best for solo builders who need to process massive documents, want Google Workspace integration, or need a strong free option."
 freedom_score: 5
 freedom_label: "Proceed with Caution"
+fs_lockin: 2
+fs_solo: 4
+fs_cost: 4
+fs_portability: 3
+fs_opensource: 1
 free_tier: "Yes — generous limits with Gemini Pro"
 last_tested: "February 2026"
 verdict: "The best free AI option and the context window king. If you work with large documents or live in Google's ecosystem, Gemini punches above its weight."

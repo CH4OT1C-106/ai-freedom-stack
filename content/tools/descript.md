@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Descript lets you edit video and audio by editing a text transcript — delete a sentence from the text and it cuts from the video. AI features remove filler words, fix eye contact, and generate captions. Best for solo creators doing talking-head content, podcasts, or repurposing video into text."
 freedom_score: 5
 freedom_label: "Proceed with Caution"
+fs_lockin: 3
+fs_solo: 4
+fs_cost: 3
+fs_portability: 3
+fs_opensource: 1
 free_tier: "Yes — 1 hour of transcription, basic editing"
 last_tested: "February 2026"
 verdict: "Genuinely innovative editing paradigm. If you do talking-head or podcast content, this saves massive time. Not useful for cinematic or B-roll-heavy editing."

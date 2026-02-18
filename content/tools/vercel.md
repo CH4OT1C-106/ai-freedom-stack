@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Vercel is a deployment platform that turns your Git push into a live website automatically. Best-in-class for Next.js but supports any frontend framework. Free tier hosts most solo projects. The fastest path from code to production for web builders."
 freedom_score: 5
 freedom_label: "Proceed with Caution"
+fs_lockin: 3
+fs_solo: 4
+fs_cost: 4
+fs_portability: 2
+fs_opensource: 1
 free_tier: "Yes — generous for personal projects"
 last_tested: "February 2026"
 verdict: "Best deployment experience available. The free tier is enough for most solo projects. Just watch the vendor lock-in with Next.js-specific features."

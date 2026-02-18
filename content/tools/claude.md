@@ -12,6 +12,11 @@ featured: true
 answer_capsule: "Claude is Anthropic's frontier AI model and arguably the best LLM for solo builders in 2026. Excels at long-form writing, complex coding, and nuanced reasoning. Free tier available, Pro at $20/mo. If you pick one AI subscription, this is the one."
 freedom_score: 6
 freedom_label: "Proceed with Caution"
+fs_lockin: 3
+fs_solo: 5
+fs_cost: 3
+fs_portability: 3
+fs_opensource: 1
 free_tier: "Yes — limited messages with Sonnet"
 last_tested: "February 2026"
 verdict: "The best general-purpose AI for solo builders who need quality over speed. Writing, coding, analysis — Claude handles all of it at the highest level."

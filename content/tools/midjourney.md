@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Midjourney produces the highest-quality AI images available. Best for thumbnails, hero images, and visual content. No free tier — starts at $10/mo. Discord-based workflow takes getting used to. Solo builders needing consistent, professional visuals should start here."
 freedom_score: 4
 freedom_label: "Leash Detected"
+fs_lockin: 2
+fs_solo: 4
+fs_cost: 2
+fs_portability: 1
+fs_opensource: 1
 free_tier: "No"
 last_tested: "February 2026"
 verdict: "Best image quality in the game, but the Discord workflow and lack of free tier hurt. If visuals are central to your business, worth it. If not, try Gemini's free Imagen first."

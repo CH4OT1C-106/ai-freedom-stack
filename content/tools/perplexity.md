@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Perplexity is an AI search engine that actually answers your questions with real-time web sources and citations. Free tier is excellent for research. Best for solo builders who need fast, accurate research without digging through 10 tabs of Google results."
 freedom_score: 6
 freedom_label: "Proceed with Caution"
+fs_lockin: 3
+fs_solo: 5
+fs_cost: 4
+fs_portability: 3
+fs_opensource: 1
 free_tier: "Yes — unlimited basic searches"
 last_tested: "February 2026"
 verdict: "Replaced Google for research. If you're still opening 10 tabs to answer a question, you're wasting time."

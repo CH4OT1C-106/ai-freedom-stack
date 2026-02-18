@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Obsidian is a free, local-first note-taking app that stores everything as plain markdown files on your machine. No vendor lock-in, full data ownership, and a plugin ecosystem that adds AI, databases, kanban, and more. The knowledge base every solo builder should start with."
 freedom_score: 9
 freedom_label: "Freedom First"
+fs_lockin: 5
+fs_solo: 5
+fs_cost: 5
+fs_portability: 5
+fs_opensource: 4
 free_tier: "Yes — fully free for personal use"
 last_tested: "February 2026"
 verdict: "Your second brain, stored as files you own. Free, private, extensible. If you're using Notion and care about data ownership, switch."

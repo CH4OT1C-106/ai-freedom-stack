@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "HeyGen creates talking-head videos using AI avatars — type a script, pick an avatar, get a video. No camera needed. Good for training videos, product demos, and content repurposing. Expensive for what it is, and avatar quality still sits in the uncanny valley."
 freedom_score: 3
 freedom_label: "Leash Detected"
+fs_lockin: 2
+fs_solo: 3
+fs_cost: 2
+fs_portability: 1
+fs_opensource: 1
 free_tier: "1 free video"
 last_tested: "February 2026"
 verdict: "Useful niche tool for talking-head video at scale. Not worth it for most solo builders — your phone camera and ElevenLabs get you further for less."

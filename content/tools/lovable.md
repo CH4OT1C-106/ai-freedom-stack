@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Lovable generates full-stack web apps from text descriptions with a focus on polished UI. Describe your SaaS, landing page, or internal tool — get a working prototype with frontend, backend, and database. Best for solo builders who need to validate ideas fast before investing in proper development."
 freedom_score: 4
 freedom_label: "Leash Detected"
+fs_lockin: 2
+fs_solo: 4
+fs_cost: 3
+fs_portability: 2
+fs_opensource: 1
 free_tier: "Yes — limited generations"
 last_tested: "February 2026"
 verdict: "Great for rapid prototyping and idea validation. Not where you build your final product. Use it to test, then rebuild properly in Cursor."

@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Windsurf is an AI code editor from Codeium that rivals Cursor with full codebase awareness and multi-file editing at a lower price. Free tier is generous. A solid alternative for solo builders who want AI-powered coding without Cursor's price tag."
 freedom_score: 5
 freedom_label: "Proceed with Caution"
+fs_lockin: 3
+fs_solo: 4
+fs_cost: 4
+fs_portability: 2
+fs_opensource: 1
 free_tier: "Yes — generous free tier with AI features"
 last_tested: "February 2026"
 verdict: "The budget Cursor. 80% of the capability at 75% of the price. Worth trying if Cursor's cost bugs you."

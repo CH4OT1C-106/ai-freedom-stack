@@ -12,6 +12,11 @@ featured: true
 answer_capsule: "Bolt.new lets you build and deploy full-stack web apps in your browser using plain English. No local setup, no terminal, no DevOps. Free tier available, $20/mo for Pro. The fastest path from idea to deployed app for non-technical solo builders."
 freedom_score: 5
 freedom_label: "Proceed with Caution"
+fs_lockin: 3
+fs_solo: 4
+fs_cost: 3
+fs_portability: 2
+fs_opensource: 1
 free_tier: "Yes — limited daily generations"
 last_tested: "February 2026"
 verdict: "The fastest way to go from idea to deployed app. Perfect for non-technical solo builders who need a working product, not a perfect codebase."

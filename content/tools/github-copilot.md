@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "GitHub Copilot is an AI code completion tool that lives in your editor and suggests code as you type. Good autocomplete, solid for boilerplate. Free tier available. For solo builders who code, it's useful but Cursor offers a more complete AI coding experience."
 freedom_score: 5
 freedom_label: "Proceed with Caution"
+fs_lockin: 3
+fs_solo: 4
+fs_cost: 4
+fs_portability: 3
+fs_opensource: 1
 free_tier: "Yes — limited completions for individual devs"
 last_tested: "February 2026"
 verdict: "Good autocomplete, but Cursor does everything Copilot does and more. Use Copilot if you refuse to leave VS Code."

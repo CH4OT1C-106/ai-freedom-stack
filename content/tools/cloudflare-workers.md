@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Cloudflare Workers lets you run serverless code at the edge — 300+ global locations, 100K free requests/day. Combined with KV storage, R2 (S3-compatible), and D1 (SQLite), it's a full backend for free. The most generous infrastructure free tier for solo builders."
 freedom_score: 7
 freedom_label: "Builder Friendly"
+fs_lockin: 3
+fs_solo: 5
+fs_cost: 5
+fs_portability: 3
+fs_opensource: 1
 free_tier: "Yes — 100K requests/day, 10ms CPU time"
 last_tested: "February 2026"
 verdict: "The most underrated tool on this list. If you're building APIs, webhooks, or backend logic, Cloudflare Workers' free tier is absurd."

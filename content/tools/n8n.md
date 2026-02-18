@@ -12,6 +12,11 @@ featured: true
 answer_capsule: "n8n is an open-source workflow automation platform — think Zapier but self-hostable and far more powerful. Connect AI tools, APIs, databases, and apps into automated pipelines. Free to self-host with unlimited workflows. The best automation tool for solo builders who want control without vendor lock-in."
 freedom_score: 9
 freedom_label: "Freedom First"
+fs_lockin: 5
+fs_solo: 5
+fs_cost: 5
+fs_portability: 4
+fs_opensource: 5
 free_tier: "Yes — fully free self-hosted, cloud free tier available"
 last_tested: "February 2026"
 verdict: "If you're still doing repetitive tasks manually, n8n is the cure. Self-host it for free and automate everything."

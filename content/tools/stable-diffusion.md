@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Stable Diffusion is a free, open-source AI image generator you run locally. No subscriptions, no usage limits, full control over your data and outputs. Requires a decent GPU and some technical setup. Best for solo builders who want unlimited image generation without ongoing costs."
 freedom_score: 10
 freedom_label: "Freedom First"
+fs_lockin: 5
+fs_solo: 4
+fs_cost: 5
+fs_portability: 5
+fs_opensource: 5
 free_tier: "Entirely free — open source"
 last_tested: "February 2026"
 verdict: "Maximum freedom, maximum effort. If you have the GPU and patience to set it up, nothing beats the value. If you want easy, look at Midjourney."

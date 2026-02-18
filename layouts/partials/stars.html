@@ -1,0 +1,2 @@
+{{- $score := . -}}
+{{- range seq 1 5 -}}{{- if le . $score -}}★{{- else -}}<span style="opacity: 0.25;">★</span>{{- end -}}{{- end }} <span style="opacity: 0.6; font-size: 0.85em;">{{ $score }}/5</span>

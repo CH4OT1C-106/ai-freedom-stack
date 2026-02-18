@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "Runway ML is the leading AI video generation platform. Gen-3 Alpha produces the best text-to-video and image-to-video results available. Free tier gives 125 credits. Best for content creators who need AI-generated video clips for YouTube, ads, or social media."
 freedom_score: 4
 freedom_label: "Leash Detected"
+fs_lockin: 2
+fs_solo: 4
+fs_cost: 2
+fs_portability: 2
+fs_opensource: 1
 free_tier: "Yes — 125 credits (about 25 seconds of video)"
 last_tested: "February 2026"
 verdict: "Best AI video quality available, but expensive per minute. Use it for hero clips and key moments, not bulk video production."

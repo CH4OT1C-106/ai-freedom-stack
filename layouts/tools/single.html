@@ -10,7 +10,7 @@
   </div>
   {{ end }}
 
-  {{/* Freedom Score Badge */}}
+  {{/* Freedom Score Breakdown */}}
   {{ with .Params.freedom_score }}
   {{ $score := . }}
   {{ $color := "#ef4444" }}{{ $label := "Trap Tool" }}{{ $emoji := "🔴" }}
@@ -19,10 +19,20 @@
   {{ else if ge $score 5 }}{{ $color = "#eab308" }}{{ $label = "Proceed with Caution" }}{{ $emoji = "🟡" }}
   {{ else if ge $score 3 }}{{ $color = "#f97316" }}{{ $label = "Leash Detected" }}{{ $emoji = "🟠" }}
   {{ end }}
-  <div class="freedom-badge" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 2px solid {{ $color }}; border-radius: 999px; font-weight: 600; font-size: 0.95rem; margin: 1rem 0;">
-    <span style="font-size: 1.2rem;">{{ $emoji }}</span>
-    <span>Freedom Score: {{ $score }}/10</span>
-    <span style="color: {{ $color }};">— {{ with $.Params.freedom_label }}{{ . }}{{ else }}{{ $label }}{{ end }}</span>
+  <div class="freedom-card" style="background: var(--bg-card); border: 1px solid var(--border-default); border-radius: var(--radius-md, 8px); padding: 1.25rem 1.5rem; margin: 1.5rem 0;">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+      <span style="font-weight: 700; font-size: 1.1rem;">🛡️ Freedom Score</span>
+      <span class="freedom-badge" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.8rem; border: 2px solid {{ $color }}; border-radius: 999px; font-weight: 700; font-size: 0.95rem;">
+        {{ $emoji }} {{ $score }}/10 — {{ with $.Params.freedom_label }}{{ . }}{{ else }}{{ $label }}{{ end }}
+      </span>
+    </div>
+    <div class="freedom-factors" style="display: grid; gap: 0.5rem;">
+      {{ with $.Params.fs_lockin }}<div class="freedom-row"><span class="freedom-factor-label">🔒 Vendor Lock-in</span><span class="freedom-stars">{{ partial "stars.html" . }}</span></div>{{ end }}
+      {{ with $.Params.fs_solo }}<div class="freedom-row"><span class="freedom-factor-label">🧑‍💻 Solo Builder Fit</span><span class="freedom-stars">{{ partial "stars.html" . }}</span></div>{{ end }}
+      {{ with $.Params.fs_cost }}<div class="freedom-row"><span class="freedom-factor-label">💰 Cost Efficiency</span><span class="freedom-stars">{{ partial "stars.html" . }}</span></div>{{ end }}
+      {{ with $.Params.fs_portability }}<div class="freedom-row"><span class="freedom-factor-label">🔄 Portability</span><span class="freedom-stars">{{ partial "stars.html" . }}</span></div>{{ end }}
+      {{ with $.Params.fs_opensource }}<div class="freedom-row"><span class="freedom-factor-label">📖 Open Source</span><span class="freedom-stars">{{ partial "stars.html" . }}</span></div>{{ end }}
+    </div>
   </div>
   {{ end }}
 

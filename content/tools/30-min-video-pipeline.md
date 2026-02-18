@@ -12,6 +12,11 @@ featured: false
 answer_capsule: "A complete AI workflow for producing YouTube videos in under an hour. Uses Claude/GPT for scripts, ElevenLabs for voice, and Kdenlive for assembly. Free to follow, uses your existing AI subscriptions. Total active time: ~45 minutes per video."
 freedom_score: 9
 freedom_label: "Freedom First"
+fs_lockin: 5
+fs_solo: 5
+fs_cost: 5
+fs_portability: 4
+fs_opensource: 5
 free_tier: "Free workflow (tools may have costs)"
 last_tested: "February 2026"
 verdict: "This is the exact workflow we use to produce our own videos. It works. Total active time: ~45 minutes for a polished 8-10 minute video."
