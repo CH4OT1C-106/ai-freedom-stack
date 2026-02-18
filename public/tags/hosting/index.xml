@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hosting on AI Freedom Stack</title><link>https://freedomstackai.com/tags/hosting/</link><description>Recent content in Hosting on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/hosting/index.xml" rel="self" type="application/rss+xml"/><item><title>Cloudflare Workers</title><link>https://freedomstackai.com/tools/cloudflare-workers/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/cloudflare-workers/</guid><description>&lt;h2 id="what-is-cloudflare-workers">What is Cloudflare Workers?&lt;/h2>
+&lt;p>Serverless compute that runs your code at Cloudflare&amp;rsquo;s 300+ edge locations worldwide. Write JavaScript/TypeScript, deploy in seconds, runs within milliseconds of your users. Combined with Cloudflare&amp;rsquo;s storage services (KV, R2, D1), you can build entire backends without managing a server.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who need APIs, webhooks, scheduled tasks, or lightweight backends&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Heavy compute tasks (10ms CPU limit on free) or apps needing persistent connections&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>100K requests/day, 10ms CPU, KV/R2/D1 free tiers&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Paid&lt;/td>
+ &lt;td>$5/mo&lt;/td>
+ &lt;td>10M requests/mo, 30ms CPU, more storage&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Almost none at solo scale. The free tier handles most indie projects indefinitely.&lt;/p></description></item><item><title>Vercel</title><link>https://freedomstackai.com/tools/vercel/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/vercel/</guid><description>&lt;h2 id="what-is-vercel">What is Vercel?&lt;/h2>
+&lt;p>A cloud platform for deploying web applications. Connect your GitHub repo, push code, and Vercel automatically builds and deploys your site to a global edge network. Created by the team behind Next.js, so that framework gets first-class treatment, but it works with React, Vue, Svelte, Hugo, and more.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders deploying web apps, landing pages, or SaaS products&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Backend-heavy applications or anything needing persistent servers&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Hobby&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Personal projects, 100GB bandwidth&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>Team features, 1TB bandwidth, analytics&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Enterprise&lt;/td>
+ &lt;td>Custom&lt;/td>
+ &lt;td>SLA, advanced security&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Serverless function usage can spike unexpectedly. Bandwidth is usually fine for solo projects.&lt;/p></description></item></channel></rss>

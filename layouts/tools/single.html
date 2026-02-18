@@ -2,6 +2,41 @@
 <article class="tool-single">
   <div class="tool-category" style="color: var(--text-muted); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.05em; margin-bottom: var(--space-sm);">{{ .Params.category }}</div>
   <h1>{{ .Title }}</h1>
+
+  {{/* Answer Capsule */}}
+  {{ with .Params.answer_capsule }}
+  <div class="answer-capsule" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); border-left: 4px solid var(--accent, #6c63ff); padding: 1.25rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 1.05rem; line-height: 1.6;">
+    {{ . }}
+  </div>
+  {{ end }}
+
+  {{/* Freedom Score Badge */}}
+  {{ with .Params.freedom_score }}
+  {{ $score := . }}
+  {{ $color := "#ef4444" }}{{ $label := "Trap Tool" }}{{ $emoji := "🔴" }}
+  {{ if ge $score 9 }}{{ $color = "#22c55e" }}{{ $label = "Freedom First" }}{{ $emoji = "🟢" }}
+  {{ else if ge $score 7 }}{{ $color = "#22c55e" }}{{ $label = "Builder Friendly" }}{{ $emoji = "🟢" }}
+  {{ else if ge $score 5 }}{{ $color = "#eab308" }}{{ $label = "Proceed with Caution" }}{{ $emoji = "🟡" }}
+  {{ else if ge $score 3 }}{{ $color = "#f97316" }}{{ $label = "Leash Detected" }}{{ $emoji = "🟠" }}
+  {{ end }}
+  <div class="freedom-badge" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; border: 2px solid {{ $color }}; border-radius: 999px; font-weight: 600; font-size: 0.95rem; margin: 1rem 0;">
+    <span style="font-size: 1.2rem;">{{ $emoji }}</span>
+    <span>Freedom Score: {{ $score }}/10</span>
+    <span style="color: {{ $color }};">— {{ with $.Params.freedom_label }}{{ . }}{{ else }}{{ $label }}{{ end }}</span>
+  </div>
+  {{ end }}
+
+  {{/* Quick Specs Table */}}
+  <div class="quick-specs" style="margin: 1.5rem 0; border: 1px solid rgba(255,255,255,0.1); border-radius: 8px; overflow: hidden;">
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.95rem;">
+      {{ with .Params.price }}<tr><td style="padding: 0.6rem 1rem; font-weight: 600; width: 40%; border-bottom: 1px solid rgba(255,255,255,0.06);">💰 Price</td><td style="padding: 0.6rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.06);">{{ . }}</td></tr>{{ end }}
+      {{ with .Params.free_tier }}<tr><td style="padding: 0.6rem 1rem; font-weight: 600; border-bottom: 1px solid rgba(255,255,255,0.06);">🆓 Free Tier</td><td style="padding: 0.6rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.06);">{{ . }}</td></tr>{{ end }}
+      {{ with .Params.category }}<tr><td style="padding: 0.6rem 1rem; font-weight: 600; border-bottom: 1px solid rgba(255,255,255,0.06);">📂 Category</td><td style="padding: 0.6rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.06);">{{ . }}</td></tr>{{ end }}
+      {{ with .Params.freedom_score }}<tr><td style="padding: 0.6rem 1rem; font-weight: 600; border-bottom: 1px solid rgba(255,255,255,0.06);">🛡️ Freedom Score</td><td style="padding: 0.6rem 1rem; border-bottom: 1px solid rgba(255,255,255,0.06);">{{ . }}/10 {{ with $.Params.freedom_label }}({{ . }}){{ end }}</td></tr>{{ end }}
+      {{ with .Params.last_tested }}<tr><td style="padding: 0.6rem 1rem; font-weight: 600;">🧪 Last Tested</td><td style="padding: 0.6rem 1rem;">{{ . }}</td></tr>{{ end }}
+    </table>
+  </div>
+
   <p style="color: var(--text-muted); font-size: 0.9rem;">Last updated: {{ .Date.Format "January 2, 2006" }}</p>
   
   <div class="verdict">

@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blog on AI Freedom Stack</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Blog on AI Freedom Stack</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Week 1: The Tools That Actually Matter Right Now</title>
-      <link>http://localhost:1313/posts/weekly-001/</link>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/weekly-001/</guid>
-      <description>&lt;p&gt;Welcome to the first weekly roundup from AI Freedom Stack.&lt;/p&gt;&#xA;&lt;p&gt;Every week, we cut through the noise and surface the AI tools and updates that actually matter if you&amp;rsquo;re building solo. No hype. No &amp;ldquo;top 100 AI tools&amp;rdquo; listicles. Just what&amp;rsquo;s useful, what&amp;rsquo;s not, and what you should pay attention to.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-the-headline-kimi-k25s-agent-swarm&#34;&gt;🔥 The Headline: Kimi K2.5&amp;rsquo;s Agent Swarm&lt;/h2&gt;&#xA;&lt;p&gt;A Beijing-based company called Moonshot AI quietly released a model called Kimi K2.5, and its standout feature — Agent Swarm — is genuinely unlike anything else available right now.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on AI Freedom Stack</title><link>https://freedomstackai.com/posts/</link><description>Recent content in Blog on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Week 1: The Tools That Actually Matter Right Now</title><link>https://freedomstackai.com/posts/weekly-001/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/posts/weekly-001/</guid><description>&lt;p>Welcome to the first weekly roundup from AI Freedom Stack.&lt;/p>
+&lt;p>Every week, we cut through the noise and surface the AI tools and updates that actually matter if you&amp;rsquo;re building solo. No hype. No &amp;ldquo;top 100 AI tools&amp;rdquo; listicles. Just what&amp;rsquo;s useful, what&amp;rsquo;s not, and what you should pay attention to.&lt;/p>
+&lt;h2 id="-the-headline-kimi-k25s-agent-swarm">🔥 The Headline: Kimi K2.5&amp;rsquo;s Agent Swarm&lt;/h2>
+&lt;p>A Beijing-based company called Moonshot AI quietly released a model called Kimi K2.5, and its standout feature — Agent Swarm — is genuinely unlike anything else available right now.&lt;/p></description></item></channel></rss>

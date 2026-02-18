@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content on AI Freedom Stack</title><link>https://freedomstackai.com/tags/content/</link><description>Recent content in Content on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/content/index.xml" rel="self" type="application/rss+xml"/><item><title>The 30-Minute Video Pipeline</title><link>https://freedomstackai.com/tools/30-min-video-pipeline/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/30-min-video-pipeline/</guid><description>&lt;h2 id="what-is-this">What is this?&lt;/h2>
+&lt;p>A step-by-step workflow for producing a complete YouTube video using AI tools. From blank page to uploaded video in under an hour of active work.&lt;/p>
+&lt;h2 id="the-stack">The Stack&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Step&lt;/th>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Time&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Script&lt;/td>
+ &lt;td>Claude / GPT&lt;/td>
+ &lt;td>15 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Voiceover&lt;/td>
+ &lt;td>ElevenLabs&lt;/td>
+ &lt;td>2 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio cleanup&lt;/td>
+ &lt;td>ffmpeg (automated)&lt;/td>
+ &lt;td>30 sec&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Visuals&lt;/td>
+ &lt;td>Gemini 3 Pro&lt;/td>
+ &lt;td>5 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Assembly&lt;/td>
+ &lt;td>Kdenlive&lt;/td>
+ &lt;td>20 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Total&lt;/strong>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>~45 min&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="the-workflow">The Workflow&lt;/h2>
+&lt;h3 id="step-1-script-15-min">Step 1: Script (15 min)&lt;/h3>
+&lt;p>Use Claude or GPT to draft the script. Provide your topic, target length, and tone. Review and tweak — don&amp;rsquo;t accept the first draft.&lt;/p></description></item></channel></rss>

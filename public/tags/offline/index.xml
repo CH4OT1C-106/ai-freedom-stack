@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Offline on AI Freedom Stack</title><link>https://freedomstackai.com/tags/offline/</link><description>Recent content in Offline on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/offline/index.xml" rel="self" type="application/rss+xml"/><item><title>The Local Intelligence Stack</title><link>https://freedomstackai.com/stacks/local-intelligence/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/local-intelligence/</guid><description>&lt;h1 id="the-local-intelligence-stack">The Local Intelligence Stack&lt;/h1>
+&lt;p>&lt;strong>AI that runs on your machine, works offline, and sends zero data to the cloud.&lt;/strong> This is the maximum-freedom stack: open-source models for text, images, and audio, organized in a local knowledge base you fully own. Monthly cost: $0 after hardware.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Privacy-conscious builders, researchers, preppers, anyone in a country with restricted AI access, developers who want to understand how models actually work, and anyone tired of subscription fatigue.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People without a decent GPU (16GB+ VRAM recommended), anyone who needs GPT-4-level reasoning (local models are good but not frontier-tier), or creators who need ElevenLabs-quality voice cloning.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/ollama/">Ollama&lt;/a>&lt;/td>
+ &lt;td>Local LLM runner — chat, writing, coding, analysis&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ComfyUI + Stable Diffusion&lt;/td>
+ &lt;td>Local image generation — any style, no content filters&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Whisper (OpenAI, local)&lt;/td>
+ &lt;td>Speech-to-text — transcribe anything offline&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Obsidian&lt;/td>
+ &lt;td>Knowledge base — notes, linked thinking, local-first&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Your Brain / Voice / Documents
+ │
+ ┌─────┴──────┐
+ ▼ ▼
+┌─────────┐ ┌─────────┐
+│ Whisper │ │ Ollama │ → Chat, write, summarize, code
+│ → Text │ └────┬────┘
+└────┬────┘ │
+ │ │
+ └─────┬──────┘
+ ▼
+ ┌──────────┐
+ │ Obsidian │ → Store, link, organize everything
+ └────┬─────┘
+ │
+ │ (need an image?)
+ ▼
+ ┌──────────┐
+ │ ComfyUI │ → Generate illustrations, diagrams, concepts
+ └──────────┘
+
+Everything stays on your machine. Nothing phones home.
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Item&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Software&lt;/td>
+ &lt;td>$0 — all open source&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud services&lt;/td>
+ &lt;td>$0 — none needed&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Electricity&lt;/td>
+ &lt;td>~$5-15/mo if running GPU-heavy workloads daily&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Total&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>$0/mo&lt;/strong> (after hardware)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hardware reality check:&lt;/strong> You need a GPU. A used RTX 3090 (24GB VRAM) runs ~$600-800 and handles all of this beautifully. An M1/M2/M3 Mac with 16GB+ unified memory also works well for Ollama and Whisper, though image generation is slower.&lt;/p></description></item><item><title>Tools for Local/Private AI</title><link>https://freedomstackai.com/use-cases/local-private-ai/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/local-private-ai/</guid><description>&lt;h1 id="tools-for-localprivate-ai">Tools for Local/Private AI&lt;/h1>
+&lt;p>Run AI on your own machine. No cloud accounts, no data leaving your network, no monthly bills. Everything here is open source or has a fully local option.&lt;/p>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../../stacks/local-intelligence/">The Local Intelligence Stack&lt;/a> — our recommended setup with getting-started guide.&lt;/p>
+&lt;hr>
+&lt;h3 id="local-language-models">Local Language Models&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/ollama/">Ollama&lt;/a>&lt;/strong> — The easiest way to run LLMs locally. One-command install, simple CLI, and an API compatible with OpenAI&amp;rsquo;s format. Run Llama 3, Mistral, CodeLlama, and dozens more.&lt;/li>
+&lt;li>&lt;strong>LM Studio&lt;/strong> — GUI for running local models. Download, chat, and use as a local API server. Good if you prefer a visual interface over CLI.&lt;/li>
+&lt;li>&lt;strong>llama.cpp&lt;/strong> — The engine under Ollama. Use directly for maximum control and performance tuning.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-image-generation">Local Image Generation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>ComfyUI&lt;/strong> — Node-based UI for Stable Diffusion. Maximum control, custom workflows, no content filters. Requires a GPU (8GB+ VRAM minimum, 16GB+ recommended).&lt;/li>
+&lt;li>&lt;strong>Automatic1111 (Stable Diffusion WebUI)&lt;/strong> — Browser-based interface for Stable Diffusion. Slightly easier to start with than ComfyUI, fewer advanced features.&lt;/li>
+&lt;li>&lt;strong>Fooocus&lt;/strong> — Simplified Stable Diffusion interface. Minimal settings, good results. Best for people who want images without learning ComfyUI.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-speech">Local Speech&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Whisper (OpenAI)&lt;/strong> — State-of-the-art speech-to-text that runs locally. &lt;code>pip install openai-whisper&lt;/code> and transcribe anything. Multiple model sizes for different speed/accuracy tradeoffs.&lt;/li>
+&lt;li>&lt;strong>Piper&lt;/strong> — Local text-to-speech. Not ElevenLabs quality, but completely free and offline. Good for accessibility and basic narration.&lt;/li>
+&lt;li>&lt;strong>Bark&lt;/strong> — Open-source text-to-speech with emotion and multilingual support. More natural than Piper, heavier on resources.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-knowledge--notes">Local Knowledge &amp;amp; Notes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Obsidian&lt;/strong> — Local-first markdown notes with a plugin ecosystem. The &amp;ldquo;Ollama&amp;rdquo; community plugin lets you chat with a local LLM inside your notes. Your data never leaves your disk.&lt;/li>
+&lt;li>&lt;strong>Logseq&lt;/strong> — Open-source, local-first outliner. Block-based references, daily journals, graph view.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-coding-assistants">Local Coding Assistants&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Continue.dev&lt;/strong> — Open-source AI coding assistant that works with VS Code. Point it at your local Ollama instance for fully private code completion.&lt;/li>
+&lt;li>&lt;strong>Tabby&lt;/strong> — Self-hosted AI coding assistant. Code completion backed by local models.&lt;/li>
+&lt;/ul>
+&lt;h3 id="hardware-requirements">Hardware Requirements&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Workload&lt;/th>
+ &lt;th>Minimum&lt;/th>
+ &lt;th>Recommended&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Chat (7B model)&lt;/td>
+ &lt;td>8GB RAM, CPU&lt;/td>
+ &lt;td>16GB RAM, any GPU&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Chat (70B model)&lt;/td>
+ &lt;td>32GB RAM&lt;/td>
+ &lt;td>64GB RAM or 24GB VRAM GPU&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Image generation&lt;/td>
+ &lt;td>8GB VRAM GPU&lt;/td>
+ &lt;td>16-24GB VRAM GPU&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Speech-to-text&lt;/td>
+ &lt;td>8GB RAM, CPU&lt;/td>
+ &lt;td>16GB RAM, GPU accelerates&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Everything at once&lt;/td>
+ &lt;td>32GB RAM, 16GB VRAM&lt;/td>
+ &lt;td>64GB RAM, 24GB VRAM (RTX 3090/4090)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>

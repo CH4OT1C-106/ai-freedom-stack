@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Frontend on AI Freedom Stack</title><link>https://freedomstackai.com/tags/frontend/</link><description>Recent content in Frontend on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/frontend/index.xml" rel="self" type="application/rss+xml"/><item><title>v0 by Vercel</title><link>https://freedomstackai.com/tools/v0/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/v0/</guid><description>&lt;h2 id="what-is-v0">What is v0?&lt;/h2>
+&lt;p>Vercel&amp;rsquo;s AI-powered UI generation tool. Describe a UI component in plain English — &amp;ldquo;a pricing page with three tiers, dark theme, toggle for monthly/annual&amp;rdquo; — and it generates clean React/Next.js code using shadcn/ui components. You can iterate with follow-up prompts and export the code.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders shipping React/Next.js apps who want UI done fast&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People not using React, or anyone who needs backend logic (this is frontend only)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited generations per month&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Premium&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More generations, priority&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Code is React/Next.js specific — you&amp;rsquo;re implicitly committing to that stack.&lt;/p></description></item><item><title>Vercel</title><link>https://freedomstackai.com/tools/vercel/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/vercel/</guid><description>&lt;h2 id="what-is-vercel">What is Vercel?&lt;/h2>
+&lt;p>A cloud platform for deploying web applications. Connect your GitHub repo, push code, and Vercel automatically builds and deploys your site to a global edge network. Created by the team behind Next.js, so that framework gets first-class treatment, but it works with React, Vue, Svelte, Hugo, and more.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders deploying web apps, landing pages, or SaaS products&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Backend-heavy applications or anything needing persistent servers&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Hobby&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Personal projects, 100GB bandwidth&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>Team features, 1TB bandwidth, analytics&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Enterprise&lt;/td>
+ &lt;td>Custom&lt;/td>
+ &lt;td>SLA, advanced security&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Serverless function usage can spike unexpectedly. Bandwidth is usually fine for solo projects.&lt;/p></description></item></channel></rss>

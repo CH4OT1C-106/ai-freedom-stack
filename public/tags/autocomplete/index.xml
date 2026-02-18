@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Autocomplete on AI Freedom Stack</title><link>https://freedomstackai.com/tags/autocomplete/</link><description>Recent content in Autocomplete on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/autocomplete/index.xml" rel="self" type="application/rss+xml"/><item><title>GitHub Copilot</title><link>https://freedomstackai.com/tools/github-copilot/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/github-copilot/</guid><description>&lt;h2 id="what-is-github-copilot">What is GitHub Copilot?&lt;/h2>
+&lt;p>An AI code completion tool by GitHub/Microsoft. It integrates into VS Code, JetBrains, and other editors to suggest code as you type — from single lines to entire functions. Copilot Chat adds conversational AI for explanations and debugging.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Developers who want faster coding without switching editors&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Non-coders (it assists, it doesn&amp;rsquo;t build for you) or people already using Cursor&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited completions, limited chat&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Individual&lt;/td>
+ &lt;td>$10/mo&lt;/td>
+ &lt;td>Unlimited completions + chat&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Business&lt;/td>
+ &lt;td>$19/mo&lt;/td>
+ &lt;td>Team management, policy controls&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> None really. Pricing is straightforward.&lt;/p></description></item></channel></rss>

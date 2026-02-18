@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Speech-to-Text on AI Freedom Stack</title><link>https://freedomstackai.com/tags/speech-to-text/</link><description>Recent content in Speech-to-Text on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/speech-to-text/index.xml" rel="self" type="application/rss+xml"/><item><title>Whisper (OpenAI)</title><link>https://freedomstackai.com/tools/whisper/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/whisper/</guid><description>&lt;h2 id="what-is-whisper">What is Whisper?&lt;/h2>
+&lt;p>OpenAI&amp;rsquo;s open-source speech recognition model. It transcribes audio to text with near-human accuracy. Run it locally on your machine for free, or use OpenAI&amp;rsquo;s API at $0.006/minute. Supports 99 languages, handles accents and background noise gracefully.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Content creators, podcasters, YouTubers who need transcription, subtitles, or audio-to-text workflows&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Real-time transcription needs (it processes after recording, not live)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Option&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Local (large-v3)&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Best quality, your hardware, unlimited&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Local (base/small)&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Faster, less accurate, runs on weaker hardware&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>OpenAI API&lt;/td>
+ &lt;td>$0.006/min&lt;/td>
+ &lt;td>Cloud processing, no GPU needed&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Local large model needs ~10GB VRAM. Smaller models work on CPU but are less accurate.&lt;/p></description></item></channel></rss>

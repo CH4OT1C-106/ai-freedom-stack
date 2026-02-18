@@ -1,33 +1,1042 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tools on AI Freedom Stack</title>
-    <link>http://localhost:1313/tools/</link>
-    <description>Recent content in Tools on AI Freedom Stack</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tools/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cursor</title>
-      <link>http://localhost:1313/tools/cursor/</link>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/cursor/</guid>
-      <description>&lt;h2 id=&#34;what-is-cursor&#34;&gt;What is Cursor?&lt;/h2&gt;&#xA;&lt;p&gt;Cursor is a code editor built on top of VS Code that puts AI at the center of your coding workflow. Instead of switching between your editor and ChatGPT, you talk to your codebase directly. Ask it to build features, fix bugs, or refactor — and it does it with full context of your project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-is-it-for&#34;&gt;Who is it for?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Best for:&lt;/strong&gt; Solo developers and non-technical founders building MVPs, web apps, or automations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Not for:&lt;/strong&gt; Teams with strict code review processes who need predictable, auditable changes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Solo builder score:&lt;/strong&gt; ⭐⭐⭐⭐⭐ (5/5)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-does-it-cost&#34;&gt;What does it cost?&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Plan&lt;/th&gt;&#xA;          &lt;th&gt;Price&lt;/th&gt;&#xA;          &lt;th&gt;What You Get&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Free&lt;/td&gt;&#xA;          &lt;td&gt;$0&lt;/td&gt;&#xA;          &lt;td&gt;50 slow AI requests/day, basic autocomplete&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Pro&lt;/td&gt;&#xA;          &lt;td&gt;$20/mo&lt;/td&gt;&#xA;          &lt;td&gt;500 fast requests/day, GPT-4 + Claude access&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Business&lt;/td&gt;&#xA;          &lt;td&gt;$40/mo&lt;/td&gt;&#xA;          &lt;td&gt;Team features, admin controls&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hidden costs:&lt;/strong&gt; The free tier is genuinely usable but you&amp;rsquo;ll hit the limit fast on a real project.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ElevenLabs</title>
-      <link>http://localhost:1313/tools/elevenlabs/</link>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/elevenlabs/</guid>
-      <description>&lt;h2 id=&#34;what-is-elevenlabs&#34;&gt;What is ElevenLabs?&lt;/h2&gt;&#xA;&lt;p&gt;ElevenLabs is a text-to-speech platform that generates voices nearly indistinguishable from real humans. Upload a script, pick a voice (or clone your own), and get broadcast-quality audio back in seconds.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-is-it-for&#34;&gt;Who is it for?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Best for:&lt;/strong&gt; YouTube creators, podcasters, audiobook producers, anyone who needs voice content at scale&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Not for:&lt;/strong&gt; Live conversation or real-time voice chat applications&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Solo builder score:&lt;/strong&gt; ⭐⭐⭐⭐☆ (4/5)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-does-it-cost&#34;&gt;What does it cost?&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Plan&lt;/th&gt;&#xA;          &lt;th&gt;Price&lt;/th&gt;&#xA;          &lt;th&gt;What You Get&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Free&lt;/td&gt;&#xA;          &lt;td&gt;$0&lt;/td&gt;&#xA;          &lt;td&gt;10k characters/month, 3 voices&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Starter&lt;/td&gt;&#xA;          &lt;td&gt;$5/mo&lt;/td&gt;&#xA;          &lt;td&gt;30k characters, 10 voices&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Creator&lt;/td&gt;&#xA;          &lt;td&gt;$22/mo&lt;/td&gt;&#xA;          &lt;td&gt;100k characters, voice cloning&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Pro&lt;/td&gt;&#xA;          &lt;td&gt;$99/mo&lt;/td&gt;&#xA;          &lt;td&gt;500k characters, 4hrs dubbing&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hidden costs:&lt;/strong&gt; Characters burn fast on long-form content. A 10-minute video script uses ~10-15k characters.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bolt.new</title>
-      <link>http://localhost:1313/tools/bolt-new/</link>
-      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/bolt-new/</guid>
-      <description>&lt;h2 id=&#34;what-is-boltnew&#34;&gt;What is Bolt.new?&lt;/h2&gt;&#xA;&lt;p&gt;Bolt.new lets you describe a web application in plain English and builds it for you in the browser — frontend, backend, database, and deployment included. No terminal. No setup. You describe, it builds, you ship.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-is-it-for&#34;&gt;Who is it for?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Best for:&lt;/strong&gt; Non-technical entrepreneurs who need MVPs, landing pages, or internal tools fast&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Not for:&lt;/strong&gt; Complex applications that need custom infrastructure or specific performance requirements&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Solo builder score:&lt;/strong&gt; ⭐⭐⭐⭐☆ (4/5)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-does-it-cost&#34;&gt;What does it cost?&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Plan&lt;/th&gt;&#xA;          &lt;th&gt;Price&lt;/th&gt;&#xA;          &lt;th&gt;What You Get&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Free&lt;/td&gt;&#xA;          &lt;td&gt;$0&lt;/td&gt;&#xA;          &lt;td&gt;Limited generations per day&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Pro&lt;/td&gt;&#xA;          &lt;td&gt;$20/mo&lt;/td&gt;&#xA;          &lt;td&gt;Unlimited generations, deployment&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Free tier reality check:&lt;/strong&gt; Enough to test it. You&amp;rsquo;ll need Pro to build anything real.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on AI Freedom Stack</title><link>https://freedomstackai.com/tools/</link><description>Recent content in Tools on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT (OpenAI)</title><link>https://freedomstackai.com/tools/chatgpt/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/chatgpt/</guid><description>&lt;h2 id="what-is-chatgpt">What is ChatGPT?&lt;/h2>
+&lt;p>OpenAI&amp;rsquo;s flagship consumer AI product. GPT-4o is the engine — a multimodal model that handles text, images, audio, and code. The app layers on web browsing, DALL-E image generation, file analysis, and a plugin ecosystem. It&amp;rsquo;s the most feature-complete AI assistant available.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want a single AI tool for everything — writing, research, coding, images&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the absolute best quality in one domain (Claude beats it for writing, Midjourney for images)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>GPT-4o (limited), GPT-4o-mini, DALL-E, browsing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Plus&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More GPT-4o, voice mode, early features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$200/mo&lt;/td>
+ &lt;td>Unlimited GPT-4o, o1-pro for heavy reasoning&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>GPT-4o ~$2.50/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $200/mo Pro tier exists and OpenAI keeps pushing features there first. Plus is fine for most people.&lt;/p></description></item><item><title>Claude (Anthropic)</title><link>https://freedomstackai.com/tools/claude/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/claude/</guid><description>&lt;h2 id="what-is-claude">What is Claude?&lt;/h2>
+&lt;p>Claude is Anthropic&amp;rsquo;s family of AI models. Opus is the powerhouse for deep reasoning, Sonnet is the daily driver balancing speed and quality, and Haiku is the fast/cheap option for simple tasks. For solo builders, you&amp;rsquo;ll live in Sonnet 90% of the time and pull out Opus when you need to think hard.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who need high-quality writing, complex coding help, or deep analysis&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who just need quick factual lookups (Perplexity is better) or image generation&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited Sonnet messages, basic features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More Sonnet, some Opus, Projects, longer context&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Sonnet ~$3/M input, Opus ~$15/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Pro usage caps aren&amp;rsquo;t published — you&amp;rsquo;ll hit them during heavy work sessions. API is more predictable but requires technical setup.&lt;/p></description></item><item><title>Cloudflare Workers</title><link>https://freedomstackai.com/tools/cloudflare-workers/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/cloudflare-workers/</guid><description>&lt;h2 id="what-is-cloudflare-workers">What is Cloudflare Workers?&lt;/h2>
+&lt;p>Serverless compute that runs your code at Cloudflare&amp;rsquo;s 300+ edge locations worldwide. Write JavaScript/TypeScript, deploy in seconds, runs within milliseconds of your users. Combined with Cloudflare&amp;rsquo;s storage services (KV, R2, D1), you can build entire backends without managing a server.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who need APIs, webhooks, scheduled tasks, or lightweight backends&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Heavy compute tasks (10ms CPU limit on free) or apps needing persistent connections&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>100K requests/day, 10ms CPU, KV/R2/D1 free tiers&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Paid&lt;/td>
+ &lt;td>$5/mo&lt;/td>
+ &lt;td>10M requests/mo, 30ms CPU, more storage&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Almost none at solo scale. The free tier handles most indie projects indefinitely.&lt;/p></description></item><item><title>ComfyUI</title><link>https://freedomstackai.com/tools/comfyui/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/comfyui/</guid><description>&lt;h2 id="what-is-comfyui">What is ComfyUI?&lt;/h2>
+&lt;p>A node-based graphical interface for running Stable Diffusion workflows. Instead of typing a prompt and hitting generate, you visually connect nodes: model loader → prompt → sampler → upscaler → save. This lets you build complex, repeatable pipelines that go way beyond basic text-to-image.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Technical creators who generate lots of images and want repeatable, automatable workflows&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Beginners who just want to type a prompt and get an image (use Gemini or Midjourney)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Option&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Local&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full application, unlimited use&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud&lt;/td>
+ &lt;td>$0.50-2/hr&lt;/td>
+ &lt;td>RunPod/Vast.ai with ComfyUI pre-installed&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Same as Stable Diffusion — you need a GPU. ComfyUI itself adds no cost.&lt;/p></description></item><item><title>Descript</title><link>https://freedomstackai.com/tools/descript/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/descript/</guid><description>&lt;h2 id="what-is-descript">What is Descript?&lt;/h2>
+&lt;p>A video and audio editor where editing happens through a text transcript. Record or import media, Descript transcribes it, and you edit the text to edit the video. Delete words, rearrange paragraphs, remove filler words — the video follows. Also includes screen recording, AI eye contact correction, and studio-quality audio enhancement.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Podcasters, talking-head YouTubers, anyone who repurposes video into written content&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Cinematic video editors, B-roll heavy content, music production&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>1 hr transcription, basic features, watermark&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Hobbyist&lt;/td>
+ &lt;td>$24/mo&lt;/td>
+ &lt;td>10 hrs transcription, no watermark&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Business&lt;/td>
+ &lt;td>$33/mo&lt;/td>
+ &lt;td>30 hrs, all AI features&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Transcription hours are the real currency. Heavy creators will burn through Hobbyist fast.&lt;/p></description></item><item><title>Gemini (Google)</title><link>https://freedomstackai.com/tools/gemini/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/gemini/</guid><description>&lt;h2 id="what-is-gemini">What is Gemini?&lt;/h2>
+&lt;p>Google&amp;rsquo;s AI platform, powered by the Gemini model family. The killer feature is context — 1M+ tokens means you can feed it entire books, codebases, or research papers. Comes with built-in Google Search, image generation (Imagen), and tight integration with Google Workspace.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, content creators processing large documents, anyone in Google&amp;rsquo;s ecosystem&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the best writing quality (Claude) or the most versatile tool (ChatGPT)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Gemini Pro, image gen, web search, generous limits&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Advanced&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>1M+ context, Workspace integration, Gemini Ultra&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Pro: free tier available, Ultra from ~$1.25/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $20/mo bundles with Google One (2TB storage), which is actually decent value if you need cloud storage anyway.&lt;/p></description></item><item><title>GitHub Copilot</title><link>https://freedomstackai.com/tools/github-copilot/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/github-copilot/</guid><description>&lt;h2 id="what-is-github-copilot">What is GitHub Copilot?&lt;/h2>
+&lt;p>An AI code completion tool by GitHub/Microsoft. It integrates into VS Code, JetBrains, and other editors to suggest code as you type — from single lines to entire functions. Copilot Chat adds conversational AI for explanations and debugging.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Developers who want faster coding without switching editors&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Non-coders (it assists, it doesn&amp;rsquo;t build for you) or people already using Cursor&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited completions, limited chat&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Individual&lt;/td>
+ &lt;td>$10/mo&lt;/td>
+ &lt;td>Unlimited completions + chat&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Business&lt;/td>
+ &lt;td>$19/mo&lt;/td>
+ &lt;td>Team management, policy controls&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> None really. Pricing is straightforward.&lt;/p></description></item><item><title>HeyGen</title><link>https://freedomstackai.com/tools/heygen/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/heygen/</guid><description>&lt;h2 id="what-is-heygen">What is HeyGen?&lt;/h2>
+&lt;p>An AI platform that generates talking-head videos from text scripts. Pick a stock avatar (or create a clone of yourself), paste your script, and it produces a video of the avatar speaking with lip sync. Includes translation features for multilingual content.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Course creators, SaaS companies needing product demos, anyone doing multilingual video content&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Solo YouTube creators (audiences prefer authentic presence over AI avatars)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐☆☆ (3/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>1 video, watermarked&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Creator&lt;/td>
+ &lt;td>$24/mo&lt;/td>
+ &lt;td>15 min video/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Business&lt;/td>
+ &lt;td>$60/mo&lt;/td>
+ &lt;td>60 min/mo, custom avatars&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Minutes run out fast. A 5-minute product demo uses a third of your Creator plan. Custom avatar creation costs extra.&lt;/p></description></item><item><title>Kling AI</title><link>https://freedomstackai.com/tools/kling-ai/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/kling-ai/</guid><description>&lt;h2 id="what-is-kling-ai">What is Kling AI?&lt;/h2>
+&lt;p>A video generation platform from Kuaishou (Chinese tech company). Text-to-video and image-to-video with quality that rivals Runway. Known for longer clip generation (up to 10 seconds in high quality) and more affordable pricing.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Content creators who need AI video clips but find Runway too expensive&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People concerned about data privacy with Chinese tech companies&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Daily credits, limited features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Standard&lt;/td>
+ &lt;td>$5/mo&lt;/td>
+ &lt;td>More credits, faster generation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$30/mo&lt;/td>
+ &lt;td>Priority access, highest quality&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Credit system can be opaque. Read the fine print on what counts as one &amp;ldquo;generation.&amp;rdquo;&lt;/p></description></item><item><title>Lovable</title><link>https://freedomstackai.com/tools/lovable/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/lovable/</guid><description>&lt;h2 id="what-is-lovable">What is Lovable?&lt;/h2>
+&lt;p>An AI-powered web app generator. Describe what you want — &amp;ldquo;a habit tracker with streaks, dark theme, user auth&amp;rdquo; — and it generates a full working app with React frontend, Supabase backend, and polished UI. You can iterate with follow-up prompts and deploy instantly.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders validating ideas quickly, non-technical founders prototyping&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Production apps (the code quality isn&amp;rsquo;t there yet) or developers who want full control&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited generations&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Starter&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More generations, GitHub export&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$50/mo&lt;/td>
+ &lt;td>Priority, advanced features&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Apps are hosted on Lovable by default. Moving to your own hosting requires exporting code (which needs cleanup).&lt;/p></description></item><item><title>Make (formerly Integromat)</title><link>https://freedomstackai.com/tools/make/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/make/</guid><description>&lt;h2 id="what-is-make">What is Make?&lt;/h2>
+&lt;p>A visual automation platform (formerly Integromat) that connects apps into automated workflows called &amp;ldquo;scenarios.&amp;rdquo; Drag-and-drop interface with powerful data transformation, routing, and error handling. More capable than Zapier for complex workflows, easier to start than n8n.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want powerful automation without self-hosting or DevOps&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who only need 2-3 simple automations (Zapier is easier) or people who want full control (n8n)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>1,000 ops/mo, 2 scenarios&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Core&lt;/td>
+ &lt;td>$9/mo&lt;/td>
+ &lt;td>10,000 ops/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$16/mo&lt;/td>
+ &lt;td>Custom functions, priority&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Operations count up fast with complex workflows. One scenario run might use 10-50 operations.&lt;/p></description></item><item><title>Midjourney</title><link>https://freedomstackai.com/tools/midjourney/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/midjourney/</guid><description>&lt;h2 id="what-is-midjourney">What is Midjourney?&lt;/h2>
+&lt;p>An AI image generation tool accessed primarily through Discord. You type prompts, it generates images. The output quality — especially for stylized, artistic, and photorealistic content — is consistently the best available. V6 is the current model.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Content creators, YouTubers, marketers who need high-quality visuals regularly&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Developers who occasionally need a quick image (use Gemini free), people who hate Discord&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Basic&lt;/td>
+ &lt;td>$10/mo&lt;/td>
+ &lt;td>~200 images/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Standard&lt;/td>
+ &lt;td>$30/mo&lt;/td>
+ &lt;td>15hr fast gen, unlimited relaxed&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$60/mo&lt;/td>
+ &lt;td>30hr fast, stealth mode&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> No free tier at all. And &amp;ldquo;relaxed&amp;rdquo; mode can be painfully slow during peak hours.&lt;/p></description></item><item><title>n8n</title><link>https://freedomstackai.com/tools/n8n/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/n8n/</guid><description>&lt;h2 id="what-is-n8n">What is n8n?&lt;/h2>
+&lt;p>A visual workflow automation platform. Connect triggers (new email, webhook, schedule) to actions (send message, update database, call API) using a drag-and-drop editor. Like Zapier or Make, but open-source and self-hostable. When the visual editor isn&amp;rsquo;t enough, drop into JavaScript or Python.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want to automate repetitive tasks — content pipelines, data collection, notifications, API orchestration&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need 2-3 simple automations (Zapier is easier for basic stuff)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Self-hosted&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Unlimited everything&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud Starter&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>2,500 executions&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud Pro&lt;/td>
+ &lt;td>$50/mo&lt;/td>
+ &lt;td>10,000 executions&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Self-hosting needs a server ($5-10/mo VPS) and some DevOps knowledge. Cloud pricing scales with usage.&lt;/p></description></item><item><title>Notion AI</title><link>https://freedomstackai.com/tools/notion-ai/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/notion-ai/</guid><description>&lt;h2 id="what-is-notion-ai">What is Notion AI?&lt;/h2>
+&lt;p>An AI layer built into Notion&amp;rsquo;s workspace app. It can draft content, summarize pages, brainstorm ideas, extract action items, and answer questions about your workspace. It works inline — highlight text, ask AI to improve it, done.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Existing heavy Notion users who want AI without leaving their workspace&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Anyone not already using Notion — don&amp;rsquo;t adopt Notion just for the AI&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐☆☆ (3/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free + AI&lt;/td>
+ &lt;td>Can&amp;rsquo;t&lt;/td>
+ &lt;td>AI requires paid plan&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Plus + AI&lt;/td>
+ &lt;td>$18/mo total&lt;/td>
+ &lt;td>Notion workspace + unlimited AI&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Business + AI&lt;/td>
+ &lt;td>$25/mo total&lt;/td>
+ &lt;td>Team features + AI&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> You&amp;rsquo;re paying for Notion AND the AI. If you&amp;rsquo;re not getting value from Notion itself, this is expensive for what the AI adds.&lt;/p></description></item><item><title>Obsidian</title><link>https://freedomstackai.com/tools/obsidian/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/obsidian/</guid><description>&lt;h2 id="what-is-obsidian">What is Obsidian?&lt;/h2>
+&lt;p>A note-taking and knowledge management app built on plain markdown files stored locally. No proprietary database, no cloud requirement, no account needed. Your notes are just &lt;code>.md&lt;/code> files in a folder. The plugin ecosystem adds everything from AI chat to kanban boards to graph views of your knowledge.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want a knowledge base they own forever, with no cloud dependency&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Teams needing real-time collaboration (Notion is better for that)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Personal&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full app, all core features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Commercial&lt;/td>
+ &lt;td>$50/yr&lt;/td>
+ &lt;td>Same app, commercial license&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sync&lt;/td>
+ &lt;td>$4/mo&lt;/td>
+ &lt;td>End-to-end encrypted cloud sync&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Publish&lt;/td>
+ &lt;td>$8/mo&lt;/td>
+ &lt;td>Publish notes as a website&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Sync between devices requires either paying for Obsidian Sync or setting up your own solution (iCloud, Syncthing, Git).&lt;/p></description></item><item><title>Perplexity</title><link>https://freedomstackai.com/tools/perplexity/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/perplexity/</guid><description>&lt;h2 id="what-is-perplexity">What is Perplexity?&lt;/h2>
+&lt;p>A search engine that uses AI to synthesize real answers from the web, with citations. Ask it anything and it gives you a sourced summary instead of making you click through links. Pro tier adds access to Claude, GPT-4, and deeper analysis.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, content creators, anyone who googles things more than 5 times a day&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need creative writing, coding help, or image generation (use Claude/Cursor for those)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Unlimited quick searches, 5 Pro searches/day&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>600+ Pro searches/day, model choice, file uploads&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> None, really. One of the more transparent pricing models.&lt;/p></description></item><item><title>Runway ML</title><link>https://freedomstackai.com/tools/runway-ml/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/runway-ml/</guid><description>&lt;h2 id="what-is-runway-ml">What is Runway ML?&lt;/h2>
+&lt;p>An AI creative platform focused on video. Gen-3 Alpha is their flagship model — text-to-video and image-to-video that actually looks good. Also includes AI-powered video editing tools: background removal, motion tracking, inpainting, and more.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Content creators, YouTubers, marketers who need short AI video clips&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Anyone needing long-form video (too expensive) or real-time editing&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>125 credits (~25s of Gen-3 video)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Standard&lt;/td>
+ &lt;td>$12/mo&lt;/td>
+ &lt;td>625 credits/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$28/mo&lt;/td>
+ &lt;td>2,250 credits/mo + higher resolution&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Unlimited&lt;/td>
+ &lt;td>$76/mo&lt;/td>
+ &lt;td>Unlimited Gen-3 generations&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Credits burn fast. A 5-second Gen-3 clip costs 25 credits. One minute of video = $12+ on Standard.&lt;/p></description></item><item><title>Stable Diffusion</title><link>https://freedomstackai.com/tools/stable-diffusion/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/stable-diffusion/</guid><description>&lt;h2 id="what-is-stable-diffusion">What is Stable Diffusion?&lt;/h2>
+&lt;p>An open-source image generation model you can download and run on your own GPU. No subscriptions, no per-image costs, no content restrictions beyond what you choose. The ecosystem around it (ComfyUI, Automatic1111, custom models) makes it insanely flexible.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Technical solo builders with a decent GPU who want unlimited, free image generation&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Non-technical people who just want quick images (use Gemini or Midjourney instead)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Option&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Self-hosted&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full model, unlimited generations&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud GPU&lt;/td>
+ &lt;td>$0.50-2/hr&lt;/td>
+ &lt;td>RunPod, Vast.ai — pay only when generating&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Hosted services&lt;/td>
+ &lt;td>$10-30/mo&lt;/td>
+ &lt;td>Clipdrop, DreamStudio — easier but defeats the purpose&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> You need a GPU with 8GB+ VRAM. If you don&amp;rsquo;t have one, cloud GPU costs add up. Electricity is negligible.&lt;/p></description></item><item><title>Supabase</title><link>https://freedomstackai.com/tools/supabase/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/supabase/</guid><description>&lt;h2 id="what-is-supabase">What is Supabase?&lt;/h2>
+&lt;p>An open-source platform that gives you a full backend in minutes: Postgres database, user authentication, file storage, real-time subscriptions, edge functions, and a dashboard to manage it all. Think Firebase but with a real database and no Google lock-in. You can self-host it.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders shipping web/mobile apps who need a backend without hiring a backend dev&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Enterprise teams needing complex multi-region setups (yet)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>2 projects, 500MB DB, 1GB storage, 50K auth users&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$25/mo&lt;/td>
+ &lt;td>8GB DB, 100GB storage, daily backups&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Team&lt;/td>
+ &lt;td>$599/mo&lt;/td>
+ &lt;td>SOC2, priority support&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Database size is the thing that&amp;rsquo;ll push you to Pro. If you&amp;rsquo;re storing user-generated content, 500MB fills up.&lt;/p></description></item><item><title>Synthesia</title><link>https://freedomstackai.com/tools/synthesia/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/synthesia/</guid><description>&lt;h2 id="what-is-synthesia">What is Synthesia?&lt;/h2>
+&lt;p>An AI video platform focused on professional avatar-based content. Write a script, pick an avatar (150+), choose a language (120+), and generate a polished talking-head video. Aimed at enterprise training, onboarding, and marketing videos.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Companies creating training/onboarding videos, multilingual content producers&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Solo YouTubers, creative content makers, anyone on a tight budget&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐☆☆☆ (2/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>1 demo video&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Starter&lt;/td>
+ &lt;td>$22/mo&lt;/td>
+ &lt;td>10 min/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Creator&lt;/td>
+ &lt;td>$67/mo&lt;/td>
+ &lt;td>30 min/mo, custom avatars&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Enterprise&lt;/td>
+ &lt;td>Custom&lt;/td>
+ &lt;td>Unlimited, API access&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Per-minute pricing punishes iteration. Every draft burns credits.&lt;/p></description></item><item><title>v0 by Vercel</title><link>https://freedomstackai.com/tools/v0/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/v0/</guid><description>&lt;h2 id="what-is-v0">What is v0?&lt;/h2>
+&lt;p>Vercel&amp;rsquo;s AI-powered UI generation tool. Describe a UI component in plain English — &amp;ldquo;a pricing page with three tiers, dark theme, toggle for monthly/annual&amp;rdquo; — and it generates clean React/Next.js code using shadcn/ui components. You can iterate with follow-up prompts and export the code.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders shipping React/Next.js apps who want UI done fast&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People not using React, or anyone who needs backend logic (this is frontend only)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited generations per month&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Premium&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More generations, priority&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Code is React/Next.js specific — you&amp;rsquo;re implicitly committing to that stack.&lt;/p></description></item><item><title>Vercel</title><link>https://freedomstackai.com/tools/vercel/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/vercel/</guid><description>&lt;h2 id="what-is-vercel">What is Vercel?&lt;/h2>
+&lt;p>A cloud platform for deploying web applications. Connect your GitHub repo, push code, and Vercel automatically builds and deploys your site to a global edge network. Created by the team behind Next.js, so that framework gets first-class treatment, but it works with React, Vue, Svelte, Hugo, and more.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders deploying web apps, landing pages, or SaaS products&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Backend-heavy applications or anything needing persistent servers&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Hobby&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Personal projects, 100GB bandwidth&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>Team features, 1TB bandwidth, analytics&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Enterprise&lt;/td>
+ &lt;td>Custom&lt;/td>
+ &lt;td>SLA, advanced security&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Serverless function usage can spike unexpectedly. Bandwidth is usually fine for solo projects.&lt;/p></description></item><item><title>Whisper (OpenAI)</title><link>https://freedomstackai.com/tools/whisper/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/whisper/</guid><description>&lt;h2 id="what-is-whisper">What is Whisper?&lt;/h2>
+&lt;p>OpenAI&amp;rsquo;s open-source speech recognition model. It transcribes audio to text with near-human accuracy. Run it locally on your machine for free, or use OpenAI&amp;rsquo;s API at $0.006/minute. Supports 99 languages, handles accents and background noise gracefully.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Content creators, podcasters, YouTubers who need transcription, subtitles, or audio-to-text workflows&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Real-time transcription needs (it processes after recording, not live)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Option&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Local (large-v3)&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Best quality, your hardware, unlimited&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Local (base/small)&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Faster, less accurate, runs on weaker hardware&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>OpenAI API&lt;/td>
+ &lt;td>$0.006/min&lt;/td>
+ &lt;td>Cloud processing, no GPU needed&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Local large model needs ~10GB VRAM. Smaller models work on CPU but are less accurate.&lt;/p></description></item><item><title>Windsurf</title><link>https://freedomstackai.com/tools/windsurf/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/windsurf/</guid><description>&lt;h2 id="what-is-windsurf">What is Windsurf?&lt;/h2>
+&lt;p>An AI-native code editor built by Codeium. Like Cursor, it&amp;rsquo;s a standalone editor with deep AI integration — codebase-aware chat, multi-file editing, and AI-guided &amp;ldquo;flows&amp;rdquo; that help you think through problems. The main pitch: similar power to Cursor, more accessible pricing.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo developers who want AI coding assistance but find Cursor too expensive&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People already happy with Cursor (switching cost isn&amp;rsquo;t worth the savings)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>AI completions, limited premium features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$15/mo&lt;/td>
+ &lt;td>Full AI features, priority models&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> None significant.&lt;/p></description></item><item><title>Cursor</title><link>https://freedomstackai.com/tools/cursor/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/cursor/</guid><description>&lt;h2 id="what-is-cursor">What is Cursor?&lt;/h2>
+&lt;p>Cursor is a code editor built on top of VS Code that puts AI at the center of your coding workflow. Instead of switching between your editor and ChatGPT, you talk to your codebase directly. Ask it to build features, fix bugs, or refactor — and it does it with full context of your project.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo developers and non-technical founders building MVPs, web apps, or automations&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Teams with strict code review processes who need predictable, auditable changes&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>50 slow AI requests/day, basic autocomplete&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>500 fast requests/day, GPT-4 + Claude access&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Business&lt;/td>
+ &lt;td>$40/mo&lt;/td>
+ &lt;td>Team features, admin controls&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The free tier is genuinely usable but you&amp;rsquo;ll hit the limit fast on a real project.&lt;/p></description></item><item><title>ElevenLabs</title><link>https://freedomstackai.com/tools/elevenlabs/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/elevenlabs/</guid><description>&lt;h2 id="what-is-elevenlabs">What is ElevenLabs?&lt;/h2>
+&lt;p>ElevenLabs is a text-to-speech platform that generates voices nearly indistinguishable from real humans. Upload a script, pick a voice (or clone your own), and get broadcast-quality audio back in seconds.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> YouTube creators, podcasters, audiobook producers, anyone who needs voice content at scale&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Live conversation or real-time voice chat applications&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>10k characters/month, 3 voices&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Starter&lt;/td>
+ &lt;td>$5/mo&lt;/td>
+ &lt;td>30k characters, 10 voices&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Creator&lt;/td>
+ &lt;td>$22/mo&lt;/td>
+ &lt;td>100k characters, voice cloning&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$99/mo&lt;/td>
+ &lt;td>500k characters, 4hrs dubbing&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Characters burn fast on long-form content. A 10-minute video script uses ~10-15k characters.&lt;/p></description></item><item><title>Kimi K2.5</title><link>https://freedomstackai.com/tools/kimi-k25/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/kimi-k25/</guid><description>&lt;h2 id="what-is-kimi-k25">What is Kimi K2.5?&lt;/h2>
+&lt;p>Kimi K2.5 is a trillion-parameter AI model from Beijing-based Moonshot AI. It uses a Mixture of Experts architecture — 384 expert modules, only 32 billion active per query — giving you frontier-level intelligence at efficient compute costs. Its standout feature is Agent Swarm: native multi-agent task decomposition for complex research.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, analysts, and builders who need deep multi-source research and competitive intelligence&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Casual chatbot use or everyday questions — stick with ChatGPT for that&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Full trillion-parameter model&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Open Weights&lt;/td>
+ &lt;td>Free&lt;/td>
+ &lt;td>171B parameter version on HuggingFace&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The open weights version requires serious hardware to self-host (171B parameters).&lt;/p></description></item><item><title>The 30-Minute Video Pipeline</title><link>https://freedomstackai.com/tools/30-min-video-pipeline/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/30-min-video-pipeline/</guid><description>&lt;h2 id="what-is-this">What is this?&lt;/h2>
+&lt;p>A step-by-step workflow for producing a complete YouTube video using AI tools. From blank page to uploaded video in under an hour of active work.&lt;/p>
+&lt;h2 id="the-stack">The Stack&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Step&lt;/th>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Time&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Script&lt;/td>
+ &lt;td>Claude / GPT&lt;/td>
+ &lt;td>15 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Voiceover&lt;/td>
+ &lt;td>ElevenLabs&lt;/td>
+ &lt;td>2 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio cleanup&lt;/td>
+ &lt;td>ffmpeg (automated)&lt;/td>
+ &lt;td>30 sec&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Visuals&lt;/td>
+ &lt;td>Gemini 3 Pro&lt;/td>
+ &lt;td>5 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Assembly&lt;/td>
+ &lt;td>Kdenlive&lt;/td>
+ &lt;td>20 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Total&lt;/strong>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>~45 min&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="the-workflow">The Workflow&lt;/h2>
+&lt;h3 id="step-1-script-15-min">Step 1: Script (15 min)&lt;/h3>
+&lt;p>Use Claude or GPT to draft the script. Provide your topic, target length, and tone. Review and tweak — don&amp;rsquo;t accept the first draft.&lt;/p></description></item><item><title>Bolt.new</title><link>https://freedomstackai.com/tools/bolt-new/</link><pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/bolt-new/</guid><description>&lt;h2 id="what-is-boltnew">What is Bolt.new?&lt;/h2>
+&lt;p>Bolt.new lets you describe a web application in plain English and builds it for you in the browser — frontend, backend, database, and deployment included. No terminal. No setup. You describe, it builds, you ship.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Non-technical entrepreneurs who need MVPs, landing pages, or internal tools fast&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Complex applications that need custom infrastructure or specific performance requirements&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited generations per day&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>Unlimited generations, deployment&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Free tier reality check:&lt;/strong> Enough to test it. You&amp;rsquo;ll need Pro to build anything real.&lt;/p></description></item><item><title>Ollama</title><link>https://freedomstackai.com/tools/ollama/</link><pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/ollama/</guid><description>&lt;h2 id="what-is-ollama">What is Ollama?&lt;/h2>
+&lt;p>Ollama is a tool that lets you download and run open-source AI models directly on your computer. No cloud, no API keys, no monthly bills. One command to install, one command to run a model. It&amp;rsquo;s AI on your terms.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Privacy-conscious builders, anyone tired of API costs, developers who want local AI for testing and automation&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People without a computer with at least 8GB RAM (16GB+ recommended)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Everything&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full access, all models, forever&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Your electricity bill and hardware. Running large models needs a decent GPU or lots of RAM.&lt;/p></description></item></channel></rss>

@@ -9,6 +9,11 @@ rating: "⭐⭐⭐⭐⭐"
 tags: ["local", "privacy", "open source"]
 price_type: "free"
 featured: false
+answer_capsule: "Ollama is a free, open-source tool that runs AI models locally on your machine. No API costs, no data leaving your computer, no rate limits. Supports Llama 3, Mistral, Gemma, and dozens more. The foundation of any privacy-first AI stack."
+freedom_score: 10
+freedom_label: "Freedom First"
+free_tier: "Completely free"
+last_tested: "February 2026"
 verdict: "Essential for any solo builder who wants AI without ongoing costs or privacy concerns. If you have a decent computer, there's no reason not to have this installed."
 affiliate_url: "https://ollama.com"
 ---

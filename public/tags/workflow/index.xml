@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on AI Freedom Stack</title><link>https://freedomstackai.com/tags/workflow/</link><description>Recent content in Workflow on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>ComfyUI</title><link>https://freedomstackai.com/tools/comfyui/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/comfyui/</guid><description>&lt;h2 id="what-is-comfyui">What is ComfyUI?&lt;/h2>
+&lt;p>A node-based graphical interface for running Stable Diffusion workflows. Instead of typing a prompt and hitting generate, you visually connect nodes: model loader → prompt → sampler → upscaler → save. This lets you build complex, repeatable pipelines that go way beyond basic text-to-image.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Technical creators who generate lots of images and want repeatable, automatable workflows&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Beginners who just want to type a prompt and get an image (use Gemini or Midjourney)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Option&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Local&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full application, unlimited use&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud&lt;/td>
+ &lt;td>$0.50-2/hr&lt;/td>
+ &lt;td>RunPod/Vast.ai with ComfyUI pre-installed&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Same as Stable Diffusion — you need a GPU. ComfyUI itself adds no cost.&lt;/p></description></item><item><title>Make (formerly Integromat)</title><link>https://freedomstackai.com/tools/make/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/make/</guid><description>&lt;h2 id="what-is-make">What is Make?&lt;/h2>
+&lt;p>A visual automation platform (formerly Integromat) that connects apps into automated workflows called &amp;ldquo;scenarios.&amp;rdquo; Drag-and-drop interface with powerful data transformation, routing, and error handling. More capable than Zapier for complex workflows, easier to start than n8n.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want powerful automation without self-hosting or DevOps&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who only need 2-3 simple automations (Zapier is easier) or people who want full control (n8n)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>1,000 ops/mo, 2 scenarios&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Core&lt;/td>
+ &lt;td>$9/mo&lt;/td>
+ &lt;td>10,000 ops/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$16/mo&lt;/td>
+ &lt;td>Custom functions, priority&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Operations count up fast with complex workflows. One scenario run might use 10-50 operations.&lt;/p></description></item><item><title>n8n</title><link>https://freedomstackai.com/tools/n8n/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/n8n/</guid><description>&lt;h2 id="what-is-n8n">What is n8n?&lt;/h2>
+&lt;p>A visual workflow automation platform. Connect triggers (new email, webhook, schedule) to actions (send message, update database, call API) using a drag-and-drop editor. Like Zapier or Make, but open-source and self-hostable. When the visual editor isn&amp;rsquo;t enough, drop into JavaScript or Python.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want to automate repetitive tasks — content pipelines, data collection, notifications, API orchestration&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need 2-3 simple automations (Zapier is easier for basic stuff)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Self-hosted&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Unlimited everything&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud Starter&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>2,500 executions&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud Pro&lt;/td>
+ &lt;td>$50/mo&lt;/td>
+ &lt;td>10,000 executions&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Self-hosting needs a server ($5-10/mo VPS) and some DevOps knowledge. Cloud pricing scales with usage.&lt;/p></description></item></channel></rss>

@@ -9,6 +9,43 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
   <script src="/js/carousel.js" defer></script>
+  {{ if and (eq .Section "tools") (ne .Kind "section") }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": {{ .Title | jsonify }},
+    "description": {{ .Description | jsonify }},
+    "applicationCategory": {{ with .Params.category }}{{ . | jsonify }}{{ else }}"Utility"{{ end }},
+    {{ with .Params.price }}"offers": { "@type": "Offer", "price": {{ . | jsonify }}, "priceCurrency": "USD" },{{ end }}
+    {{ with .Params.affiliate_url }}"url": {{ . | jsonify }},{{ end }}
+    "operatingSystem": "Web",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": {{ with .Params.freedom_score }}{{ . }}{{ else }}5{{ end }},
+      "bestRating": 10,
+      "worstRating": 1,
+      "ratingCount": 1
+    }
+  }
+  </script>
+  {{ if .Params.faqs }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{ range $i, $faq := .Params.faqs }}{{ if $i }},{{ end }}
+      {
+        "@type": "Question",
+        "name": {{ $faq.q | jsonify }},
+        "acceptedAnswer": { "@type": "Answer", "text": {{ $faq.a | jsonify }} }
+      }{{ end }}
+    ]
+  }
+  </script>
+  {{ end }}
+  {{ end }}
 </head>
 <body>
   {{ partial "header.html" . }}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Storage on AI Freedom Stack</title><link>https://freedomstackai.com/tags/storage/</link><description>Recent content in Storage on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/storage/index.xml" rel="self" type="application/rss+xml"/><item><title>Supabase</title><link>https://freedomstackai.com/tools/supabase/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/supabase/</guid><description>&lt;h2 id="what-is-supabase">What is Supabase?&lt;/h2>
+&lt;p>An open-source platform that gives you a full backend in minutes: Postgres database, user authentication, file storage, real-time subscriptions, edge functions, and a dashboard to manage it all. Think Firebase but with a real database and no Google lock-in. You can self-host it.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders shipping web/mobile apps who need a backend without hiring a backend dev&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Enterprise teams needing complex multi-region setups (yet)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>2 projects, 500MB DB, 1GB storage, 50K auth users&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$25/mo&lt;/td>
+ &lt;td>8GB DB, 100GB storage, daily backups&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Team&lt;/td>
+ &lt;td>$599/mo&lt;/td>
+ &lt;td>SOC2, priority support&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Database size is the thing that&amp;rsquo;ll push you to Pro. If you&amp;rsquo;re storing user-generated content, 500MB fills up.&lt;/p></description></item></channel></rss>

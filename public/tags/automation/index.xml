@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation on AI Freedom Stack</title><link>https://freedomstackai.com/tags/automation/</link><description>Recent content in Automation on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Make (formerly Integromat)</title><link>https://freedomstackai.com/tools/make/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/make/</guid><description>&lt;h2 id="what-is-make">What is Make?&lt;/h2>
+&lt;p>A visual automation platform (formerly Integromat) that connects apps into automated workflows called &amp;ldquo;scenarios.&amp;rdquo; Drag-and-drop interface with powerful data transformation, routing, and error handling. More capable than Zapier for complex workflows, easier to start than n8n.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want powerful automation without self-hosting or DevOps&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who only need 2-3 simple automations (Zapier is easier) or people who want full control (n8n)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>1,000 ops/mo, 2 scenarios&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Core&lt;/td>
+ &lt;td>$9/mo&lt;/td>
+ &lt;td>10,000 ops/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$16/mo&lt;/td>
+ &lt;td>Custom functions, priority&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Operations count up fast with complex workflows. One scenario run might use 10-50 operations.&lt;/p></description></item><item><title>n8n</title><link>https://freedomstackai.com/tools/n8n/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/n8n/</guid><description>&lt;h2 id="what-is-n8n">What is n8n?&lt;/h2>
+&lt;p>A visual workflow automation platform. Connect triggers (new email, webhook, schedule) to actions (send message, update database, call API) using a drag-and-drop editor. Like Zapier or Make, but open-source and self-hostable. When the visual editor isn&amp;rsquo;t enough, drop into JavaScript or Python.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want to automate repetitive tasks — content pipelines, data collection, notifications, API orchestration&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need 2-3 simple automations (Zapier is easier for basic stuff)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Self-hosted&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Unlimited everything&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud Starter&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>2,500 executions&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud Pro&lt;/td>
+ &lt;td>$50/mo&lt;/td>
+ &lt;td>10,000 executions&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Self-hosting needs a server ($5-10/mo VPS) and some DevOps knowledge. Cloud pricing scales with usage.&lt;/p></description></item><item><title>The Faceless YouTube Stack</title><link>https://freedomstackai.com/stacks/faceless-youtube/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/faceless-youtube/</guid><description>&lt;h1 id="the-faceless-youtube-stack">The Faceless YouTube Stack&lt;/h1>
+&lt;p>&lt;strong>A complete YouTube channel without showing your face or hiring anyone.&lt;/strong> AI writes your scripts, generates your voice, creates your visuals, and you just edit and upload. Channels using this approach are pulling 10K–100K+ views per video in niches like finance, history, tech explainers, and motivation.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Side-hustlers, niche content creators, and anyone who wants YouTube ad revenue without being on camera.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Vloggers, personality-driven creators, or anyone whose audience expects a human face. Also not ideal if you need real-world footage (travel, cooking).&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/td>
+ &lt;td>Script writing — research, outlines, full scripts&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/td>
+ &lt;td>AI voiceover — natural narration&lt;/td>
+ &lt;td>$5–22/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Stable Diffusion / Midjourney&lt;/td>
+ &lt;td>Visual generation — backgrounds, illustrations, thumbnails&lt;/td>
+ &lt;td>$0–10/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>CapCut / DaVinci Resolve&lt;/td>
+ &lt;td>Video editing — assembly, captions, effects&lt;/td>
+ &lt;td>$0 (free tiers)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Niche Research + Topic Idea
+ │
+ ▼
+ ┌──────────┐
+ │ Claude │ → Full video script (with visual cues + timing notes)
+ └────┬─────┘
+ │
+ ┌────┴─────────────────┐
+ ▼ ▼
+┌───────────┐ ┌──────────────┐
+│ ElevenLabs│ │ Stable Diff/ │
+│ → Voice │ │ Midjourney │
+│ narration│ │ → Visuals │
+└─────┬─────┘ └──────┬───────┘
+ │ │
+ └────────┬───────────┘
+ ▼
+ ┌────────────┐
+ │CapCut/ │ → Final video with captions, transitions, music
+ │DaVinci │
+ └────────────┘
+ │
+ ▼
+ YouTube Upload
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tier&lt;/th>
+ &lt;th>Monthly Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Budget (Claude + ElevenLabs Starter + SD local + CapCut free)&lt;/td>
+ &lt;td>~$25/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Standard (Claude + ElevenLabs + Midjourney + CapCut free)&lt;/td>
+ &lt;td>~$52/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Premium (all paid tiers + stock footage sub)&lt;/td>
+ &lt;td>~$70/mo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="freedom-score--45">Freedom Score: ⭐⭐⭐⭐☆ (4/5)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Why 4:&lt;/strong> You own your channel, your scripts, and your video files. Voice and images are generated fresh each time. Swapping any single tool is straightforward.&lt;/li>
+&lt;li>&lt;strong>Lock-in risk:&lt;/strong> Minimal. The only real dependency is your YouTube channel itself — but that&amp;rsquo;s the distribution, not the tooling.&lt;/li>
+&lt;/ul>
+&lt;h2 id="getting-started-this-weekend">Getting Started (This Weekend)&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Pick your niche.&lt;/strong> Top faceless niches: personal finance, AI/tech explainers, history, psychology, &amp;ldquo;top 10&amp;rdquo; lists, motivation. Pick one you can talk about for 100 videos.&lt;/li>
+&lt;li>&lt;strong>Set up Claude.&lt;/strong> Create a system prompt: &amp;ldquo;You are a YouTube scriptwriter for a [niche] channel. Scripts should be 8-12 minutes of spoken content with visual cues in brackets.&amp;rdquo;&lt;/li>
+&lt;li>&lt;strong>Generate your first script.&lt;/strong> Ask Claude for a script on a trending topic in your niche. Include hook, body, CTA.&lt;/li>
+&lt;li>&lt;strong>Record voiceover in ElevenLabs.&lt;/strong> Paste the script, pick a voice, download the MP3.&lt;/li>
+&lt;li>&lt;strong>Generate visuals.&lt;/strong> Use the visual cues from your script to prompt Stable Diffusion or Midjourney. Aim for 15-25 images per video.&lt;/li>
+&lt;li>&lt;strong>Assemble in CapCut or DaVinci Resolve.&lt;/strong> Drop in narration, layer visuals on the timeline, add auto-captions, background music, transitions.&lt;/li>
+&lt;li>&lt;strong>Upload and optimize.&lt;/strong> Use Claude to write your title, description, and tags.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Expected output:&lt;/strong> 2-3 videos/week. Each video takes 3-5 hours start to finish once you have a rhythm.&lt;/p></description></item><item><title>Tools for Newsletter Automation</title><link>https://freedomstackai.com/use-cases/newsletter-automation/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/newsletter-automation/</guid><description>&lt;h1 id="tools-for-newsletter-automation">Tools for Newsletter Automation&lt;/h1>
+&lt;p>Build and run a newsletter with AI handling the heavy lifting — research, writing, formatting, and scheduling.&lt;/p>
+&lt;hr>
+&lt;h3 id="writing--research">Writing &amp;amp; Research&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft full newsletter editions from bullet points or topic prompts. Excellent at maintaining consistent voice across issues. Use Projects to store your style guide and past editions.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/kimi-k25/">Kimi K2.5&lt;/a>&lt;/strong> — Great for research-heavy newsletters. Feed it multiple sources and get synthesized summaries.&lt;/li>
+&lt;/ul>
+&lt;h3 id="design--formatting">Design &amp;amp; Formatting&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/strong> — Build custom newsletter templates in HTML/CSS. Automate formatting with scripts that convert markdown drafts to email-ready HTML.&lt;/li>
+&lt;/ul>
+&lt;h3 id="voiceover-audio-newsletters">Voiceover (Audio Newsletters)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/strong> — Turn your newsletter into a podcast-style audio version. Growing trend — readers love having an audio option.&lt;/li>
+&lt;/ul>
+&lt;h3 id="sending--management">Sending &amp;amp; Management&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Beehiiv&lt;/strong> — Newsletter platform with free tier up to 2,500 subscribers. Built-in analytics, referral program, and monetization.&lt;/li>
+&lt;li>&lt;strong>ConvertKit (Kit)&lt;/strong> — Creator-focused email platform. Visual automations, tagging, segmentation.&lt;/li>
+&lt;li>&lt;strong>Buttondown&lt;/strong> — Minimal, markdown-first newsletter tool. Great for developers and writers who want simplicity.&lt;/li>
+&lt;/ul>
+&lt;h3 id="automation--scheduling">Automation &amp;amp; Scheduling&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Zapier / Make&lt;/strong> — Connect your writing tools to your sending platform. Auto-publish drafts on a schedule.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/strong> — Build custom automation scripts: RSS-to-newsletter, auto-curate links, format and schedule sends via API.&lt;/li>
+&lt;/ul>
+&lt;h3 id="recommended-workflow">Recommended Workflow&lt;/h3>
+&lt;ol>
+&lt;li>Curate topics throughout the week (Obsidian or a simple note)&lt;/li>
+&lt;li>Feed topics to Claude → get a full draft&lt;/li>
+&lt;li>Edit in 15 minutes (your voice, your opinions — AI does the heavy lifting)&lt;/li>
+&lt;li>Format with your template&lt;/li>
+&lt;li>Schedule send in Beehiiv/ConvertKit&lt;/li>
+&lt;li>Optionally generate audio version with ElevenLabs&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Time per issue:&lt;/strong> 45-90 minutes instead of 4+ hours.&lt;/p></description></item><item><title>The 30-Minute Video Pipeline</title><link>https://freedomstackai.com/tools/30-min-video-pipeline/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/30-min-video-pipeline/</guid><description>&lt;h2 id="what-is-this">What is this?&lt;/h2>
+&lt;p>A step-by-step workflow for producing a complete YouTube video using AI tools. From blank page to uploaded video in under an hour of active work.&lt;/p>
+&lt;h2 id="the-stack">The Stack&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Step&lt;/th>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Time&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Script&lt;/td>
+ &lt;td>Claude / GPT&lt;/td>
+ &lt;td>15 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Voiceover&lt;/td>
+ &lt;td>ElevenLabs&lt;/td>
+ &lt;td>2 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Audio cleanup&lt;/td>
+ &lt;td>ffmpeg (automated)&lt;/td>
+ &lt;td>30 sec&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Visuals&lt;/td>
+ &lt;td>Gemini 3 Pro&lt;/td>
+ &lt;td>5 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Assembly&lt;/td>
+ &lt;td>Kdenlive&lt;/td>
+ &lt;td>20 min&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Total&lt;/strong>&lt;/td>
+ &lt;td>&lt;/td>
+ &lt;td>&lt;strong>~45 min&lt;/strong>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="the-workflow">The Workflow&lt;/h2>
+&lt;h3 id="step-1-script-15-min">Step 1: Script (15 min)&lt;/h3>
+&lt;p>Use Claude or GPT to draft the script. Provide your topic, target length, and tone. Review and tweak — don&amp;rsquo;t accept the first draft.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>LLM on AI Freedom Stack</title><link>https://freedomstackai.com/tags/llm/</link><description>Recent content in LLM on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/llm/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT (OpenAI)</title><link>https://freedomstackai.com/tools/chatgpt/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/chatgpt/</guid><description>&lt;h2 id="what-is-chatgpt">What is ChatGPT?&lt;/h2>
+&lt;p>OpenAI&amp;rsquo;s flagship consumer AI product. GPT-4o is the engine — a multimodal model that handles text, images, audio, and code. The app layers on web browsing, DALL-E image generation, file analysis, and a plugin ecosystem. It&amp;rsquo;s the most feature-complete AI assistant available.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want a single AI tool for everything — writing, research, coding, images&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the absolute best quality in one domain (Claude beats it for writing, Midjourney for images)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>GPT-4o (limited), GPT-4o-mini, DALL-E, browsing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Plus&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More GPT-4o, voice mode, early features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$200/mo&lt;/td>
+ &lt;td>Unlimited GPT-4o, o1-pro for heavy reasoning&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>GPT-4o ~$2.50/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $200/mo Pro tier exists and OpenAI keeps pushing features there first. Plus is fine for most people.&lt;/p></description></item><item><title>Claude (Anthropic)</title><link>https://freedomstackai.com/tools/claude/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/claude/</guid><description>&lt;h2 id="what-is-claude">What is Claude?&lt;/h2>
+&lt;p>Claude is Anthropic&amp;rsquo;s family of AI models. Opus is the powerhouse for deep reasoning, Sonnet is the daily driver balancing speed and quality, and Haiku is the fast/cheap option for simple tasks. For solo builders, you&amp;rsquo;ll live in Sonnet 90% of the time and pull out Opus when you need to think hard.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who need high-quality writing, complex coding help, or deep analysis&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who just need quick factual lookups (Perplexity is better) or image generation&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited Sonnet messages, basic features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More Sonnet, some Opus, Projects, longer context&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Sonnet ~$3/M input, Opus ~$15/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Pro usage caps aren&amp;rsquo;t published — you&amp;rsquo;ll hit them during heavy work sessions. API is more predictable but requires technical setup.&lt;/p></description></item><item><title>Gemini (Google)</title><link>https://freedomstackai.com/tools/gemini/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/gemini/</guid><description>&lt;h2 id="what-is-gemini">What is Gemini?&lt;/h2>
+&lt;p>Google&amp;rsquo;s AI platform, powered by the Gemini model family. The killer feature is context — 1M+ tokens means you can feed it entire books, codebases, or research papers. Comes with built-in Google Search, image generation (Imagen), and tight integration with Google Workspace.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, content creators processing large documents, anyone in Google&amp;rsquo;s ecosystem&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the best writing quality (Claude) or the most versatile tool (ChatGPT)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Gemini Pro, image gen, web search, generous limits&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Advanced&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>1M+ context, Workspace integration, Gemini Ultra&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Pro: free tier available, Ultra from ~$1.25/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $20/mo bundles with Google One (2TB storage), which is actually decent value if you need cloud storage anyway.&lt;/p></description></item></channel></rss>

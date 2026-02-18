@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Local on AI Freedom Stack</title><link>https://freedomstackai.com/tags/local/</link><description>Recent content in Local on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/local/index.xml" rel="self" type="application/rss+xml"/><item><title>ComfyUI</title><link>https://freedomstackai.com/tools/comfyui/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/comfyui/</guid><description>&lt;h2 id="what-is-comfyui">What is ComfyUI?&lt;/h2>
+&lt;p>A node-based graphical interface for running Stable Diffusion workflows. Instead of typing a prompt and hitting generate, you visually connect nodes: model loader → prompt → sampler → upscaler → save. This lets you build complex, repeatable pipelines that go way beyond basic text-to-image.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Technical creators who generate lots of images and want repeatable, automatable workflows&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Beginners who just want to type a prompt and get an image (use Gemini or Midjourney)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Option&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Local&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full application, unlimited use&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud&lt;/td>
+ &lt;td>$0.50-2/hr&lt;/td>
+ &lt;td>RunPod/Vast.ai with ComfyUI pre-installed&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Same as Stable Diffusion — you need a GPU. ComfyUI itself adds no cost.&lt;/p></description></item><item><title>Obsidian</title><link>https://freedomstackai.com/tools/obsidian/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/obsidian/</guid><description>&lt;h2 id="what-is-obsidian">What is Obsidian?&lt;/h2>
+&lt;p>A note-taking and knowledge management app built on plain markdown files stored locally. No proprietary database, no cloud requirement, no account needed. Your notes are just &lt;code>.md&lt;/code> files in a folder. The plugin ecosystem adds everything from AI chat to kanban boards to graph views of your knowledge.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want a knowledge base they own forever, with no cloud dependency&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Teams needing real-time collaboration (Notion is better for that)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Personal&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full app, all core features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Commercial&lt;/td>
+ &lt;td>$50/yr&lt;/td>
+ &lt;td>Same app, commercial license&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sync&lt;/td>
+ &lt;td>$4/mo&lt;/td>
+ &lt;td>End-to-end encrypted cloud sync&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Publish&lt;/td>
+ &lt;td>$8/mo&lt;/td>
+ &lt;td>Publish notes as a website&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Sync between devices requires either paying for Obsidian Sync or setting up your own solution (iCloud, Syncthing, Git).&lt;/p></description></item><item><title>Stable Diffusion</title><link>https://freedomstackai.com/tools/stable-diffusion/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/stable-diffusion/</guid><description>&lt;h2 id="what-is-stable-diffusion">What is Stable Diffusion?&lt;/h2>
+&lt;p>An open-source image generation model you can download and run on your own GPU. No subscriptions, no per-image costs, no content restrictions beyond what you choose. The ecosystem around it (ComfyUI, Automatic1111, custom models) makes it insanely flexible.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Technical solo builders with a decent GPU who want unlimited, free image generation&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Non-technical people who just want quick images (use Gemini or Midjourney instead)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Option&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Self-hosted&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full model, unlimited generations&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud GPU&lt;/td>
+ &lt;td>$0.50-2/hr&lt;/td>
+ &lt;td>RunPod, Vast.ai — pay only when generating&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Hosted services&lt;/td>
+ &lt;td>$10-30/mo&lt;/td>
+ &lt;td>Clipdrop, DreamStudio — easier but defeats the purpose&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> You need a GPU with 8GB+ VRAM. If you don&amp;rsquo;t have one, cloud GPU costs add up. Electricity is negligible.&lt;/p></description></item><item><title>The Local Intelligence Stack</title><link>https://freedomstackai.com/stacks/local-intelligence/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/local-intelligence/</guid><description>&lt;h1 id="the-local-intelligence-stack">The Local Intelligence Stack&lt;/h1>
+&lt;p>&lt;strong>AI that runs on your machine, works offline, and sends zero data to the cloud.&lt;/strong> This is the maximum-freedom stack: open-source models for text, images, and audio, organized in a local knowledge base you fully own. Monthly cost: $0 after hardware.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Privacy-conscious builders, researchers, preppers, anyone in a country with restricted AI access, developers who want to understand how models actually work, and anyone tired of subscription fatigue.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People without a decent GPU (16GB+ VRAM recommended), anyone who needs GPT-4-level reasoning (local models are good but not frontier-tier), or creators who need ElevenLabs-quality voice cloning.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/ollama/">Ollama&lt;/a>&lt;/td>
+ &lt;td>Local LLM runner — chat, writing, coding, analysis&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ComfyUI + Stable Diffusion&lt;/td>
+ &lt;td>Local image generation — any style, no content filters&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Whisper (OpenAI, local)&lt;/td>
+ &lt;td>Speech-to-text — transcribe anything offline&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Obsidian&lt;/td>
+ &lt;td>Knowledge base — notes, linked thinking, local-first&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Your Brain / Voice / Documents
+ │
+ ┌─────┴──────┐
+ ▼ ▼
+┌─────────┐ ┌─────────┐
+│ Whisper │ │ Ollama │ → Chat, write, summarize, code
+│ → Text │ └────┬────┘
+└────┬────┘ │
+ │ │
+ └─────┬──────┘
+ ▼
+ ┌──────────┐
+ │ Obsidian │ → Store, link, organize everything
+ └────┬─────┘
+ │
+ │ (need an image?)
+ ▼
+ ┌──────────┐
+ │ ComfyUI │ → Generate illustrations, diagrams, concepts
+ └──────────┘
+
+Everything stays on your machine. Nothing phones home.
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Item&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Software&lt;/td>
+ &lt;td>$0 — all open source&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud services&lt;/td>
+ &lt;td>$0 — none needed&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Electricity&lt;/td>
+ &lt;td>~$5-15/mo if running GPU-heavy workloads daily&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Total&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>$0/mo&lt;/strong> (after hardware)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hardware reality check:&lt;/strong> You need a GPU. A used RTX 3090 (24GB VRAM) runs ~$600-800 and handles all of this beautifully. An M1/M2/M3 Mac with 16GB+ unified memory also works well for Ollama and Whisper, though image generation is slower.&lt;/p></description></item><item><title>Tools for Local/Private AI</title><link>https://freedomstackai.com/use-cases/local-private-ai/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/local-private-ai/</guid><description>&lt;h1 id="tools-for-localprivate-ai">Tools for Local/Private AI&lt;/h1>
+&lt;p>Run AI on your own machine. No cloud accounts, no data leaving your network, no monthly bills. Everything here is open source or has a fully local option.&lt;/p>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../../stacks/local-intelligence/">The Local Intelligence Stack&lt;/a> — our recommended setup with getting-started guide.&lt;/p>
+&lt;hr>
+&lt;h3 id="local-language-models">Local Language Models&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/ollama/">Ollama&lt;/a>&lt;/strong> — The easiest way to run LLMs locally. One-command install, simple CLI, and an API compatible with OpenAI&amp;rsquo;s format. Run Llama 3, Mistral, CodeLlama, and dozens more.&lt;/li>
+&lt;li>&lt;strong>LM Studio&lt;/strong> — GUI for running local models. Download, chat, and use as a local API server. Good if you prefer a visual interface over CLI.&lt;/li>
+&lt;li>&lt;strong>llama.cpp&lt;/strong> — The engine under Ollama. Use directly for maximum control and performance tuning.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-image-generation">Local Image Generation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>ComfyUI&lt;/strong> — Node-based UI for Stable Diffusion. Maximum control, custom workflows, no content filters. Requires a GPU (8GB+ VRAM minimum, 16GB+ recommended).&lt;/li>
+&lt;li>&lt;strong>Automatic1111 (Stable Diffusion WebUI)&lt;/strong> — Browser-based interface for Stable Diffusion. Slightly easier to start with than ComfyUI, fewer advanced features.&lt;/li>
+&lt;li>&lt;strong>Fooocus&lt;/strong> — Simplified Stable Diffusion interface. Minimal settings, good results. Best for people who want images without learning ComfyUI.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-speech">Local Speech&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Whisper (OpenAI)&lt;/strong> — State-of-the-art speech-to-text that runs locally. &lt;code>pip install openai-whisper&lt;/code> and transcribe anything. Multiple model sizes for different speed/accuracy tradeoffs.&lt;/li>
+&lt;li>&lt;strong>Piper&lt;/strong> — Local text-to-speech. Not ElevenLabs quality, but completely free and offline. Good for accessibility and basic narration.&lt;/li>
+&lt;li>&lt;strong>Bark&lt;/strong> — Open-source text-to-speech with emotion and multilingual support. More natural than Piper, heavier on resources.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-knowledge--notes">Local Knowledge &amp;amp; Notes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Obsidian&lt;/strong> — Local-first markdown notes with a plugin ecosystem. The &amp;ldquo;Ollama&amp;rdquo; community plugin lets you chat with a local LLM inside your notes. Your data never leaves your disk.&lt;/li>
+&lt;li>&lt;strong>Logseq&lt;/strong> — Open-source, local-first outliner. Block-based references, daily journals, graph view.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-coding-assistants">Local Coding Assistants&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Continue.dev&lt;/strong> — Open-source AI coding assistant that works with VS Code. Point it at your local Ollama instance for fully private code completion.&lt;/li>
+&lt;li>&lt;strong>Tabby&lt;/strong> — Self-hosted AI coding assistant. Code completion backed by local models.&lt;/li>
+&lt;/ul>
+&lt;h3 id="hardware-requirements">Hardware Requirements&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Workload&lt;/th>
+ &lt;th>Minimum&lt;/th>
+ &lt;th>Recommended&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Chat (7B model)&lt;/td>
+ &lt;td>8GB RAM, CPU&lt;/td>
+ &lt;td>16GB RAM, any GPU&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Chat (70B model)&lt;/td>
+ &lt;td>32GB RAM&lt;/td>
+ &lt;td>64GB RAM or 24GB VRAM GPU&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Image generation&lt;/td>
+ &lt;td>8GB VRAM GPU&lt;/td>
+ &lt;td>16-24GB VRAM GPU&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Speech-to-text&lt;/td>
+ &lt;td>8GB RAM, CPU&lt;/td>
+ &lt;td>16GB RAM, GPU accelerates&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Everything at once&lt;/td>
+ &lt;td>32GB RAM, 16GB VRAM&lt;/td>
+ &lt;td>64GB RAM, 24GB VRAM (RTX 3090/4090)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Whisper (OpenAI)</title><link>https://freedomstackai.com/tools/whisper/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/whisper/</guid><description>&lt;h2 id="what-is-whisper">What is Whisper?&lt;/h2>
+&lt;p>OpenAI&amp;rsquo;s open-source speech recognition model. It transcribes audio to text with near-human accuracy. Run it locally on your machine for free, or use OpenAI&amp;rsquo;s API at $0.006/minute. Supports 99 languages, handles accents and background noise gracefully.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Content creators, podcasters, YouTubers who need transcription, subtitles, or audio-to-text workflows&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Real-time transcription needs (it processes after recording, not live)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Option&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Local (large-v3)&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Best quality, your hardware, unlimited&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Local (base/small)&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Faster, less accurate, runs on weaker hardware&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>OpenAI API&lt;/td>
+ &lt;td>$0.006/min&lt;/td>
+ &lt;td>Cloud processing, no GPU needed&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Local large model needs ~10GB VRAM. Smaller models work on CPU but are less accurate.&lt;/p></description></item><item><title>Ollama</title><link>https://freedomstackai.com/tools/ollama/</link><pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/ollama/</guid><description>&lt;h2 id="what-is-ollama">What is Ollama?&lt;/h2>
+&lt;p>Ollama is a tool that lets you download and run open-source AI models directly on your computer. No cloud, no API keys, no monthly bills. One command to install, one command to run a model. It&amp;rsquo;s AI on your terms.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Privacy-conscious builders, anyone tired of API costs, developers who want local AI for testing and automation&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People without a computer with at least 8GB RAM (16GB+ recommended)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Everything&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full access, all models, forever&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Your electricity bill and hardware. Running large models needs a decent GPU or lots of RAM.&lt;/p></description></item></channel></rss>

@@ -1,19 +1,332 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Coding on AI Freedom Stack</title>
-    <link>http://localhost:1313/tags/coding/</link>
-    <description>Recent content in Coding on AI Freedom Stack</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Cursor</title>
-      <link>http://localhost:1313/tools/cursor/</link>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tools/cursor/</guid>
-      <description>&lt;h2 id=&#34;what-is-cursor&#34;&gt;What is Cursor?&lt;/h2&gt;&#xA;&lt;p&gt;Cursor is a code editor built on top of VS Code that puts AI at the center of your coding workflow. Instead of switching between your editor and ChatGPT, you talk to your codebase directly. Ask it to build features, fix bugs, or refactor — and it does it with full context of your project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-is-it-for&#34;&gt;Who is it for?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Best for:&lt;/strong&gt; Solo developers and non-technical founders building MVPs, web apps, or automations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Not for:&lt;/strong&gt; Teams with strict code review processes who need predictable, auditable changes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Solo builder score:&lt;/strong&gt; ⭐⭐⭐⭐⭐ (5/5)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-does-it-cost&#34;&gt;What does it cost?&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Plan&lt;/th&gt;&#xA;          &lt;th&gt;Price&lt;/th&gt;&#xA;          &lt;th&gt;What You Get&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Free&lt;/td&gt;&#xA;          &lt;td&gt;$0&lt;/td&gt;&#xA;          &lt;td&gt;50 slow AI requests/day, basic autocomplete&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Pro&lt;/td&gt;&#xA;          &lt;td&gt;$20/mo&lt;/td&gt;&#xA;          &lt;td&gt;500 fast requests/day, GPT-4 + Claude access&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Business&lt;/td&gt;&#xA;          &lt;td&gt;$40/mo&lt;/td&gt;&#xA;          &lt;td&gt;Team features, admin controls&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hidden costs:&lt;/strong&gt; The free tier is genuinely usable but you&amp;rsquo;ll hit the limit fast on a real project.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Coding on AI Freedom Stack</title><link>https://freedomstackai.com/tags/coding/</link><description>Recent content in Coding on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/coding/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT (OpenAI)</title><link>https://freedomstackai.com/tools/chatgpt/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/chatgpt/</guid><description>&lt;h2 id="what-is-chatgpt">What is ChatGPT?&lt;/h2>
+&lt;p>OpenAI&amp;rsquo;s flagship consumer AI product. GPT-4o is the engine — a multimodal model that handles text, images, audio, and code. The app layers on web browsing, DALL-E image generation, file analysis, and a plugin ecosystem. It&amp;rsquo;s the most feature-complete AI assistant available.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want a single AI tool for everything — writing, research, coding, images&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the absolute best quality in one domain (Claude beats it for writing, Midjourney for images)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>GPT-4o (limited), GPT-4o-mini, DALL-E, browsing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Plus&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More GPT-4o, voice mode, early features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$200/mo&lt;/td>
+ &lt;td>Unlimited GPT-4o, o1-pro for heavy reasoning&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>GPT-4o ~$2.50/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $200/mo Pro tier exists and OpenAI keeps pushing features there first. Plus is fine for most people.&lt;/p></description></item><item><title>Claude (Anthropic)</title><link>https://freedomstackai.com/tools/claude/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/claude/</guid><description>&lt;h2 id="what-is-claude">What is Claude?&lt;/h2>
+&lt;p>Claude is Anthropic&amp;rsquo;s family of AI models. Opus is the powerhouse for deep reasoning, Sonnet is the daily driver balancing speed and quality, and Haiku is the fast/cheap option for simple tasks. For solo builders, you&amp;rsquo;ll live in Sonnet 90% of the time and pull out Opus when you need to think hard.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who need high-quality writing, complex coding help, or deep analysis&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who just need quick factual lookups (Perplexity is better) or image generation&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited Sonnet messages, basic features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More Sonnet, some Opus, Projects, longer context&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Sonnet ~$3/M input, Opus ~$15/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Pro usage caps aren&amp;rsquo;t published — you&amp;rsquo;ll hit them during heavy work sessions. API is more predictable but requires technical setup.&lt;/p></description></item><item><title>Gemini (Google)</title><link>https://freedomstackai.com/tools/gemini/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/gemini/</guid><description>&lt;h2 id="what-is-gemini">What is Gemini?&lt;/h2>
+&lt;p>Google&amp;rsquo;s AI platform, powered by the Gemini model family. The killer feature is context — 1M+ tokens means you can feed it entire books, codebases, or research papers. Comes with built-in Google Search, image generation (Imagen), and tight integration with Google Workspace.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, content creators processing large documents, anyone in Google&amp;rsquo;s ecosystem&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the best writing quality (Claude) or the most versatile tool (ChatGPT)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Gemini Pro, image gen, web search, generous limits&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Advanced&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>1M+ context, Workspace integration, Gemini Ultra&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Pro: free tier available, Ultra from ~$1.25/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $20/mo bundles with Google One (2TB storage), which is actually decent value if you need cloud storage anyway.&lt;/p></description></item><item><title>GitHub Copilot</title><link>https://freedomstackai.com/tools/github-copilot/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/github-copilot/</guid><description>&lt;h2 id="what-is-github-copilot">What is GitHub Copilot?&lt;/h2>
+&lt;p>An AI code completion tool by GitHub/Microsoft. It integrates into VS Code, JetBrains, and other editors to suggest code as you type — from single lines to entire functions. Copilot Chat adds conversational AI for explanations and debugging.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Developers who want faster coding without switching editors&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Non-coders (it assists, it doesn&amp;rsquo;t build for you) or people already using Cursor&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited completions, limited chat&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Individual&lt;/td>
+ &lt;td>$10/mo&lt;/td>
+ &lt;td>Unlimited completions + chat&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Business&lt;/td>
+ &lt;td>$19/mo&lt;/td>
+ &lt;td>Team management, policy controls&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> None really. Pricing is straightforward.&lt;/p></description></item><item><title>The Solo SaaS Stack</title><link>https://freedomstackai.com/stacks/solo-saas/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/solo-saas/</guid><description>&lt;h1 id="the-solo-saas-stack">The Solo SaaS Stack&lt;/h1>
+&lt;p>&lt;strong>Build a real SaaS product — auth, database, payments, deployment — by yourself, in a weekend.&lt;/strong> This stack pairs AI-assisted coding with modern infrastructure that has generous free tiers. You write the prompts, the tools write the code, and you ship.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo developers, indie hackers, and technical founders who want to validate ideas fast without hiring or burning runway.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Non-technical founders (yet — see &lt;a href="../../tools/bolt-new/">Bolt.new&lt;/a> for a no-code-friendly alternative). Also not for enterprise-grade apps that need SOC2, complex RBAC, or multi-region from day one.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/cursor/">Cursor&lt;/a> / &lt;a href="../../tools/bolt-new/">Bolt.new&lt;/a>&lt;/td>
+ &lt;td>AI-powered development — write features in natural language&lt;/td>
+ &lt;td>$0–20/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Supabase&lt;/td>
+ &lt;td>Backend — database, auth, storage, real-time&lt;/td>
+ &lt;td>$0 (free tier covers most MVPs)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Vercel&lt;/td>
+ &lt;td>Hosting &amp;amp; deployment — push to deploy, edge functions&lt;/td>
+ &lt;td>$0 (free tier)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Stripe&lt;/td>
+ &lt;td>Payments — subscriptions, one-time, usage-based&lt;/td>
+ &lt;td>2.9% + 30¢ per transaction&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Your Idea
+ │
+ ▼
+┌──────────┐
+│ Cursor / │ → Write frontend (Next.js/React) + API routes
+│ Bolt.new │
+└────┬─────┘
+ │
+ ├──── connects to ──── Supabase (DB + Auth + Storage)
+ │
+ ├──── connects to ──── Stripe (Payments + Subscriptions)
+ │
+ ▼
+┌──────────┐
+│ Vercel │ → git push = live deployment, preview URLs for every PR
+└──────────┘
+ │
+ ▼
+ Live Product (yourapp.com)
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Stage&lt;/th>
+ &lt;th>Monthly Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Building / MVP (all free tiers)&lt;/td>
+ &lt;td>$0–20/mo (just Cursor Pro)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Launched, &amp;lt;1K users&lt;/td>
+ &lt;td>$0–25/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Growing, 1K–10K users&lt;/td>
+ &lt;td>$25–45/mo (Supabase Pro + Vercel Pro)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Revenue&lt;/td>
+ &lt;td>Stripe takes 2.9% + 30¢ per charge&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>The beauty:&lt;/strong> You don&amp;rsquo;t pay real money until you&amp;rsquo;re making real money. All four tools have free tiers that cover the build-and-launch phase.&lt;/p></description></item><item><title>Tools for Solo SaaS</title><link>https://freedomstackai.com/use-cases/solo-saas/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/solo-saas/</guid><description>&lt;h1 id="tools-for-solo-saas">Tools for Solo SaaS&lt;/h1>
+&lt;p>Build and ship a software product by yourself. These tools handle the code, infrastructure, payments, and everything in between.&lt;/p>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../../stacks/solo-saas/">The Solo SaaS Stack&lt;/a> — our recommended combination with cost breakdown.&lt;/p>
+&lt;hr>
+&lt;h3 id="ai-assisted-development">AI-Assisted Development&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/strong> — AI code editor built on VS Code. Write features in natural language, refactor entire files, debug with context. The #1 tool for solo SaaS builders.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/bolt-new/">Bolt.new&lt;/a>&lt;/strong> — Full-stack app generation in the browser. Lower floor than Cursor — great for prototyping and non-technical founders.&lt;/li>
+&lt;/ul>
+&lt;h3 id="backend--database">Backend &amp;amp; Database&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Supabase&lt;/strong> — Postgres database + auth + storage + real-time subscriptions. Generous free tier. Open source, so you can self-host if needed.&lt;/li>
+&lt;li>&lt;strong>PlanetScale&lt;/strong> — Serverless MySQL. Auto-scaling, branching for schema changes. Good alternative to Supabase if you prefer MySQL.&lt;/li>
+&lt;li>&lt;strong>Firebase&lt;/strong> — Google&amp;rsquo;s backend-as-a-service. Fast to prototype but higher lock-in risk.&lt;/li>
+&lt;/ul>
+&lt;h3 id="hosting--deployment">Hosting &amp;amp; Deployment&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Vercel&lt;/strong> — Push-to-deploy for Next.js and other frameworks. Preview deployments for every PR. Free tier is solid.&lt;/li>
+&lt;li>&lt;strong>Railway&lt;/strong> — Simple hosting for any stack. Good for backend services that don&amp;rsquo;t fit Vercel&amp;rsquo;s serverless model.&lt;/li>
+&lt;li>&lt;strong>Fly.io&lt;/strong> — Deploy containers globally. Good for apps that need persistent connections or specific runtime environments.&lt;/li>
+&lt;/ul>
+&lt;h3 id="payments">Payments&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Stripe&lt;/strong> — Industry standard. Subscriptions, one-time payments, usage-based billing, invoicing. Extensive API, well-documented.&lt;/li>
+&lt;li>&lt;strong>Lemon Squeezy&lt;/strong> — Stripe alternative that handles sales tax/VAT as merchant of record. Simpler setup, slightly higher fees.&lt;/li>
+&lt;/ul>
+&lt;h3 id="support--feedback">Support &amp;amp; Feedback&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft support responses, write documentation, generate FAQ pages from support tickets.&lt;/li>
+&lt;li>&lt;strong>Crisp&lt;/strong> — Free live chat widget. Good enough for early-stage SaaS.&lt;/li>
+&lt;/ul>
+&lt;h3 id="analytics">Analytics&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Plausible&lt;/strong> — Privacy-friendly, lightweight analytics. No cookie banners needed. Self-hostable.&lt;/li>
+&lt;li>&lt;strong>PostHog&lt;/strong> — Product analytics, feature flags, session replay. Generous free tier. Open source.&lt;/li>
+&lt;/ul></description></item><item><title>Windsurf</title><link>https://freedomstackai.com/tools/windsurf/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/windsurf/</guid><description>&lt;h2 id="what-is-windsurf">What is Windsurf?&lt;/h2>
+&lt;p>An AI-native code editor built by Codeium. Like Cursor, it&amp;rsquo;s a standalone editor with deep AI integration — codebase-aware chat, multi-file editing, and AI-guided &amp;ldquo;flows&amp;rdquo; that help you think through problems. The main pitch: similar power to Cursor, more accessible pricing.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo developers who want AI coding assistance but find Cursor too expensive&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People already happy with Cursor (switching cost isn&amp;rsquo;t worth the savings)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>AI completions, limited premium features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$15/mo&lt;/td>
+ &lt;td>Full AI features, priority models&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> None significant.&lt;/p></description></item><item><title>Cursor</title><link>https://freedomstackai.com/tools/cursor/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/cursor/</guid><description>&lt;h2 id="what-is-cursor">What is Cursor?&lt;/h2>
+&lt;p>Cursor is a code editor built on top of VS Code that puts AI at the center of your coding workflow. Instead of switching between your editor and ChatGPT, you talk to your codebase directly. Ask it to build features, fix bugs, or refactor — and it does it with full context of your project.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo developers and non-technical founders building MVPs, web apps, or automations&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Teams with strict code review processes who need predictable, auditable changes&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>50 slow AI requests/day, basic autocomplete&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>500 fast requests/day, GPT-4 + Claude access&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Business&lt;/td>
+ &lt;td>$40/mo&lt;/td>
+ &lt;td>Team features, admin controls&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The free tier is genuinely usable but you&amp;rsquo;ll hit the limit fast on a real project.&lt;/p></description></item></channel></rss>

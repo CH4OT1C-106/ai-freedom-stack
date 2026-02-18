@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on AI Freedom Stack</title><link>https://freedomstackai.com/tags/research/</link><description>Recent content in Research on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Gemini (Google)</title><link>https://freedomstackai.com/tools/gemini/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/gemini/</guid><description>&lt;h2 id="what-is-gemini">What is Gemini?&lt;/h2>
+&lt;p>Google&amp;rsquo;s AI platform, powered by the Gemini model family. The killer feature is context — 1M+ tokens means you can feed it entire books, codebases, or research papers. Comes with built-in Google Search, image generation (Imagen), and tight integration with Google Workspace.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, content creators processing large documents, anyone in Google&amp;rsquo;s ecosystem&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the best writing quality (Claude) or the most versatile tool (ChatGPT)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Gemini Pro, image gen, web search, generous limits&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Advanced&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>1M+ context, Workspace integration, Gemini Ultra&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Pro: free tier available, Ultra from ~$1.25/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $20/mo bundles with Google One (2TB storage), which is actually decent value if you need cloud storage anyway.&lt;/p></description></item><item><title>Perplexity</title><link>https://freedomstackai.com/tools/perplexity/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/perplexity/</guid><description>&lt;h2 id="what-is-perplexity">What is Perplexity?&lt;/h2>
+&lt;p>A search engine that uses AI to synthesize real answers from the web, with citations. Ask it anything and it gives you a sourced summary instead of making you click through links. Pro tier adds access to Claude, GPT-4, and deeper analysis.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, content creators, anyone who googles things more than 5 times a day&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need creative writing, coding help, or image generation (use Claude/Cursor for those)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Unlimited quick searches, 5 Pro searches/day&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>600+ Pro searches/day, model choice, file uploads&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> None, really. One of the more transparent pricing models.&lt;/p></description></item><item><title>Tools for AI-Powered Research</title><link>https://freedomstackai.com/use-cases/ai-research/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/ai-research/</guid><description>&lt;h1 id="tools-for-ai-powered-research">Tools for AI-Powered Research&lt;/h1>
+&lt;p>Use AI to research faster, synthesize information from multiple sources, and produce well-sourced analysis.&lt;/p>
+&lt;hr>
+&lt;h3 id="deep-research--synthesis">Deep Research &amp;amp; Synthesis&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Best for long-form analysis and synthesis. 200K token context window lets you feed entire documents and get comprehensive summaries. Projects feature stores research context across conversations.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/kimi-k25/">Kimi K2.5&lt;/a>&lt;/strong> — Massive context window for processing large documents. Strong at multi-source synthesis.&lt;/li>
+&lt;li>&lt;strong>Perplexity AI&lt;/strong> — AI search engine that cites its sources. Good for initial research and fact-finding. Free tier is useful; Pro unlocks more powerful models.&lt;/li>
+&lt;/ul>
+&lt;h3 id="document-processing">Document Processing&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Whisper (local)&lt;/strong> — Transcribe interviews, podcasts, lectures, and meetings. Run locally for free with &lt;a href="../../tools/ollama/">Ollama&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>NotebookLM (Google)&lt;/strong> — Upload documents and chat with them. Auto-generates summaries, FAQs, and audio overviews.&lt;/li>
+&lt;/ul>
+&lt;h3 id="knowledge-management">Knowledge Management&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Obsidian&lt;/strong> — Local-first note-taking with bidirectional linking. Build a personal knowledge graph from your research. Pairs beautifully with &lt;a href="../../tools/ollama/">Ollama&lt;/a> for local AI chat about your notes.&lt;/li>
+&lt;li>&lt;strong>Logseq&lt;/strong> — Open-source alternative to Obsidian. Outline-based. Good for daily journals and block-level references.&lt;/li>
+&lt;/ul>
+&lt;h3 id="data-analysis">Data Analysis&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Upload CSVs and get analysis, charts, and insights. Artifacts feature renders visualizations inline.&lt;/li>
+&lt;li>&lt;strong>Julius AI&lt;/strong> — Purpose-built for data analysis. Upload spreadsheets, ask questions in plain English, get charts and statistical analysis.&lt;/li>
+&lt;/ul>
+&lt;h3 id="citation--writing">Citation &amp;amp; Writing&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Zotero&lt;/strong> — Free, open-source reference manager. Essential for academic or well-sourced writing.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft research reports, literature reviews, and analysis from your collected sources.&lt;/li>
+&lt;/ul>
+&lt;h3 id="recommended-workflow">Recommended Workflow&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Discover&lt;/strong> — Use Perplexity to survey a topic and collect initial sources&lt;/li>
+&lt;li>&lt;strong>Collect&lt;/strong> — Save sources to Zotero, transcribe audio with Whisper&lt;/li>
+&lt;li>&lt;strong>Process&lt;/strong> — Feed documents to Claude or Kimi for synthesis and analysis&lt;/li>
+&lt;li>&lt;strong>Connect&lt;/strong> — Store insights in Obsidian, link related concepts&lt;/li>
+&lt;li>&lt;strong>Produce&lt;/strong> — Draft final output with Claude, citing your sources&lt;/li>
+&lt;/ol></description></item><item><title>Kimi K2.5</title><link>https://freedomstackai.com/tools/kimi-k25/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/kimi-k25/</guid><description>&lt;h2 id="what-is-kimi-k25">What is Kimi K2.5?&lt;/h2>
+&lt;p>Kimi K2.5 is a trillion-parameter AI model from Beijing-based Moonshot AI. It uses a Mixture of Experts architecture — 384 expert modules, only 32 billion active per query — giving you frontier-level intelligence at efficient compute costs. Its standout feature is Agent Swarm: native multi-agent task decomposition for complex research.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, analysts, and builders who need deep multi-source research and competitive intelligence&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Casual chatbot use or everyday questions — stick with ChatGPT for that&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Full trillion-parameter model&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Open Weights&lt;/td>
+ &lt;td>Free&lt;/td>
+ &lt;td>171B parameter version on HuggingFace&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The open weights version requires serious hardware to self-host (171B parameters).&lt;/p></description></item></channel></rss>

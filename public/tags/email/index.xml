@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Email on AI Freedom Stack</title><link>https://freedomstackai.com/tags/email/</link><description>Recent content in Email on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/email/index.xml" rel="self" type="application/rss+xml"/><item><title>Tools for Newsletter Automation</title><link>https://freedomstackai.com/use-cases/newsletter-automation/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/newsletter-automation/</guid><description>&lt;h1 id="tools-for-newsletter-automation">Tools for Newsletter Automation&lt;/h1>
+&lt;p>Build and run a newsletter with AI handling the heavy lifting — research, writing, formatting, and scheduling.&lt;/p>
+&lt;hr>
+&lt;h3 id="writing--research">Writing &amp;amp; Research&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft full newsletter editions from bullet points or topic prompts. Excellent at maintaining consistent voice across issues. Use Projects to store your style guide and past editions.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/kimi-k25/">Kimi K2.5&lt;/a>&lt;/strong> — Great for research-heavy newsletters. Feed it multiple sources and get synthesized summaries.&lt;/li>
+&lt;/ul>
+&lt;h3 id="design--formatting">Design &amp;amp; Formatting&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/strong> — Build custom newsletter templates in HTML/CSS. Automate formatting with scripts that convert markdown drafts to email-ready HTML.&lt;/li>
+&lt;/ul>
+&lt;h3 id="voiceover-audio-newsletters">Voiceover (Audio Newsletters)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/strong> — Turn your newsletter into a podcast-style audio version. Growing trend — readers love having an audio option.&lt;/li>
+&lt;/ul>
+&lt;h3 id="sending--management">Sending &amp;amp; Management&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Beehiiv&lt;/strong> — Newsletter platform with free tier up to 2,500 subscribers. Built-in analytics, referral program, and monetization.&lt;/li>
+&lt;li>&lt;strong>ConvertKit (Kit)&lt;/strong> — Creator-focused email platform. Visual automations, tagging, segmentation.&lt;/li>
+&lt;li>&lt;strong>Buttondown&lt;/strong> — Minimal, markdown-first newsletter tool. Great for developers and writers who want simplicity.&lt;/li>
+&lt;/ul>
+&lt;h3 id="automation--scheduling">Automation &amp;amp; Scheduling&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Zapier / Make&lt;/strong> — Connect your writing tools to your sending platform. Auto-publish drafts on a schedule.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/strong> — Build custom automation scripts: RSS-to-newsletter, auto-curate links, format and schedule sends via API.&lt;/li>
+&lt;/ul>
+&lt;h3 id="recommended-workflow">Recommended Workflow&lt;/h3>
+&lt;ol>
+&lt;li>Curate topics throughout the week (Obsidian or a simple note)&lt;/li>
+&lt;li>Feed topics to Claude → get a full draft&lt;/li>
+&lt;li>Edit in 15 minutes (your voice, your opinions — AI does the heavy lifting)&lt;/li>
+&lt;li>Format with your template&lt;/li>
+&lt;li>Schedule send in Beehiiv/ConvertKit&lt;/li>
+&lt;li>Optionally generate audio version with ElevenLabs&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Time per issue:&lt;/strong> 45-90 minutes instead of 4+ hours.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nodes on AI Freedom Stack</title><link>https://freedomstackai.com/tags/nodes/</link><description>Recent content in Nodes on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/nodes/index.xml" rel="self" type="application/rss+xml"/><item><title>ComfyUI</title><link>https://freedomstackai.com/tools/comfyui/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/comfyui/</guid><description>&lt;h2 id="what-is-comfyui">What is ComfyUI?&lt;/h2>
+&lt;p>A node-based graphical interface for running Stable Diffusion workflows. Instead of typing a prompt and hitting generate, you visually connect nodes: model loader → prompt → sampler → upscaler → save. This lets you build complex, repeatable pipelines that go way beyond basic text-to-image.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Technical creators who generate lots of images and want repeatable, automatable workflows&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Beginners who just want to type a prompt and get an image (use Gemini or Midjourney)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Option&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Local&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full application, unlimited use&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud&lt;/td>
+ &lt;td>$0.50-2/hr&lt;/td>
+ &lt;td>RunPod/Vast.ai with ComfyUI pre-installed&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Same as Stable Diffusion — you need a GPU. ComfyUI itself adds no cost.&lt;/p></description></item></channel></rss>

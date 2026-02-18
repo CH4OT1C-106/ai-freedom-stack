@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Images on AI Freedom Stack</title><link>https://freedomstackai.com/tags/images/</link><description>Recent content in Images on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/images/index.xml" rel="self" type="application/rss+xml"/><item><title>The Content Machine Stack</title><link>https://freedomstackai.com/stacks/content-machine/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/content-machine/</guid><description>&lt;h1 id="the-content-machine-stack">The Content Machine Stack&lt;/h1>
+&lt;p>&lt;strong>One person. Blog posts, social media, newsletters, and video — all shipping weekly.&lt;/strong> This stack turns a solo creator into a content studio by chaining AI writing, image generation, voice synthesis, and a programmable publishing layer.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo creators, indie bloggers, newsletter operators, and personal brand builders who need to produce across multiple formats without a team.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Large editorial teams with existing workflows, or creators who need photorealistic brand photography (you&amp;rsquo;ll want a real camera for that).&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/td>
+ &lt;td>Writing — drafts, editing, repurposing&lt;/td>
+ &lt;td>$20/mo (Pro)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Stable Diffusion (local) or Midjourney&lt;/td>
+ &lt;td>Image generation — thumbnails, illustrations, social graphics&lt;/td>
+ &lt;td>$0 (local) or $10/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/td>
+ &lt;td>Voiceover — narration, audiograms, podcast clips&lt;/td>
+ &lt;td>$5–22/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/td>
+ &lt;td>Publishing automation — custom scripts, site updates&lt;/td>
+ &lt;td>$0–20/mo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Idea / Outline
+ │
+ ▼
+ ┌────────┐
+ │ Claude │ → Blog post, newsletter draft, social threads, video script
+ └───┬────┘
+ │
+ ├──────────────────┐
+ ▼ ▼
+┌──────────────┐ ┌───────────┐
+│ Stable Diff/ │ │ ElevenLabs│ → Voiceover from script
+│ Midjourney │ └───────────┘
+│ → Images │
+└──────────────┘
+ │ │
+ └────────┬─────────┘
+ ▼
+ ┌──────────┐
+ │ Cursor │ → Assemble, format, publish (site/newsletter/social)
+ └──────────┘
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tier&lt;/th>
+ &lt;th>Monthly Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Budget (SD local + Claude + ElevenLabs Starter)&lt;/td>
+ &lt;td>~$25/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Standard (Midjourney + Claude Pro + ElevenLabs)&lt;/td>
+ &lt;td>~$52/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Full send (all paid tiers)&lt;/td>
+ &lt;td>~$80/mo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="freedom-score--45">Freedom Score: ⭐⭐⭐⭐☆ (4/5)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Why 4:&lt;/strong> You own your content, can swap any tool, and the local image generation option means no vendor lock-in for visuals. Claude and ElevenLabs are cloud-dependent, which docks a point.&lt;/li>
+&lt;li>&lt;strong>Lock-in risk:&lt;/strong> Low. All outputs are standard formats (text, PNG, MP3). Nothing traps you.&lt;/li>
+&lt;/ul>
+&lt;h2 id="getting-started-this-afternoon">Getting Started (This Afternoon)&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Sign up for Claude Pro&lt;/strong> ($20/mo). Create a project with your brand voice guidelines and sample content.&lt;/li>
+&lt;li>&lt;strong>Set up image generation.&lt;/strong> Easiest: Midjourney ($10/mo). Most free: install &lt;a href="../../tools/comfyui/">ComfyUI + Stable Diffusion locally&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Create an ElevenLabs account.&lt;/strong> Clone your voice or pick a stock voice. Test with a 60-second script.&lt;/li>
+&lt;li>&lt;strong>Open Cursor.&lt;/strong> Build a simple publishing script — even just a markdown-to-HTML converter that drops files into your site&amp;rsquo;s content folder.&lt;/li>
+&lt;li>&lt;strong>Run your first piece through the full pipeline.&lt;/strong> Idea → Claude draft → generate 2-3 images → record voiceover → publish. Time it. You&amp;rsquo;ll be shocked.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Expected output:&lt;/strong> 3-5 blog posts/week, daily social content, weekly newsletter, optional audio versions of everything. One person.&lt;/p></description></item></channel></rss>

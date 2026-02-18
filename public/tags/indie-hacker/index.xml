@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Indie Hacker on AI Freedom Stack</title><link>https://freedomstackai.com/tags/indie-hacker/</link><description>Recent content in Indie Hacker on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/indie-hacker/index.xml" rel="self" type="application/rss+xml"/><item><title>Tools for Solo SaaS</title><link>https://freedomstackai.com/use-cases/solo-saas/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/solo-saas/</guid><description>&lt;h1 id="tools-for-solo-saas">Tools for Solo SaaS&lt;/h1>
+&lt;p>Build and ship a software product by yourself. These tools handle the code, infrastructure, payments, and everything in between.&lt;/p>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../../stacks/solo-saas/">The Solo SaaS Stack&lt;/a> — our recommended combination with cost breakdown.&lt;/p>
+&lt;hr>
+&lt;h3 id="ai-assisted-development">AI-Assisted Development&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/strong> — AI code editor built on VS Code. Write features in natural language, refactor entire files, debug with context. The #1 tool for solo SaaS builders.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/bolt-new/">Bolt.new&lt;/a>&lt;/strong> — Full-stack app generation in the browser. Lower floor than Cursor — great for prototyping and non-technical founders.&lt;/li>
+&lt;/ul>
+&lt;h3 id="backend--database">Backend &amp;amp; Database&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Supabase&lt;/strong> — Postgres database + auth + storage + real-time subscriptions. Generous free tier. Open source, so you can self-host if needed.&lt;/li>
+&lt;li>&lt;strong>PlanetScale&lt;/strong> — Serverless MySQL. Auto-scaling, branching for schema changes. Good alternative to Supabase if you prefer MySQL.&lt;/li>
+&lt;li>&lt;strong>Firebase&lt;/strong> — Google&amp;rsquo;s backend-as-a-service. Fast to prototype but higher lock-in risk.&lt;/li>
+&lt;/ul>
+&lt;h3 id="hosting--deployment">Hosting &amp;amp; Deployment&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Vercel&lt;/strong> — Push-to-deploy for Next.js and other frameworks. Preview deployments for every PR. Free tier is solid.&lt;/li>
+&lt;li>&lt;strong>Railway&lt;/strong> — Simple hosting for any stack. Good for backend services that don&amp;rsquo;t fit Vercel&amp;rsquo;s serverless model.&lt;/li>
+&lt;li>&lt;strong>Fly.io&lt;/strong> — Deploy containers globally. Good for apps that need persistent connections or specific runtime environments.&lt;/li>
+&lt;/ul>
+&lt;h3 id="payments">Payments&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Stripe&lt;/strong> — Industry standard. Subscriptions, one-time payments, usage-based billing, invoicing. Extensive API, well-documented.&lt;/li>
+&lt;li>&lt;strong>Lemon Squeezy&lt;/strong> — Stripe alternative that handles sales tax/VAT as merchant of record. Simpler setup, slightly higher fees.&lt;/li>
+&lt;/ul>
+&lt;h3 id="support--feedback">Support &amp;amp; Feedback&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft support responses, write documentation, generate FAQ pages from support tickets.&lt;/li>
+&lt;li>&lt;strong>Crisp&lt;/strong> — Free live chat widget. Good enough for early-stage SaaS.&lt;/li>
+&lt;/ul>
+&lt;h3 id="analytics">Analytics&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Plausible&lt;/strong> — Privacy-friendly, lightweight analytics. No cookie banners needed. Self-hostable.&lt;/li>
+&lt;li>&lt;strong>PostHog&lt;/strong> — Product analytics, feature flags, session replay. Generous free tier. Open source.&lt;/li>
+&lt;/ul></description></item></channel></rss>

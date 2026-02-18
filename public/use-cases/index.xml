@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Use Cases on AI Freedom Stack</title><link>https://freedomstackai.com/use-cases/</link><description>Recent content in Use Cases on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/use-cases/index.xml" rel="self" type="application/rss+xml"/><item><title>Tools for AI-Powered Research</title><link>https://freedomstackai.com/use-cases/ai-research/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/ai-research/</guid><description>&lt;h1 id="tools-for-ai-powered-research">Tools for AI-Powered Research&lt;/h1>
+&lt;p>Use AI to research faster, synthesize information from multiple sources, and produce well-sourced analysis.&lt;/p>
+&lt;hr>
+&lt;h3 id="deep-research--synthesis">Deep Research &amp;amp; Synthesis&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/claude/">Claude&lt;/a>&lt;/strong> — Best for long-form analysis and synthesis. 200K token context window lets you feed entire documents and get comprehensive summaries. Projects feature stores research context across conversations.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../tools/kimi-k25/">Kimi K2.5&lt;/a>&lt;/strong> — Massive context window for processing large documents. Strong at multi-source synthesis.&lt;/li>
+&lt;li>&lt;strong>Perplexity AI&lt;/strong> — AI search engine that cites its sources. Good for initial research and fact-finding. Free tier is useful; Pro unlocks more powerful models.&lt;/li>
+&lt;/ul>
+&lt;h3 id="document-processing">Document Processing&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Whisper (local)&lt;/strong> — Transcribe interviews, podcasts, lectures, and meetings. Run locally for free with &lt;a href="../tools/ollama/">Ollama&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>NotebookLM (Google)&lt;/strong> — Upload documents and chat with them. Auto-generates summaries, FAQs, and audio overviews.&lt;/li>
+&lt;/ul>
+&lt;h3 id="knowledge-management">Knowledge Management&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Obsidian&lt;/strong> — Local-first note-taking with bidirectional linking. Build a personal knowledge graph from your research. Pairs beautifully with &lt;a href="../tools/ollama/">Ollama&lt;/a> for local AI chat about your notes.&lt;/li>
+&lt;li>&lt;strong>Logseq&lt;/strong> — Open-source alternative to Obsidian. Outline-based. Good for daily journals and block-level references.&lt;/li>
+&lt;/ul>
+&lt;h3 id="data-analysis">Data Analysis&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/claude/">Claude&lt;/a>&lt;/strong> — Upload CSVs and get analysis, charts, and insights. Artifacts feature renders visualizations inline.&lt;/li>
+&lt;li>&lt;strong>Julius AI&lt;/strong> — Purpose-built for data analysis. Upload spreadsheets, ask questions in plain English, get charts and statistical analysis.&lt;/li>
+&lt;/ul>
+&lt;h3 id="citation--writing">Citation &amp;amp; Writing&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Zotero&lt;/strong> — Free, open-source reference manager. Essential for academic or well-sourced writing.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft research reports, literature reviews, and analysis from your collected sources.&lt;/li>
+&lt;/ul>
+&lt;h3 id="recommended-workflow">Recommended Workflow&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Discover&lt;/strong> — Use Perplexity to survey a topic and collect initial sources&lt;/li>
+&lt;li>&lt;strong>Collect&lt;/strong> — Save sources to Zotero, transcribe audio with Whisper&lt;/li>
+&lt;li>&lt;strong>Process&lt;/strong> — Feed documents to Claude or Kimi for synthesis and analysis&lt;/li>
+&lt;li>&lt;strong>Connect&lt;/strong> — Store insights in Obsidian, link related concepts&lt;/li>
+&lt;li>&lt;strong>Produce&lt;/strong> — Draft final output with Claude, citing your sources&lt;/li>
+&lt;/ol></description></item><item><title>Tools for Faceless YouTube</title><link>https://freedomstackai.com/use-cases/faceless-youtube/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/faceless-youtube/</guid><description>&lt;h1 id="tools-for-faceless-youtube">Tools for Faceless YouTube&lt;/h1>
+&lt;p>Running a YouTube channel without showing your face. Here are the AI tools that make it possible.&lt;/p>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../stacks/faceless-youtube/">The Faceless YouTube Stack&lt;/a> — our recommended full workflow.&lt;/p>
+&lt;hr>
+&lt;h3 id="scriptwriting">Scriptwriting&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/claude/">Claude&lt;/a>&lt;/strong> — Best overall for long-form YouTube scripts. Handles research, outlines, and full 10-minute scripts with visual cues. Excellent at matching a channel&amp;rsquo;s voice with system prompts.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../tools/kimi-k25/">Kimi K2.5&lt;/a>&lt;/strong> — Strong alternative with large context window. Good for research-heavy scripts that need lots of source material.&lt;/li>
+&lt;/ul>
+&lt;h3 id="voiceover">Voiceover&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/strong> — The gold standard for AI voiceover. Natural-sounding narration, voice cloning, and multiple languages. Most faceless channels use this.&lt;/li>
+&lt;/ul>
+&lt;h3 id="visual-generation">Visual Generation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Midjourney&lt;/strong> — Highest quality AI images for thumbnails and video visuals. Discord-based workflow.&lt;/li>
+&lt;li>&lt;strong>Stable Diffusion (local via ComfyUI)&lt;/strong> — Free, uncensored, unlimited. Requires a GPU but saves $10+/mo over Midjourney.&lt;/li>
+&lt;/ul>
+&lt;h3 id="video-editing">Video Editing&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>CapCut&lt;/strong> — Free, auto-captions, easy timeline editing. Most faceless creators start here.&lt;/li>
+&lt;li>&lt;strong>DaVinci Resolve&lt;/strong> — Professional-grade, free tier is incredibly powerful. Steeper learning curve but more control.&lt;/li>
+&lt;/ul>
+&lt;h3 id="thumbnail-generation">Thumbnail Generation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Midjourney&lt;/strong> — Eye-catching thumbnails with text overlay added in Canva or Photoshop.&lt;/li>
+&lt;li>&lt;strong>Stable Diffusion&lt;/strong> — Same quality potential, free, more control over iterations.&lt;/li>
+&lt;/ul>
+&lt;h3 id="full-workflow-automation">Full Workflow Automation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/30-min-video-pipeline/">30-Minute Video Pipeline&lt;/a>&lt;/strong> — Our guide to assembling the full pipeline end-to-end.&lt;/li>
+&lt;/ul></description></item><item><title>Tools for Local/Private AI</title><link>https://freedomstackai.com/use-cases/local-private-ai/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/local-private-ai/</guid><description>&lt;h1 id="tools-for-localprivate-ai">Tools for Local/Private AI&lt;/h1>
+&lt;p>Run AI on your own machine. No cloud accounts, no data leaving your network, no monthly bills. Everything here is open source or has a fully local option.&lt;/p>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../stacks/local-intelligence/">The Local Intelligence Stack&lt;/a> — our recommended setup with getting-started guide.&lt;/p>
+&lt;hr>
+&lt;h3 id="local-language-models">Local Language Models&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/ollama/">Ollama&lt;/a>&lt;/strong> — The easiest way to run LLMs locally. One-command install, simple CLI, and an API compatible with OpenAI&amp;rsquo;s format. Run Llama 3, Mistral, CodeLlama, and dozens more.&lt;/li>
+&lt;li>&lt;strong>LM Studio&lt;/strong> — GUI for running local models. Download, chat, and use as a local API server. Good if you prefer a visual interface over CLI.&lt;/li>
+&lt;li>&lt;strong>llama.cpp&lt;/strong> — The engine under Ollama. Use directly for maximum control and performance tuning.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-image-generation">Local Image Generation&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>ComfyUI&lt;/strong> — Node-based UI for Stable Diffusion. Maximum control, custom workflows, no content filters. Requires a GPU (8GB+ VRAM minimum, 16GB+ recommended).&lt;/li>
+&lt;li>&lt;strong>Automatic1111 (Stable Diffusion WebUI)&lt;/strong> — Browser-based interface for Stable Diffusion. Slightly easier to start with than ComfyUI, fewer advanced features.&lt;/li>
+&lt;li>&lt;strong>Fooocus&lt;/strong> — Simplified Stable Diffusion interface. Minimal settings, good results. Best for people who want images without learning ComfyUI.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-speech">Local Speech&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Whisper (OpenAI)&lt;/strong> — State-of-the-art speech-to-text that runs locally. &lt;code>pip install openai-whisper&lt;/code> and transcribe anything. Multiple model sizes for different speed/accuracy tradeoffs.&lt;/li>
+&lt;li>&lt;strong>Piper&lt;/strong> — Local text-to-speech. Not ElevenLabs quality, but completely free and offline. Good for accessibility and basic narration.&lt;/li>
+&lt;li>&lt;strong>Bark&lt;/strong> — Open-source text-to-speech with emotion and multilingual support. More natural than Piper, heavier on resources.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-knowledge--notes">Local Knowledge &amp;amp; Notes&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Obsidian&lt;/strong> — Local-first markdown notes with a plugin ecosystem. The &amp;ldquo;Ollama&amp;rdquo; community plugin lets you chat with a local LLM inside your notes. Your data never leaves your disk.&lt;/li>
+&lt;li>&lt;strong>Logseq&lt;/strong> — Open-source, local-first outliner. Block-based references, daily journals, graph view.&lt;/li>
+&lt;/ul>
+&lt;h3 id="local-coding-assistants">Local Coding Assistants&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Continue.dev&lt;/strong> — Open-source AI coding assistant that works with VS Code. Point it at your local Ollama instance for fully private code completion.&lt;/li>
+&lt;li>&lt;strong>Tabby&lt;/strong> — Self-hosted AI coding assistant. Code completion backed by local models.&lt;/li>
+&lt;/ul>
+&lt;h3 id="hardware-requirements">Hardware Requirements&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Workload&lt;/th>
+ &lt;th>Minimum&lt;/th>
+ &lt;th>Recommended&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Chat (7B model)&lt;/td>
+ &lt;td>8GB RAM, CPU&lt;/td>
+ &lt;td>16GB RAM, any GPU&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Chat (70B model)&lt;/td>
+ &lt;td>32GB RAM&lt;/td>
+ &lt;td>64GB RAM or 24GB VRAM GPU&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Image generation&lt;/td>
+ &lt;td>8GB VRAM GPU&lt;/td>
+ &lt;td>16-24GB VRAM GPU&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Speech-to-text&lt;/td>
+ &lt;td>8GB RAM, CPU&lt;/td>
+ &lt;td>16GB RAM, GPU accelerates&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Everything at once&lt;/td>
+ &lt;td>32GB RAM, 16GB VRAM&lt;/td>
+ &lt;td>64GB RAM, 24GB VRAM (RTX 3090/4090)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>Tools for Newsletter Automation</title><link>https://freedomstackai.com/use-cases/newsletter-automation/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/newsletter-automation/</guid><description>&lt;h1 id="tools-for-newsletter-automation">Tools for Newsletter Automation&lt;/h1>
+&lt;p>Build and run a newsletter with AI handling the heavy lifting — research, writing, formatting, and scheduling.&lt;/p>
+&lt;hr>
+&lt;h3 id="writing--research">Writing &amp;amp; Research&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft full newsletter editions from bullet points or topic prompts. Excellent at maintaining consistent voice across issues. Use Projects to store your style guide and past editions.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../tools/kimi-k25/">Kimi K2.5&lt;/a>&lt;/strong> — Great for research-heavy newsletters. Feed it multiple sources and get synthesized summaries.&lt;/li>
+&lt;/ul>
+&lt;h3 id="design--formatting">Design &amp;amp; Formatting&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/cursor/">Cursor&lt;/a>&lt;/strong> — Build custom newsletter templates in HTML/CSS. Automate formatting with scripts that convert markdown drafts to email-ready HTML.&lt;/li>
+&lt;/ul>
+&lt;h3 id="voiceover-audio-newsletters">Voiceover (Audio Newsletters)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/strong> — Turn your newsletter into a podcast-style audio version. Growing trend — readers love having an audio option.&lt;/li>
+&lt;/ul>
+&lt;h3 id="sending--management">Sending &amp;amp; Management&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Beehiiv&lt;/strong> — Newsletter platform with free tier up to 2,500 subscribers. Built-in analytics, referral program, and monetization.&lt;/li>
+&lt;li>&lt;strong>ConvertKit (Kit)&lt;/strong> — Creator-focused email platform. Visual automations, tagging, segmentation.&lt;/li>
+&lt;li>&lt;strong>Buttondown&lt;/strong> — Minimal, markdown-first newsletter tool. Great for developers and writers who want simplicity.&lt;/li>
+&lt;/ul>
+&lt;h3 id="automation--scheduling">Automation &amp;amp; Scheduling&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Zapier / Make&lt;/strong> — Connect your writing tools to your sending platform. Auto-publish drafts on a schedule.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../tools/cursor/">Cursor&lt;/a>&lt;/strong> — Build custom automation scripts: RSS-to-newsletter, auto-curate links, format and schedule sends via API.&lt;/li>
+&lt;/ul>
+&lt;h3 id="recommended-workflow">Recommended Workflow&lt;/h3>
+&lt;ol>
+&lt;li>Curate topics throughout the week (Obsidian or a simple note)&lt;/li>
+&lt;li>Feed topics to Claude → get a full draft&lt;/li>
+&lt;li>Edit in 15 minutes (your voice, your opinions — AI does the heavy lifting)&lt;/li>
+&lt;li>Format with your template&lt;/li>
+&lt;li>Schedule send in Beehiiv/ConvertKit&lt;/li>
+&lt;li>Optionally generate audio version with ElevenLabs&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Time per issue:&lt;/strong> 45-90 minutes instead of 4+ hours.&lt;/p></description></item><item><title>Tools for Solo SaaS</title><link>https://freedomstackai.com/use-cases/solo-saas/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/solo-saas/</guid><description>&lt;h1 id="tools-for-solo-saas">Tools for Solo SaaS&lt;/h1>
+&lt;p>Build and ship a software product by yourself. These tools handle the code, infrastructure, payments, and everything in between.&lt;/p>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../stacks/solo-saas/">The Solo SaaS Stack&lt;/a> — our recommended combination with cost breakdown.&lt;/p>
+&lt;hr>
+&lt;h3 id="ai-assisted-development">AI-Assisted Development&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/cursor/">Cursor&lt;/a>&lt;/strong> — AI code editor built on VS Code. Write features in natural language, refactor entire files, debug with context. The #1 tool for solo SaaS builders.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../tools/bolt-new/">Bolt.new&lt;/a>&lt;/strong> — Full-stack app generation in the browser. Lower floor than Cursor — great for prototyping and non-technical founders.&lt;/li>
+&lt;/ul>
+&lt;h3 id="backend--database">Backend &amp;amp; Database&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Supabase&lt;/strong> — Postgres database + auth + storage + real-time subscriptions. Generous free tier. Open source, so you can self-host if needed.&lt;/li>
+&lt;li>&lt;strong>PlanetScale&lt;/strong> — Serverless MySQL. Auto-scaling, branching for schema changes. Good alternative to Supabase if you prefer MySQL.&lt;/li>
+&lt;li>&lt;strong>Firebase&lt;/strong> — Google&amp;rsquo;s backend-as-a-service. Fast to prototype but higher lock-in risk.&lt;/li>
+&lt;/ul>
+&lt;h3 id="hosting--deployment">Hosting &amp;amp; Deployment&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Vercel&lt;/strong> — Push-to-deploy for Next.js and other frameworks. Preview deployments for every PR. Free tier is solid.&lt;/li>
+&lt;li>&lt;strong>Railway&lt;/strong> — Simple hosting for any stack. Good for backend services that don&amp;rsquo;t fit Vercel&amp;rsquo;s serverless model.&lt;/li>
+&lt;li>&lt;strong>Fly.io&lt;/strong> — Deploy containers globally. Good for apps that need persistent connections or specific runtime environments.&lt;/li>
+&lt;/ul>
+&lt;h3 id="payments">Payments&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Stripe&lt;/strong> — Industry standard. Subscriptions, one-time payments, usage-based billing, invoicing. Extensive API, well-documented.&lt;/li>
+&lt;li>&lt;strong>Lemon Squeezy&lt;/strong> — Stripe alternative that handles sales tax/VAT as merchant of record. Simpler setup, slightly higher fees.&lt;/li>
+&lt;/ul>
+&lt;h3 id="support--feedback">Support &amp;amp; Feedback&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft support responses, write documentation, generate FAQ pages from support tickets.&lt;/li>
+&lt;li>&lt;strong>Crisp&lt;/strong> — Free live chat widget. Good enough for early-stage SaaS.&lt;/li>
+&lt;/ul>
+&lt;h3 id="analytics">Analytics&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Plausible&lt;/strong> — Privacy-friendly, lightweight analytics. No cookie banners needed. Self-hostable.&lt;/li>
+&lt;li>&lt;strong>PostHog&lt;/strong> — Product analytics, feature flags, session replay. Generous free tier. Open source.&lt;/li>
+&lt;/ul></description></item></channel></rss>

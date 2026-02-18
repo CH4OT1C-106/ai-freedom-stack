@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Startup on AI Freedom Stack</title><link>https://freedomstackai.com/tags/startup/</link><description>Recent content in Startup on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/startup/index.xml" rel="self" type="application/rss+xml"/><item><title>The Solo SaaS Stack</title><link>https://freedomstackai.com/stacks/solo-saas/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/solo-saas/</guid><description>&lt;h1 id="the-solo-saas-stack">The Solo SaaS Stack&lt;/h1>
+&lt;p>&lt;strong>Build a real SaaS product — auth, database, payments, deployment — by yourself, in a weekend.&lt;/strong> This stack pairs AI-assisted coding with modern infrastructure that has generous free tiers. You write the prompts, the tools write the code, and you ship.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo developers, indie hackers, and technical founders who want to validate ideas fast without hiring or burning runway.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Non-technical founders (yet — see &lt;a href="../../tools/bolt-new/">Bolt.new&lt;/a> for a no-code-friendly alternative). Also not for enterprise-grade apps that need SOC2, complex RBAC, or multi-region from day one.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/cursor/">Cursor&lt;/a> / &lt;a href="../../tools/bolt-new/">Bolt.new&lt;/a>&lt;/td>
+ &lt;td>AI-powered development — write features in natural language&lt;/td>
+ &lt;td>$0–20/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Supabase&lt;/td>
+ &lt;td>Backend — database, auth, storage, real-time&lt;/td>
+ &lt;td>$0 (free tier covers most MVPs)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Vercel&lt;/td>
+ &lt;td>Hosting &amp;amp; deployment — push to deploy, edge functions&lt;/td>
+ &lt;td>$0 (free tier)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Stripe&lt;/td>
+ &lt;td>Payments — subscriptions, one-time, usage-based&lt;/td>
+ &lt;td>2.9% + 30¢ per transaction&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Your Idea
+ │
+ ▼
+┌──────────┐
+│ Cursor / │ → Write frontend (Next.js/React) + API routes
+│ Bolt.new │
+└────┬─────┘
+ │
+ ├──── connects to ──── Supabase (DB + Auth + Storage)
+ │
+ ├──── connects to ──── Stripe (Payments + Subscriptions)
+ │
+ ▼
+┌──────────┐
+│ Vercel │ → git push = live deployment, preview URLs for every PR
+└──────────┘
+ │
+ ▼
+ Live Product (yourapp.com)
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Stage&lt;/th>
+ &lt;th>Monthly Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Building / MVP (all free tiers)&lt;/td>
+ &lt;td>$0–20/mo (just Cursor Pro)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Launched, &amp;lt;1K users&lt;/td>
+ &lt;td>$0–25/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Growing, 1K–10K users&lt;/td>
+ &lt;td>$25–45/mo (Supabase Pro + Vercel Pro)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Revenue&lt;/td>
+ &lt;td>Stripe takes 2.9% + 30¢ per charge&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>The beauty:&lt;/strong> You don&amp;rsquo;t pay real money until you&amp;rsquo;re making real money. All four tools have free tiers that cover the build-and-launch phase.&lt;/p></description></item><item><title>Tools for Solo SaaS</title><link>https://freedomstackai.com/use-cases/solo-saas/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/solo-saas/</guid><description>&lt;h1 id="tools-for-solo-saas">Tools for Solo SaaS&lt;/h1>
+&lt;p>Build and ship a software product by yourself. These tools handle the code, infrastructure, payments, and everything in between.&lt;/p>
+&lt;p>&lt;strong>See also:&lt;/strong> &lt;a href="../../stacks/solo-saas/">The Solo SaaS Stack&lt;/a> — our recommended combination with cost breakdown.&lt;/p>
+&lt;hr>
+&lt;h3 id="ai-assisted-development">AI-Assisted Development&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/strong> — AI code editor built on VS Code. Write features in natural language, refactor entire files, debug with context. The #1 tool for solo SaaS builders.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/bolt-new/">Bolt.new&lt;/a>&lt;/strong> — Full-stack app generation in the browser. Lower floor than Cursor — great for prototyping and non-technical founders.&lt;/li>
+&lt;/ul>
+&lt;h3 id="backend--database">Backend &amp;amp; Database&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Supabase&lt;/strong> — Postgres database + auth + storage + real-time subscriptions. Generous free tier. Open source, so you can self-host if needed.&lt;/li>
+&lt;li>&lt;strong>PlanetScale&lt;/strong> — Serverless MySQL. Auto-scaling, branching for schema changes. Good alternative to Supabase if you prefer MySQL.&lt;/li>
+&lt;li>&lt;strong>Firebase&lt;/strong> — Google&amp;rsquo;s backend-as-a-service. Fast to prototype but higher lock-in risk.&lt;/li>
+&lt;/ul>
+&lt;h3 id="hosting--deployment">Hosting &amp;amp; Deployment&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Vercel&lt;/strong> — Push-to-deploy for Next.js and other frameworks. Preview deployments for every PR. Free tier is solid.&lt;/li>
+&lt;li>&lt;strong>Railway&lt;/strong> — Simple hosting for any stack. Good for backend services that don&amp;rsquo;t fit Vercel&amp;rsquo;s serverless model.&lt;/li>
+&lt;li>&lt;strong>Fly.io&lt;/strong> — Deploy containers globally. Good for apps that need persistent connections or specific runtime environments.&lt;/li>
+&lt;/ul>
+&lt;h3 id="payments">Payments&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Stripe&lt;/strong> — Industry standard. Subscriptions, one-time payments, usage-based billing, invoicing. Extensive API, well-documented.&lt;/li>
+&lt;li>&lt;strong>Lemon Squeezy&lt;/strong> — Stripe alternative that handles sales tax/VAT as merchant of record. Simpler setup, slightly higher fees.&lt;/li>
+&lt;/ul>
+&lt;h3 id="support--feedback">Support &amp;amp; Feedback&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft support responses, write documentation, generate FAQ pages from support tickets.&lt;/li>
+&lt;li>&lt;strong>Crisp&lt;/strong> — Free live chat widget. Good enough for early-stage SaaS.&lt;/li>
+&lt;/ul>
+&lt;h3 id="analytics">Analytics&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Plausible&lt;/strong> — Privacy-friendly, lightweight analytics. No cookie banners needed. Self-hostable.&lt;/li>
+&lt;li>&lt;strong>PostHog&lt;/strong> — Product analytics, feature flags, session replay. Generous free tier. Open source.&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Agents on AI Freedom Stack</title><link>https://freedomstackai.com/tags/agents/</link><description>Recent content in Agents on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/agents/index.xml" rel="self" type="application/rss+xml"/><item><title>Kimi K2.5</title><link>https://freedomstackai.com/tools/kimi-k25/</link><pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/kimi-k25/</guid><description>&lt;h2 id="what-is-kimi-k25">What is Kimi K2.5?&lt;/h2>
+&lt;p>Kimi K2.5 is a trillion-parameter AI model from Beijing-based Moonshot AI. It uses a Mixture of Experts architecture — 384 expert modules, only 32 billion active per query — giving you frontier-level intelligence at efficient compute costs. Its standout feature is Agent Swarm: native multi-agent task decomposition for complex research.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, analysts, and builders who need deep multi-source research and competitive intelligence&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Casual chatbot use or everyday questions — stick with ChatGPT for that&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Full trillion-parameter model&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Open Weights&lt;/td>
+ &lt;td>Free&lt;/td>
+ &lt;td>171B parameter version on HuggingFace&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The open weights version requires serious hardware to self-host (171B parameters).&lt;/p></description></item></channel></rss>

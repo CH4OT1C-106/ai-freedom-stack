@@ -1,0 +1,28 @@
+# AI Freedom Stack
+# https://freedomstackai.com
+# Curated AI tools and workflows for solo builders escaping the 9-5
+
+## About
+AI Freedom Stack reviews and rates AI tools through the lens of independence, privacy, and solo builder utility. Every tool is tested and scored on a 1-10 Freedom Score.
+
+## Sections
+- /tools/ — AI tool reviews with Freedom Scores, pricing, and honest verdicts
+- /posts/ — Articles on AI workflows, strategy, and solo building
+
+## Tool Reviews
+- /tools/cursor/ — Cursor: AI code editor (Freedom Score: 7/10)
+- /tools/ollama/ — Ollama: Local AI models (Freedom Score: 10/10)
+- /tools/elevenlabs/ — ElevenLabs: AI voice generation (Freedom Score: 6/10)
+- /tools/bolt-new/ — Bolt.new: Browser-based app builder (Freedom Score: 5/10)
+- /tools/kimi-k25/ — Kimi K2.5: Trillion-parameter research model (Freedom Score: 6/10)
+- /tools/30-min-video-pipeline/ — 30-Minute Video Pipeline workflow (Freedom Score: 9/10)
+
+## Freedom Score Scale
+- 9-10: Freedom First — fully open, self-hostable, no vendor lock-in
+- 7-8: Builder Friendly — good terms, exportable data, fair pricing
+- 5-6: Proceed with Caution — useful but watch the fine print
+- 3-4: Leash Detected — significant restrictions or lock-in
+- 1-2: Trap Tool — avoid for independent builders
+
+## Contact
+Website: https://freedomstackai.com

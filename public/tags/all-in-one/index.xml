@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>All-in-One on AI Freedom Stack</title><link>https://freedomstackai.com/tags/all-in-one/</link><description>Recent content in All-in-One on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/all-in-one/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT (OpenAI)</title><link>https://freedomstackai.com/tools/chatgpt/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/chatgpt/</guid><description>&lt;h2 id="what-is-chatgpt">What is ChatGPT?&lt;/h2>
+&lt;p>OpenAI&amp;rsquo;s flagship consumer AI product. GPT-4o is the engine — a multimodal model that handles text, images, audio, and code. The app layers on web browsing, DALL-E image generation, file analysis, and a plugin ecosystem. It&amp;rsquo;s the most feature-complete AI assistant available.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want a single AI tool for everything — writing, research, coding, images&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the absolute best quality in one domain (Claude beats it for writing, Midjourney for images)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>GPT-4o (limited), GPT-4o-mini, DALL-E, browsing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Plus&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More GPT-4o, voice mode, early features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$200/mo&lt;/td>
+ &lt;td>Unlimited GPT-4o, o1-pro for heavy reasoning&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>GPT-4o ~$2.50/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $200/mo Pro tier exists and OpenAI keeps pushing features there first. Plus is fine for most people.&lt;/p></description></item></channel></rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Knowledge Base on AI Freedom Stack</title><link>https://freedomstackai.com/tags/knowledge-base/</link><description>Recent content in Knowledge Base on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/knowledge-base/index.xml" rel="self" type="application/rss+xml"/><item><title>Obsidian</title><link>https://freedomstackai.com/tools/obsidian/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/obsidian/</guid><description>&lt;h2 id="what-is-obsidian">What is Obsidian?&lt;/h2>
+&lt;p>A note-taking and knowledge management app built on plain markdown files stored locally. No proprietary database, no cloud requirement, no account needed. Your notes are just &lt;code>.md&lt;/code> files in a folder. The plugin ecosystem adds everything from AI chat to kanban boards to graph views of your knowledge.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want a knowledge base they own forever, with no cloud dependency&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Teams needing real-time collaboration (Notion is better for that)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Personal&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Full app, all core features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Commercial&lt;/td>
+ &lt;td>$50/yr&lt;/td>
+ &lt;td>Same app, commercial license&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Sync&lt;/td>
+ &lt;td>$4/mo&lt;/td>
+ &lt;td>End-to-end encrypted cloud sync&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Publish&lt;/td>
+ &lt;td>$8/mo&lt;/td>
+ &lt;td>Publish notes as a website&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Sync between devices requires either paying for Obsidian Sync or setting up your own solution (iCloud, Syncthing, Git).&lt;/p></description></item></channel></rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reasoning on AI Freedom Stack</title><link>https://freedomstackai.com/tags/reasoning/</link><description>Recent content in Reasoning on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/reasoning/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude (Anthropic)</title><link>https://freedomstackai.com/tools/claude/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/claude/</guid><description>&lt;h2 id="what-is-claude">What is Claude?&lt;/h2>
+&lt;p>Claude is Anthropic&amp;rsquo;s family of AI models. Opus is the powerhouse for deep reasoning, Sonnet is the daily driver balancing speed and quality, and Haiku is the fast/cheap option for simple tasks. For solo builders, you&amp;rsquo;ll live in Sonnet 90% of the time and pull out Opus when you need to think hard.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who need high-quality writing, complex coding help, or deep analysis&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who just need quick factual lookups (Perplexity is better) or image generation&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited Sonnet messages, basic features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More Sonnet, some Opus, Projects, longer context&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Sonnet ~$3/M input, Opus ~$15/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Pro usage caps aren&amp;rsquo;t published — you&amp;rsquo;ll hit them during heavy work sessions. API is more predictable but requires technical setup.&lt;/p></description></item></channel></rss>

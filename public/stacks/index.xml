@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Curated Stacks on AI Freedom Stack</title><link>https://freedomstackai.com/stacks/</link><description>Recent content in Curated Stacks on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/stacks/index.xml" rel="self" type="application/rss+xml"/><item><title>The Content Machine Stack</title><link>https://freedomstackai.com/stacks/content-machine/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/content-machine/</guid><description>&lt;h1 id="the-content-machine-stack">The Content Machine Stack&lt;/h1>
+&lt;p>&lt;strong>One person. Blog posts, social media, newsletters, and video — all shipping weekly.&lt;/strong> This stack turns a solo creator into a content studio by chaining AI writing, image generation, voice synthesis, and a programmable publishing layer.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo creators, indie bloggers, newsletter operators, and personal brand builders who need to produce across multiple formats without a team.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Large editorial teams with existing workflows, or creators who need photorealistic brand photography (you&amp;rsquo;ll want a real camera for that).&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../tools/claude/">Claude&lt;/a>&lt;/td>
+ &lt;td>Writing — drafts, editing, repurposing&lt;/td>
+ &lt;td>$20/mo (Pro)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Stable Diffusion (local) or Midjourney&lt;/td>
+ &lt;td>Image generation — thumbnails, illustrations, social graphics&lt;/td>
+ &lt;td>$0 (local) or $10/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/td>
+ &lt;td>Voiceover — narration, audiograms, podcast clips&lt;/td>
+ &lt;td>$5–22/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="../tools/cursor/">Cursor&lt;/a>&lt;/td>
+ &lt;td>Publishing automation — custom scripts, site updates&lt;/td>
+ &lt;td>$0–20/mo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Idea / Outline
+ │
+ ▼
+ ┌────────┐
+ │ Claude │ → Blog post, newsletter draft, social threads, video script
+ └───┬────┘
+ │
+ ├──────────────────┐
+ ▼ ▼
+┌──────────────┐ ┌───────────┐
+│ Stable Diff/ │ │ ElevenLabs│ → Voiceover from script
+│ Midjourney │ └───────────┘
+│ → Images │
+└──────────────┘
+ │ │
+ └────────┬─────────┘
+ ▼
+ ┌──────────┐
+ │ Cursor │ → Assemble, format, publish (site/newsletter/social)
+ └──────────┘
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tier&lt;/th>
+ &lt;th>Monthly Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Budget (SD local + Claude + ElevenLabs Starter)&lt;/td>
+ &lt;td>~$25/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Standard (Midjourney + Claude Pro + ElevenLabs)&lt;/td>
+ &lt;td>~$52/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Full send (all paid tiers)&lt;/td>
+ &lt;td>~$80/mo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="freedom-score--45">Freedom Score: ⭐⭐⭐⭐☆ (4/5)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Why 4:&lt;/strong> You own your content, can swap any tool, and the local image generation option means no vendor lock-in for visuals. Claude and ElevenLabs are cloud-dependent, which docks a point.&lt;/li>
+&lt;li>&lt;strong>Lock-in risk:&lt;/strong> Low. All outputs are standard formats (text, PNG, MP3). Nothing traps you.&lt;/li>
+&lt;/ul>
+&lt;h2 id="getting-started-this-afternoon">Getting Started (This Afternoon)&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Sign up for Claude Pro&lt;/strong> ($20/mo). Create a project with your brand voice guidelines and sample content.&lt;/li>
+&lt;li>&lt;strong>Set up image generation.&lt;/strong> Easiest: Midjourney ($10/mo). Most free: install &lt;a href="../tools/comfyui/">ComfyUI + Stable Diffusion locally&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Create an ElevenLabs account.&lt;/strong> Clone your voice or pick a stock voice. Test with a 60-second script.&lt;/li>
+&lt;li>&lt;strong>Open Cursor.&lt;/strong> Build a simple publishing script — even just a markdown-to-HTML converter that drops files into your site&amp;rsquo;s content folder.&lt;/li>
+&lt;li>&lt;strong>Run your first piece through the full pipeline.&lt;/strong> Idea → Claude draft → generate 2-3 images → record voiceover → publish. Time it. You&amp;rsquo;ll be shocked.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Expected output:&lt;/strong> 3-5 blog posts/week, daily social content, weekly newsletter, optional audio versions of everything. One person.&lt;/p></description></item><item><title>The Faceless YouTube Stack</title><link>https://freedomstackai.com/stacks/faceless-youtube/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/faceless-youtube/</guid><description>&lt;h1 id="the-faceless-youtube-stack">The Faceless YouTube Stack&lt;/h1>
+&lt;p>&lt;strong>A complete YouTube channel without showing your face or hiring anyone.&lt;/strong> AI writes your scripts, generates your voice, creates your visuals, and you just edit and upload. Channels using this approach are pulling 10K–100K+ views per video in niches like finance, history, tech explainers, and motivation.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Side-hustlers, niche content creators, and anyone who wants YouTube ad revenue without being on camera.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Vloggers, personality-driven creators, or anyone whose audience expects a human face. Also not ideal if you need real-world footage (travel, cooking).&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../tools/claude/">Claude&lt;/a>&lt;/td>
+ &lt;td>Script writing — research, outlines, full scripts&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/td>
+ &lt;td>AI voiceover — natural narration&lt;/td>
+ &lt;td>$5–22/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Stable Diffusion / Midjourney&lt;/td>
+ &lt;td>Visual generation — backgrounds, illustrations, thumbnails&lt;/td>
+ &lt;td>$0–10/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>CapCut / DaVinci Resolve&lt;/td>
+ &lt;td>Video editing — assembly, captions, effects&lt;/td>
+ &lt;td>$0 (free tiers)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Niche Research + Topic Idea
+ │
+ ▼
+ ┌──────────┐
+ │ Claude │ → Full video script (with visual cues + timing notes)
+ └────┬─────┘
+ │
+ ┌────┴─────────────────┐
+ ▼ ▼
+┌───────────┐ ┌──────────────┐
+│ ElevenLabs│ │ Stable Diff/ │
+│ → Voice │ │ Midjourney │
+│ narration│ │ → Visuals │
+└─────┬─────┘ └──────┬───────┘
+ │ │
+ └────────┬───────────┘
+ ▼
+ ┌────────────┐
+ │CapCut/ │ → Final video with captions, transitions, music
+ │DaVinci │
+ └────────────┘
+ │
+ ▼
+ YouTube Upload
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tier&lt;/th>
+ &lt;th>Monthly Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Budget (Claude + ElevenLabs Starter + SD local + CapCut free)&lt;/td>
+ &lt;td>~$25/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Standard (Claude + ElevenLabs + Midjourney + CapCut free)&lt;/td>
+ &lt;td>~$52/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Premium (all paid tiers + stock footage sub)&lt;/td>
+ &lt;td>~$70/mo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="freedom-score--45">Freedom Score: ⭐⭐⭐⭐☆ (4/5)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Why 4:&lt;/strong> You own your channel, your scripts, and your video files. Voice and images are generated fresh each time. Swapping any single tool is straightforward.&lt;/li>
+&lt;li>&lt;strong>Lock-in risk:&lt;/strong> Minimal. The only real dependency is your YouTube channel itself — but that&amp;rsquo;s the distribution, not the tooling.&lt;/li>
+&lt;/ul>
+&lt;h2 id="getting-started-this-weekend">Getting Started (This Weekend)&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Pick your niche.&lt;/strong> Top faceless niches: personal finance, AI/tech explainers, history, psychology, &amp;ldquo;top 10&amp;rdquo; lists, motivation. Pick one you can talk about for 100 videos.&lt;/li>
+&lt;li>&lt;strong>Set up Claude.&lt;/strong> Create a system prompt: &amp;ldquo;You are a YouTube scriptwriter for a [niche] channel. Scripts should be 8-12 minutes of spoken content with visual cues in brackets.&amp;rdquo;&lt;/li>
+&lt;li>&lt;strong>Generate your first script.&lt;/strong> Ask Claude for a script on a trending topic in your niche. Include hook, body, CTA.&lt;/li>
+&lt;li>&lt;strong>Record voiceover in ElevenLabs.&lt;/strong> Paste the script, pick a voice, download the MP3.&lt;/li>
+&lt;li>&lt;strong>Generate visuals.&lt;/strong> Use the visual cues from your script to prompt Stable Diffusion or Midjourney. Aim for 15-25 images per video.&lt;/li>
+&lt;li>&lt;strong>Assemble in CapCut or DaVinci Resolve.&lt;/strong> Drop in narration, layer visuals on the timeline, add auto-captions, background music, transitions.&lt;/li>
+&lt;li>&lt;strong>Upload and optimize.&lt;/strong> Use Claude to write your title, description, and tags.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Expected output:&lt;/strong> 2-3 videos/week. Each video takes 3-5 hours start to finish once you have a rhythm.&lt;/p></description></item><item><title>The Local Intelligence Stack</title><link>https://freedomstackai.com/stacks/local-intelligence/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/local-intelligence/</guid><description>&lt;h1 id="the-local-intelligence-stack">The Local Intelligence Stack&lt;/h1>
+&lt;p>&lt;strong>AI that runs on your machine, works offline, and sends zero data to the cloud.&lt;/strong> This is the maximum-freedom stack: open-source models for text, images, and audio, organized in a local knowledge base you fully own. Monthly cost: $0 after hardware.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Privacy-conscious builders, researchers, preppers, anyone in a country with restricted AI access, developers who want to understand how models actually work, and anyone tired of subscription fatigue.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People without a decent GPU (16GB+ VRAM recommended), anyone who needs GPT-4-level reasoning (local models are good but not frontier-tier), or creators who need ElevenLabs-quality voice cloning.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../tools/ollama/">Ollama&lt;/a>&lt;/td>
+ &lt;td>Local LLM runner — chat, writing, coding, analysis&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>ComfyUI + Stable Diffusion&lt;/td>
+ &lt;td>Local image generation — any style, no content filters&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Whisper (OpenAI, local)&lt;/td>
+ &lt;td>Speech-to-text — transcribe anything offline&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Obsidian&lt;/td>
+ &lt;td>Knowledge base — notes, linked thinking, local-first&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Your Brain / Voice / Documents
+ │
+ ┌─────┴──────┐
+ ▼ ▼
+┌─────────┐ ┌─────────┐
+│ Whisper │ │ Ollama │ → Chat, write, summarize, code
+│ → Text │ └────┬────┘
+└────┬────┘ │
+ │ │
+ └─────┬──────┘
+ ▼
+ ┌──────────┐
+ │ Obsidian │ → Store, link, organize everything
+ └────┬─────┘
+ │
+ │ (need an image?)
+ ▼
+ ┌──────────┐
+ │ ComfyUI │ → Generate illustrations, diagrams, concepts
+ └──────────┘
+
+Everything stays on your machine. Nothing phones home.
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Item&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Software&lt;/td>
+ &lt;td>$0 — all open source&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Cloud services&lt;/td>
+ &lt;td>$0 — none needed&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Electricity&lt;/td>
+ &lt;td>~$5-15/mo if running GPU-heavy workloads daily&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;strong>Total&lt;/strong>&lt;/td>
+ &lt;td>&lt;strong>$0/mo&lt;/strong> (after hardware)&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hardware reality check:&lt;/strong> You need a GPU. A used RTX 3090 (24GB VRAM) runs ~$600-800 and handles all of this beautifully. An M1/M2/M3 Mac with 16GB+ unified memory also works well for Ollama and Whisper, though image generation is slower.&lt;/p></description></item><item><title>The Solo SaaS Stack</title><link>https://freedomstackai.com/stacks/solo-saas/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/solo-saas/</guid><description>&lt;h1 id="the-solo-saas-stack">The Solo SaaS Stack&lt;/h1>
+&lt;p>&lt;strong>Build a real SaaS product — auth, database, payments, deployment — by yourself, in a weekend.&lt;/strong> This stack pairs AI-assisted coding with modern infrastructure that has generous free tiers. You write the prompts, the tools write the code, and you ship.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo developers, indie hackers, and technical founders who want to validate ideas fast without hiring or burning runway.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Non-technical founders (yet — see &lt;a href="../tools/bolt-new/">Bolt.new&lt;/a> for a no-code-friendly alternative). Also not for enterprise-grade apps that need SOC2, complex RBAC, or multi-region from day one.&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../tools/cursor/">Cursor&lt;/a> / &lt;a href="../tools/bolt-new/">Bolt.new&lt;/a>&lt;/td>
+ &lt;td>AI-powered development — write features in natural language&lt;/td>
+ &lt;td>$0–20/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Supabase&lt;/td>
+ &lt;td>Backend — database, auth, storage, real-time&lt;/td>
+ &lt;td>$0 (free tier covers most MVPs)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Vercel&lt;/td>
+ &lt;td>Hosting &amp;amp; deployment — push to deploy, edge functions&lt;/td>
+ &lt;td>$0 (free tier)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Stripe&lt;/td>
+ &lt;td>Payments — subscriptions, one-time, usage-based&lt;/td>
+ &lt;td>2.9% + 30¢ per transaction&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Your Idea
+ │
+ ▼
+┌──────────┐
+│ Cursor / │ → Write frontend (Next.js/React) + API routes
+│ Bolt.new │
+└────┬─────┘
+ │
+ ├──── connects to ──── Supabase (DB + Auth + Storage)
+ │
+ ├──── connects to ──── Stripe (Payments + Subscriptions)
+ │
+ ▼
+┌──────────┐
+│ Vercel │ → git push = live deployment, preview URLs for every PR
+└──────────┘
+ │
+ ▼
+ Live Product (yourapp.com)
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Stage&lt;/th>
+ &lt;th>Monthly Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Building / MVP (all free tiers)&lt;/td>
+ &lt;td>$0–20/mo (just Cursor Pro)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Launched, &amp;lt;1K users&lt;/td>
+ &lt;td>$0–25/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Growing, 1K–10K users&lt;/td>
+ &lt;td>$25–45/mo (Supabase Pro + Vercel Pro)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Revenue&lt;/td>
+ &lt;td>Stripe takes 2.9% + 30¢ per charge&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>The beauty:&lt;/strong> You don&amp;rsquo;t pay real money until you&amp;rsquo;re making real money. All four tools have free tiers that cover the build-and-launch phase.&lt;/p></description></item></channel></rss>

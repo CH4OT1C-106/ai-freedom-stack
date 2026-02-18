@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Writing on AI Freedom Stack</title><link>https://freedomstackai.com/tags/writing/</link><description>Recent content in Writing on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/tags/writing/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT (OpenAI)</title><link>https://freedomstackai.com/tools/chatgpt/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/chatgpt/</guid><description>&lt;h2 id="what-is-chatgpt">What is ChatGPT?&lt;/h2>
+&lt;p>OpenAI&amp;rsquo;s flagship consumer AI product. GPT-4o is the engine — a multimodal model that handles text, images, audio, and code. The app layers on web browsing, DALL-E image generation, file analysis, and a plugin ecosystem. It&amp;rsquo;s the most feature-complete AI assistant available.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who want a single AI tool for everything — writing, research, coding, images&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the absolute best quality in one domain (Claude beats it for writing, Midjourney for images)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>GPT-4o (limited), GPT-4o-mini, DALL-E, browsing&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Plus&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More GPT-4o, voice mode, early features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$200/mo&lt;/td>
+ &lt;td>Unlimited GPT-4o, o1-pro for heavy reasoning&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>GPT-4o ~$2.50/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $200/mo Pro tier exists and OpenAI keeps pushing features there first. Plus is fine for most people.&lt;/p></description></item><item><title>Claude (Anthropic)</title><link>https://freedomstackai.com/tools/claude/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/claude/</guid><description>&lt;h2 id="what-is-claude">What is Claude?&lt;/h2>
+&lt;p>Claude is Anthropic&amp;rsquo;s family of AI models. Opus is the powerhouse for deep reasoning, Sonnet is the daily driver balancing speed and quality, and Haiku is the fast/cheap option for simple tasks. For solo builders, you&amp;rsquo;ll live in Sonnet 90% of the time and pull out Opus when you need to think hard.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo builders who need high-quality writing, complex coding help, or deep analysis&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who just need quick factual lookups (Perplexity is better) or image generation&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐⭐ (5/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Limited Sonnet messages, basic features&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Pro&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>More Sonnet, some Opus, Projects, longer context&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Sonnet ~$3/M input, Opus ~$15/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> Pro usage caps aren&amp;rsquo;t published — you&amp;rsquo;ll hit them during heavy work sessions. API is more predictable but requires technical setup.&lt;/p></description></item><item><title>Gemini (Google)</title><link>https://freedomstackai.com/tools/gemini/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/gemini/</guid><description>&lt;h2 id="what-is-gemini">What is Gemini?&lt;/h2>
+&lt;p>Google&amp;rsquo;s AI platform, powered by the Gemini model family. The killer feature is context — 1M+ tokens means you can feed it entire books, codebases, or research papers. Comes with built-in Google Search, image generation (Imagen), and tight integration with Google Workspace.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Researchers, content creators processing large documents, anyone in Google&amp;rsquo;s ecosystem&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> People who need the best writing quality (Claude) or the most versatile tool (ChatGPT)&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐⭐☆ (4/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free&lt;/td>
+ &lt;td>$0&lt;/td>
+ &lt;td>Gemini Pro, image gen, web search, generous limits&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Advanced&lt;/td>
+ &lt;td>$20/mo&lt;/td>
+ &lt;td>1M+ context, Workspace integration, Gemini Ultra&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>API&lt;/td>
+ &lt;td>Pay-per-token&lt;/td>
+ &lt;td>Pro: free tier available, Ultra from ~$1.25/M input&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> The $20/mo bundles with Google One (2TB storage), which is actually decent value if you need cloud storage anyway.&lt;/p></description></item><item><title>Notion AI</title><link>https://freedomstackai.com/tools/notion-ai/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/tools/notion-ai/</guid><description>&lt;h2 id="what-is-notion-ai">What is Notion AI?&lt;/h2>
+&lt;p>An AI layer built into Notion&amp;rsquo;s workspace app. It can draft content, summarize pages, brainstorm ideas, extract action items, and answer questions about your workspace. It works inline — highlight text, ask AI to improve it, done.&lt;/p>
+&lt;h2 id="who-is-it-for">Who is it for?&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Existing heavy Notion users who want AI without leaving their workspace&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Anyone not already using Notion — don&amp;rsquo;t adopt Notion just for the AI&lt;/li>
+&lt;li>&lt;strong>Solo builder score:&lt;/strong> ⭐⭐⭐☆☆ (3/5)&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-does-it-cost">What does it cost?&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Plan&lt;/th>
+ &lt;th>Price&lt;/th>
+ &lt;th>What You Get&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Free + AI&lt;/td>
+ &lt;td>Can&amp;rsquo;t&lt;/td>
+ &lt;td>AI requires paid plan&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Plus + AI&lt;/td>
+ &lt;td>$18/mo total&lt;/td>
+ &lt;td>Notion workspace + unlimited AI&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Business + AI&lt;/td>
+ &lt;td>$25/mo total&lt;/td>
+ &lt;td>Team features + AI&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Hidden costs:&lt;/strong> You&amp;rsquo;re paying for Notion AND the AI. If you&amp;rsquo;re not getting value from Notion itself, this is expensive for what the AI adds.&lt;/p></description></item><item><title>The Content Machine Stack</title><link>https://freedomstackai.com/stacks/content-machine/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/stacks/content-machine/</guid><description>&lt;h1 id="the-content-machine-stack">The Content Machine Stack&lt;/h1>
+&lt;p>&lt;strong>One person. Blog posts, social media, newsletters, and video — all shipping weekly.&lt;/strong> This stack turns a solo creator into a content studio by chaining AI writing, image generation, voice synthesis, and a programmable publishing layer.&lt;/p>
+&lt;h2 id="who-its-for">Who It&amp;rsquo;s For&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Best for:&lt;/strong> Solo creators, indie bloggers, newsletter operators, and personal brand builders who need to produce across multiple formats without a team.&lt;/li>
+&lt;li>&lt;strong>Not for:&lt;/strong> Large editorial teams with existing workflows, or creators who need photorealistic brand photography (you&amp;rsquo;ll want a real camera for that).&lt;/li>
+&lt;/ul>
+&lt;h2 id="the-tools">The Tools&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tool&lt;/th>
+ &lt;th>Role&lt;/th>
+ &lt;th>Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/td>
+ &lt;td>Writing — drafts, editing, repurposing&lt;/td>
+ &lt;td>$20/mo (Pro)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Stable Diffusion (local) or Midjourney&lt;/td>
+ &lt;td>Image generation — thumbnails, illustrations, social graphics&lt;/td>
+ &lt;td>$0 (local) or $10/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/td>
+ &lt;td>Voiceover — narration, audiograms, podcast clips&lt;/td>
+ &lt;td>$5–22/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/td>
+ &lt;td>Publishing automation — custom scripts, site updates&lt;/td>
+ &lt;td>$0–20/mo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="how-they-connect">How They Connect&lt;/h2>
+&lt;pre tabindex="0">&lt;code>Idea / Outline
+ │
+ ▼
+ ┌────────┐
+ │ Claude │ → Blog post, newsletter draft, social threads, video script
+ └───┬────┘
+ │
+ ├──────────────────┐
+ ▼ ▼
+┌──────────────┐ ┌───────────┐
+│ Stable Diff/ │ │ ElevenLabs│ → Voiceover from script
+│ Midjourney │ └───────────┘
+│ → Images │
+└──────────────┘
+ │ │
+ └────────┬─────────┘
+ ▼
+ ┌──────────┐
+ │ Cursor │ → Assemble, format, publish (site/newsletter/social)
+ └──────────┘
+&lt;/code>&lt;/pre>&lt;h2 id="total-monthly-cost">Total Monthly Cost&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>Tier&lt;/th>
+ &lt;th>Monthly Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Budget (SD local + Claude + ElevenLabs Starter)&lt;/td>
+ &lt;td>~$25/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Standard (Midjourney + Claude Pro + ElevenLabs)&lt;/td>
+ &lt;td>~$52/mo&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Full send (all paid tiers)&lt;/td>
+ &lt;td>~$80/mo&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="freedom-score--45">Freedom Score: ⭐⭐⭐⭐☆ (4/5)&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Why 4:&lt;/strong> You own your content, can swap any tool, and the local image generation option means no vendor lock-in for visuals. Claude and ElevenLabs are cloud-dependent, which docks a point.&lt;/li>
+&lt;li>&lt;strong>Lock-in risk:&lt;/strong> Low. All outputs are standard formats (text, PNG, MP3). Nothing traps you.&lt;/li>
+&lt;/ul>
+&lt;h2 id="getting-started-this-afternoon">Getting Started (This Afternoon)&lt;/h2>
+&lt;ol>
+&lt;li>&lt;strong>Sign up for Claude Pro&lt;/strong> ($20/mo). Create a project with your brand voice guidelines and sample content.&lt;/li>
+&lt;li>&lt;strong>Set up image generation.&lt;/strong> Easiest: Midjourney ($10/mo). Most free: install &lt;a href="../../tools/comfyui/">ComfyUI + Stable Diffusion locally&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Create an ElevenLabs account.&lt;/strong> Clone your voice or pick a stock voice. Test with a 60-second script.&lt;/li>
+&lt;li>&lt;strong>Open Cursor.&lt;/strong> Build a simple publishing script — even just a markdown-to-HTML converter that drops files into your site&amp;rsquo;s content folder.&lt;/li>
+&lt;li>&lt;strong>Run your first piece through the full pipeline.&lt;/strong> Idea → Claude draft → generate 2-3 images → record voiceover → publish. Time it. You&amp;rsquo;ll be shocked.&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Expected output:&lt;/strong> 3-5 blog posts/week, daily social content, weekly newsletter, optional audio versions of everything. One person.&lt;/p></description></item><item><title>Tools for AI-Powered Research</title><link>https://freedomstackai.com/use-cases/ai-research/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/ai-research/</guid><description>&lt;h1 id="tools-for-ai-powered-research">Tools for AI-Powered Research&lt;/h1>
+&lt;p>Use AI to research faster, synthesize information from multiple sources, and produce well-sourced analysis.&lt;/p>
+&lt;hr>
+&lt;h3 id="deep-research--synthesis">Deep Research &amp;amp; Synthesis&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Best for long-form analysis and synthesis. 200K token context window lets you feed entire documents and get comprehensive summaries. Projects feature stores research context across conversations.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/kimi-k25/">Kimi K2.5&lt;/a>&lt;/strong> — Massive context window for processing large documents. Strong at multi-source synthesis.&lt;/li>
+&lt;li>&lt;strong>Perplexity AI&lt;/strong> — AI search engine that cites its sources. Good for initial research and fact-finding. Free tier is useful; Pro unlocks more powerful models.&lt;/li>
+&lt;/ul>
+&lt;h3 id="document-processing">Document Processing&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Whisper (local)&lt;/strong> — Transcribe interviews, podcasts, lectures, and meetings. Run locally for free with &lt;a href="../../tools/ollama/">Ollama&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>NotebookLM (Google)&lt;/strong> — Upload documents and chat with them. Auto-generates summaries, FAQs, and audio overviews.&lt;/li>
+&lt;/ul>
+&lt;h3 id="knowledge-management">Knowledge Management&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Obsidian&lt;/strong> — Local-first note-taking with bidirectional linking. Build a personal knowledge graph from your research. Pairs beautifully with &lt;a href="../../tools/ollama/">Ollama&lt;/a> for local AI chat about your notes.&lt;/li>
+&lt;li>&lt;strong>Logseq&lt;/strong> — Open-source alternative to Obsidian. Outline-based. Good for daily journals and block-level references.&lt;/li>
+&lt;/ul>
+&lt;h3 id="data-analysis">Data Analysis&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Upload CSVs and get analysis, charts, and insights. Artifacts feature renders visualizations inline.&lt;/li>
+&lt;li>&lt;strong>Julius AI&lt;/strong> — Purpose-built for data analysis. Upload spreadsheets, ask questions in plain English, get charts and statistical analysis.&lt;/li>
+&lt;/ul>
+&lt;h3 id="citation--writing">Citation &amp;amp; Writing&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Zotero&lt;/strong> — Free, open-source reference manager. Essential for academic or well-sourced writing.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft research reports, literature reviews, and analysis from your collected sources.&lt;/li>
+&lt;/ul>
+&lt;h3 id="recommended-workflow">Recommended Workflow&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Discover&lt;/strong> — Use Perplexity to survey a topic and collect initial sources&lt;/li>
+&lt;li>&lt;strong>Collect&lt;/strong> — Save sources to Zotero, transcribe audio with Whisper&lt;/li>
+&lt;li>&lt;strong>Process&lt;/strong> — Feed documents to Claude or Kimi for synthesis and analysis&lt;/li>
+&lt;li>&lt;strong>Connect&lt;/strong> — Store insights in Obsidian, link related concepts&lt;/li>
+&lt;li>&lt;strong>Produce&lt;/strong> — Draft final output with Claude, citing your sources&lt;/li>
+&lt;/ol></description></item><item><title>Tools for Newsletter Automation</title><link>https://freedomstackai.com/use-cases/newsletter-automation/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/use-cases/newsletter-automation/</guid><description>&lt;h1 id="tools-for-newsletter-automation">Tools for Newsletter Automation&lt;/h1>
+&lt;p>Build and run a newsletter with AI handling the heavy lifting — research, writing, formatting, and scheduling.&lt;/p>
+&lt;hr>
+&lt;h3 id="writing--research">Writing &amp;amp; Research&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/claude/">Claude&lt;/a>&lt;/strong> — Draft full newsletter editions from bullet points or topic prompts. Excellent at maintaining consistent voice across issues. Use Projects to store your style guide and past editions.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/kimi-k25/">Kimi K2.5&lt;/a>&lt;/strong> — Great for research-heavy newsletters. Feed it multiple sources and get synthesized summaries.&lt;/li>
+&lt;/ul>
+&lt;h3 id="design--formatting">Design &amp;amp; Formatting&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/strong> — Build custom newsletter templates in HTML/CSS. Automate formatting with scripts that convert markdown drafts to email-ready HTML.&lt;/li>
+&lt;/ul>
+&lt;h3 id="voiceover-audio-newsletters">Voiceover (Audio Newsletters)&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>&lt;a href="../../tools/elevenlabs/">ElevenLabs&lt;/a>&lt;/strong> — Turn your newsletter into a podcast-style audio version. Growing trend — readers love having an audio option.&lt;/li>
+&lt;/ul>
+&lt;h3 id="sending--management">Sending &amp;amp; Management&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Beehiiv&lt;/strong> — Newsletter platform with free tier up to 2,500 subscribers. Built-in analytics, referral program, and monetization.&lt;/li>
+&lt;li>&lt;strong>ConvertKit (Kit)&lt;/strong> — Creator-focused email platform. Visual automations, tagging, segmentation.&lt;/li>
+&lt;li>&lt;strong>Buttondown&lt;/strong> — Minimal, markdown-first newsletter tool. Great for developers and writers who want simplicity.&lt;/li>
+&lt;/ul>
+&lt;h3 id="automation--scheduling">Automation &amp;amp; Scheduling&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Zapier / Make&lt;/strong> — Connect your writing tools to your sending platform. Auto-publish drafts on a schedule.&lt;/li>
+&lt;li>&lt;strong>&lt;a href="../../tools/cursor/">Cursor&lt;/a>&lt;/strong> — Build custom automation scripts: RSS-to-newsletter, auto-curate links, format and schedule sends via API.&lt;/li>
+&lt;/ul>
+&lt;h3 id="recommended-workflow">Recommended Workflow&lt;/h3>
+&lt;ol>
+&lt;li>Curate topics throughout the week (Obsidian or a simple note)&lt;/li>
+&lt;li>Feed topics to Claude → get a full draft&lt;/li>
+&lt;li>Edit in 15 minutes (your voice, your opinions — AI does the heavy lifting)&lt;/li>
+&lt;li>Format with your template&lt;/li>
+&lt;li>Schedule send in Beehiiv/ConvertKit&lt;/li>
+&lt;li>Optionally generate audio version with ElevenLabs&lt;/li>
+&lt;/ol>
+&lt;p>&lt;strong>Time per issue:&lt;/strong> 45-90 minutes instead of 4+ hours.&lt;/p></description></item></channel></rss>
