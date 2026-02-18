@@ -1,0 +1,65 @@
+{{ define "main" }}
+<section class="overview-page">
+  <div class="container">
+    <h1>AI Tools at a Glance</h1>
+    <p class="overview-subtitle">Every tool we've reviewed. One page. Freedom Scores tell you who's building for you — and who's building a trap.</p>
+    
+    <div class="overview-legend">
+      <span class="legend-item"><span class="score-dot score-green"></span> 7-10: Freedom First / Builder Friendly</span>
+      <span class="legend-item"><span class="score-dot score-yellow"></span> 5-6: Proceed with Caution</span>
+      <span class="legend-item"><span class="score-dot score-orange"></span> 3-4: Leash Detected</span>
+      <span class="legend-item"><span class="score-dot score-red"></span> 1-2: Trap Tool</span>
+    </div>
+
+    {{ $data := .Site.Data.tools_overview }}
+    {{ range $data.categories }}
+    <div class="overview-category">
+      <h2>{{ .name }}</h2>
+      <div class="overview-table-wrap">
+        <table class="overview-table">
+          <thead>
+            <tr>
+              <th>Tool</th>
+              <th>Price</th>
+              <th>Free?</th>
+              <th class="freedom-col">Freedom Score</th>
+              <th>Best For</th>
+              <th>Verdict</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range .tools }}
+            <tr>
+              <td><a href="{{ .url }}">{{ .name }}</a></td>
+              <td>{{ .price }}</td>
+              <td>{{ if .free_tier }}✅{{ else }}❌{{ end }}</td>
+              <td class="freedom-col">
+                <div class="freedom-bar-cell">
+                  <div class="freedom-bar" style="width: {{ mul .freedom_score 10 }}%;" 
+                    data-score="{{ .freedom_score }}"
+                    {{ if ge .freedom_score 7 }}class="freedom-bar bar-green"
+                    {{ else if ge .freedom_score 5 }}class="freedom-bar bar-yellow"
+                    {{ else if ge .freedom_score 3 }}class="freedom-bar bar-orange"
+                    {{ else }}class="freedom-bar bar-red"
+                    {{ end }}>
+                  </div>
+                  <span class="freedom-num">{{ .freedom_score }}/10</span>
+                </div>
+              </td>
+              <td>{{ .best_for }}</td>
+              <td class="verdict-cell">{{ .verdict }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {{ end }}
+
+    <div class="overview-footer">
+      <p><strong>How Freedom Score works:</strong> We rate every tool on vendor lock-in (25%), solo builder fit (25%), cost efficiency (20%), portability (15%), and open source/transparency (15%). <a href="/compare/">See full head-to-head comparisons →</a></p>
+      <p class="overview-updated">Last updated: February 2026</p>
+    </div>
+  </div>
+</section>
+{{ end }}

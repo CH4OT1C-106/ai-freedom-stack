@@ -1,0 +1,197 @@
+# ============================================
+# TOOLS OVERVIEW — Edit this file to update the comparison page
+# The page at /compare/ auto-rebuilds from this data
+# ============================================
+
+categories:
+  - name: "AI Models"
+    tools:
+      - name: "Claude"
+        url: "/tools/claude/"
+        price: "$0-20/mo"
+        free_tier: true
+        freedom_score: 6
+        best_for: "Writing & coding"
+        verdict: "Best quality"
+      - name: "ChatGPT"
+        url: "/tools/chatgpt/"
+        price: "$0-20/mo"
+        free_tier: true
+        freedom_score: 5
+        best_for: "All-in-one"
+        verdict: "Most versatile"
+      - name: "Gemini"
+        url: "/tools/gemini/"
+        price: "$0-20/mo"
+        free_tier: true
+        freedom_score: 5
+        best_for: "Large docs & free tier"
+        verdict: "Best free option"
+      - name: "Perplexity"
+        url: "/tools/perplexity/"
+        price: "$0-20/mo"
+        free_tier: true
+        freedom_score: 6
+        best_for: "Research"
+        verdict: "Replaced Google"
+
+  - name: "Code Editors"
+    tools:
+      - name: "Cursor"
+        url: "/tools/cursor/"
+        price: "$0-20/mo"
+        free_tier: true
+        freedom_score: 7
+        best_for: "AI coding"
+        verdict: "Best overall"
+      - name: "Windsurf"
+        url: "/tools/windsurf/"
+        price: "$0-15/mo"
+        free_tier: true
+        freedom_score: 5
+        best_for: "Budget AI coding"
+        verdict: "80% of Cursor, cheaper"
+      - name: "GitHub Copilot"
+        url: "/tools/github-copilot/"
+        price: "$0-10/mo"
+        free_tier: true
+        freedom_score: 5
+        best_for: "Autocomplete"
+        verdict: "Good, but Cursor is better"
+
+  - name: "Image Generation"
+    tools:
+      - name: "Midjourney"
+        url: "/tools/midjourney/"
+        price: "$10-60/mo"
+        free_tier: false
+        freedom_score: 4
+        best_for: "Best quality"
+        verdict: "Premium pick"
+      - name: "Stable Diffusion"
+        url: "/tools/stable-diffusion/"
+        price: "Free"
+        free_tier: true
+        freedom_score: 10
+        best_for: "Free & unlimited"
+        verdict: "Freedom king"
+      - name: "ComfyUI"
+        url: "/tools/comfyui/"
+        price: "Free"
+        free_tier: true
+        freedom_score: 10
+        best_for: "SD workflows"
+        verdict: "Power tool for SD"
+
+  - name: "Video Generation"
+    tools:
+      - name: "Runway ML"
+        url: "/tools/runway-ml/"
+        price: "$0-76/mo"
+        free_tier: true
+        freedom_score: 4
+        best_for: "Best AI video"
+        verdict: "Quality leader"
+      - name: "Kling AI"
+        url: "/tools/kling-ai/"
+        price: "$0-30/mo"
+        free_tier: true
+        freedom_score: 4
+        best_for: "Budget AI video"
+        verdict: "90% quality, 50% price"
+      - name: "Descript"
+        url: "/tools/descript/"
+        price: "$0-33/mo"
+        free_tier: true
+        freedom_score: 5
+        best_for: "Edit video as text"
+        verdict: "Podcasters & talking head"
+
+  - name: "Automation"
+    tools:
+      - name: "n8n"
+        url: "/tools/n8n/"
+        price: "Free (self-host)"
+        free_tier: true
+        freedom_score: 9
+        best_for: "Power & freedom"
+        verdict: "Self-host, unlimited"
+      - name: "Make"
+        url: "/tools/make/"
+        price: "$0-16/mo"
+        free_tier: true
+        freedom_score: 5
+        best_for: "No-host automation"
+        verdict: "Middle ground"
+      - name: "Cloudflare Workers"
+        url: "/tools/cloudflare-workers/"
+        price: "$0-5/mo"
+        free_tier: true
+        freedom_score: 7
+        best_for: "Edge compute & APIs"
+        verdict: "Best free infra"
+
+  - name: "Build & Deploy"
+    tools:
+      - name: "Bolt.new"
+        url: "/tools/bolt-new/"
+        price: "$0-50/mo"
+        free_tier: true
+        freedom_score: 5
+        best_for: "Full-stack prototypes"
+        verdict: "Fast validation"
+      - name: "Lovable"
+        url: "/tools/lovable/"
+        price: "$0-50/mo"
+        free_tier: true
+        freedom_score: 4
+        best_for: "Pretty prototypes"
+        verdict: "Best-looking output"
+      - name: "Supabase"
+        url: "/tools/supabase/"
+        price: "$0-25/mo"
+        free_tier: true
+        freedom_score: 8
+        best_for: "Backend & database"
+        verdict: "Best solo backend"
+      - name: "Vercel"
+        url: "/tools/vercel/"
+        price: "$0-20/mo"
+        free_tier: true
+        freedom_score: 5
+        best_for: "Frontend hosting"
+        verdict: "Best deploy DX"
+
+  - name: "Knowledge & Notes"
+    tools:
+      - name: "Obsidian"
+        url: "/tools/obsidian/"
+        price: "Free"
+        free_tier: true
+        freedom_score: 9
+        best_for: "Local knowledge base"
+        verdict: "Own your notes"
+      - name: "Notion AI"
+        url: "/tools/notion-ai/"
+        price: "$10-20/mo"
+        free_tier: false
+        freedom_score: 4
+        best_for: "Team workspace"
+        verdict: "Skip for solo builders"
+
+  - name: "Audio"
+    tools:
+      - name: "ElevenLabs"
+        url: "/tools/elevenlabs/"
+        price: "$0-22/mo"
+        free_tier: true
+        freedom_score: 6
+        best_for: "AI voiceover"
+        verdict: "Best voice quality"
+      - name: "Whisper"
+        url: "/tools/whisper/"
+        price: "Free"
+        free_tier: true
+        freedom_score: 9
+        best_for: "Speech-to-text"
+        verdict: "Free & best accuracy"
