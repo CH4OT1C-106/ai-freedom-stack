@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://freedomstackai.com"
 relativeURLs = true
 uglyURLs = false
 languageCode = "en-us"
