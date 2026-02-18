@@ -1,0 +1,35 @@
+{{ define "main" }}
+<section class="section-list">
+  <div class="container">
+    <h1>{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="section-subtitle">{{ . }}</p>
+    {{ end }}
+    {{ with .Content }}
+    <div class="section-intro">{{ . }}</div>
+    {{ end }}
+
+    <div class="section-grid">
+      {{ range .Pages }}
+      <a href="{{ .RelPermalink }}" class="section-card">
+        <h3>{{ .Title }}</h3>
+        {{ with .Description }}
+        <p>{{ . }}</p>
+        {{ end }}
+        {{ with .Params.freedom_score }}
+        <div class="card-meta">
+          {{ $color := "#ef4444" }}
+          {{ if ge . 7 }}{{ $color = "#22c55e" }}
+          {{ else if ge . 5 }}{{ $color = "#eab308" }}
+          {{ else if ge . 3 }}{{ $color = "#f97316" }}
+          {{ end }}
+          <span class="card-score" style="color: {{ $color }}">⬤ {{ . }}/10</span>
+          {{ with $.Params.price }}<span class="card-price">{{ . }}</span>{{ end }}
+        </div>
+        {{ end }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
