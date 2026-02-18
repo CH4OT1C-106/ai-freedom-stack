@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on AI Freedom Stack</title>
+    <link>http://localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on AI Freedom Stack</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cursor</title>
+      <link>http://localhost:1313/tools/cursor/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/cursor/</guid>
+      <description>&lt;h2 id=&#34;what-is-cursor&#34;&gt;What is Cursor?&lt;/h2&gt;&#xA;&lt;p&gt;Cursor is a code editor built on top of VS Code that puts AI at the center of your coding workflow. Instead of switching between your editor and ChatGPT, you talk to your codebase directly. Ask it to build features, fix bugs, or refactor — and it does it with full context of your project.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-is-it-for&#34;&gt;Who is it for?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Best for:&lt;/strong&gt; Solo developers and non-technical founders building MVPs, web apps, or automations&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Not for:&lt;/strong&gt; Teams with strict code review processes who need predictable, auditable changes&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Solo builder score:&lt;/strong&gt; ⭐⭐⭐⭐⭐ (5/5)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-does-it-cost&#34;&gt;What does it cost?&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Plan&lt;/th&gt;&#xA;          &lt;th&gt;Price&lt;/th&gt;&#xA;          &lt;th&gt;What You Get&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Free&lt;/td&gt;&#xA;          &lt;td&gt;$0&lt;/td&gt;&#xA;          &lt;td&gt;50 slow AI requests/day, basic autocomplete&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Pro&lt;/td&gt;&#xA;          &lt;td&gt;$20/mo&lt;/td&gt;&#xA;          &lt;td&gt;500 fast requests/day, GPT-4 + Claude access&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Business&lt;/td&gt;&#xA;          &lt;td&gt;$40/mo&lt;/td&gt;&#xA;          &lt;td&gt;Team features, admin controls&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hidden costs:&lt;/strong&gt; The free tier is genuinely usable but you&amp;rsquo;ll hit the limit fast on a real project.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

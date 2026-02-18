@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TTS on AI Freedom Stack</title>
+    <link>http://localhost:1313/tags/tts/</link>
+    <description>Recent content in TTS on AI Freedom Stack</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ElevenLabs</title>
+      <link>http://localhost:1313/tools/elevenlabs/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tools/elevenlabs/</guid>
+      <description>&lt;h2 id=&#34;what-is-elevenlabs&#34;&gt;What is ElevenLabs?&lt;/h2&gt;&#xA;&lt;p&gt;ElevenLabs is a text-to-speech platform that generates voices nearly indistinguishable from real humans. Upload a script, pick a voice (or clone your own), and get broadcast-quality audio back in seconds.&lt;/p&gt;&#xA;&lt;h2 id=&#34;who-is-it-for&#34;&gt;Who is it for?&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Best for:&lt;/strong&gt; YouTube creators, podcasters, audiobook producers, anyone who needs voice content at scale&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Not for:&lt;/strong&gt; Live conversation or real-time voice chat applications&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Solo builder score:&lt;/strong&gt; ⭐⭐⭐⭐☆ (4/5)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;what-does-it-cost&#34;&gt;What does it cost?&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Plan&lt;/th&gt;&#xA;          &lt;th&gt;Price&lt;/th&gt;&#xA;          &lt;th&gt;What You Get&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Free&lt;/td&gt;&#xA;          &lt;td&gt;$0&lt;/td&gt;&#xA;          &lt;td&gt;10k characters/month, 3 voices&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Starter&lt;/td&gt;&#xA;          &lt;td&gt;$5/mo&lt;/td&gt;&#xA;          &lt;td&gt;30k characters, 10 voices&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Creator&lt;/td&gt;&#xA;          &lt;td&gt;$22/mo&lt;/td&gt;&#xA;          &lt;td&gt;100k characters, voice cloning&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Pro&lt;/td&gt;&#xA;          &lt;td&gt;$99/mo&lt;/td&gt;&#xA;          &lt;td&gt;500k characters, 4hrs dubbing&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hidden costs:&lt;/strong&gt; Characters burn fast on long-form content. A 10-minute video script uses ~10-15k characters.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

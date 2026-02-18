@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on AI Freedom Stack</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on AI Freedom Stack</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 17 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coding</title>
+      <link>http://localhost:1313/tags/coding/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/coding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content Creation</title>
+      <link>http://localhost:1313/tags/content-creation/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/content-creation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IDE</title>
+      <link>http://localhost:1313/tags/ide/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/ide/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pair Programming</title>
+      <link>http://localhost:1313/tags/pair-programming/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/pair-programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TTS</title>
+      <link>http://localhost:1313/tags/tts/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/tts/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Voice</title>
+      <link>http://localhost:1313/tags/voice/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/voice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Weekly Roundup</title>
+      <link>http://localhost:1313/tags/weekly-roundup/</link>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/weekly-roundup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deployment</title>
+      <link>http://localhost:1313/tags/deployment/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/deployment/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>No-Code</title>
+      <link>http://localhost:1313/tags/no-code/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/no-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web Apps</title>
+      <link>http://localhost:1313/tags/web-apps/</link>
+      <pubDate>Mon, 16 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/web-apps/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

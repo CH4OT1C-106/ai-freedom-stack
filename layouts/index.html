@@ -1,0 +1,116 @@
+{{ define "main" }}
+
+<!-- Hero -->
+<section class="hero">
+  <div class="container">
+    <h1>AI tools to <span class="highlight">build your freedom</span></h1>
+    <p class="tagline">Curated tools, honest reviews, and real workflows for solo builders who want to escape the 9-5 — not just dream about it.</p>
+    <div class="cta-group">
+      <a href="/tools/" class="btn btn-primary">Browse Tools</a>
+      <a href="#newsletter" class="btn btn-secondary">Get the Newsletter</a>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Carousel -->
+{{ $featured := where .Site.RegularPages "Params.featured" true }}
+{{ if $featured }}
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>🔥 Featured</h2>
+    </div>
+    <div class="featured-carousel">
+      {{ range $featured }}
+      <a href="{{ .RelPermalink }}" class="featured-card">
+        <div class="featured-content">
+          <span class="featured-badge">Editor's Pick</span>
+          <h3>{{ .Title }}</h3>
+          <p class="tool-desc">{{ .Description }}</p>
+          <div class="tool-meta">
+            <span class="tool-price">{{ .Params.price }}</span>
+            <span class="tool-rating">{{ .Params.rating }}</span>
+          </div>
+        </div>
+        <div class="featured-image">
+          {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}">{{ end }}
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    <div class="carousel-dots">
+      {{ range $i, $e := $featured }}
+      <button class="carousel-dot{{ if eq $i 0 }} active{{ end }}" aria-label="Slide {{ add $i 1 }}"></button>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Latest Tools -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Latest Tools</h2>
+      <a href="/tools/" class="view-all">View all →</a>
+    </div>
+    <div class="tools-grid">
+      {{ range first 6 (where .Site.RegularPages "Section" "tools") }}
+      <a href="{{ .RelPermalink }}" class="tool-card">
+        <div class="tool-header">
+          <div class="tool-icon">{{ .Params.icon }}</div>
+          <div>
+            <div class="tool-name">{{ .Title }}</div>
+            <div class="tool-category">{{ .Params.category }}</div>
+          </div>
+        </div>
+        <div class="tool-tags">
+          {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+        </div>
+        <p class="tool-desc">{{ .Description }}</p>
+        <div class="tool-meta">
+          <span class="tool-price">{{ .Params.price }}</span>
+          <span class="tool-rating">{{ .Params.rating }}</span>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Latest Posts -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Latest Posts</h2>
+      <a href="/posts/" class="view-all">View all →</a>
+    </div>
+    <div class="posts-list">
+      {{ range first 4 (where .Site.RegularPages "Section" "posts") }}
+      <a href="{{ .RelPermalink }}" class="post-item">
+        <span class="post-date">{{ .Date.Format "Jan 2" }}</span>
+        <div>
+          <div class="post-title">{{ .Title }}</div>
+          <p class="post-excerpt">{{ .Description }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<!-- Newsletter CTA -->
+<section class="section" id="newsletter">
+  <div class="container">
+    <div class="newsletter-cta">
+      <h2>Stay ahead of the curve</h2>
+      <p>Weekly AI tools, workflows, and strategies for solo builders. No fluff.</p>
+      <div class="email-form">
+        <input type="email" placeholder="your@email.com">
+        <button class="btn btn-primary">Subscribe</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,123 @@
+{{ define "main" }}
+<section class="section">
+  <div class="container">
+    <div style="text-align: center; margin-bottom: var(--space-2xl);">
+      <h1>AI Tools for Solo Builders</h1>
+      <p class="tagline" style="color: var(--text-secondary);">Every tool tested. Every review honest. Find what actually works.</p>
+    </div>
+
+    <button class="mobile-filter-toggle" onclick="document.querySelector('.tools-sidebar').classList.toggle('mobile-open')">
+      ☰ Filter Tools
+    </button>
+
+    <div class="tools-layout">
+      <!-- Sidebar -->
+      <aside class="tools-sidebar">
+        <div class="sidebar-section">
+          <h3>Categories</h3>
+          <button class="filter-btn active" data-category="all">
+            <span class="filter-icon">📋</span> All Tools
+            <span class="filter-count">{{ len .Pages }}</span>
+          </button>
+          <button class="filter-btn" data-category="frontier-models">
+            <span class="filter-icon">🧠</span> Frontier Models
+          </button>
+          <button class="filter-btn" data-category="stack-architecture">
+            <span class="filter-icon">🏗️</span> Stack Architecture
+          </button>
+          <button class="filter-btn" data-category="local-intelligence">
+            <span class="filter-icon">🔒</span> Local Intelligence
+          </button>
+          <button class="filter-btn" data-category="autonomous-systems">
+            <span class="filter-icon">🤖</span> Autonomous Systems
+          </button>
+          <button class="filter-btn" data-category="workflow-briefs">
+            <span class="filter-icon">⚡</span> Workflow Briefs
+          </button>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Price</h3>
+          <div class="price-filters">
+            <button class="price-pill active" data-price="all">All</button>
+            <button class="price-pill" data-price="free">Free</button>
+            <button class="price-pill" data-price="freemium">Freemium</button>
+            <button class="price-pill" data-price="paid">Paid</button>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Rating</h3>
+          <button class="filter-btn" data-rating="5">⭐⭐⭐⭐⭐ only</button>
+          <button class="filter-btn" data-rating="4">⭐⭐⭐⭐ & up</button>
+          <button class="filter-btn" data-rating="3">⭐⭐⭐ & up</button>
+        </div>
+      </aside>
+
+      <!-- Tool Grid -->
+      <div>
+        <div class="tools-grid">
+          {{ range .Pages }}
+          <a href="{{ .RelPermalink }}" class="tool-card" 
+             data-category="{{ .Params.category | urlize }}"
+             data-price-type="{{ .Params.price_type }}">
+            <div class="tool-header">
+              <div class="tool-icon">{{ .Params.icon }}</div>
+              <div>
+                <div class="tool-name">{{ .Title }}</div>
+                <div class="tool-category">{{ .Params.category }}</div>
+              </div>
+            </div>
+            <div class="tool-tags">
+              {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+            </div>
+            <p class="tool-desc">{{ .Description }}</p>
+            <div class="tool-meta">
+              <span class="tool-price">{{ .Params.price }}</span>
+              <span class="tool-rating">{{ .Params.rating }}</span>
+            </div>
+          </a>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.tool-card');
+  const catBtns = document.querySelectorAll('[data-category]');
+  const priceBtns = document.querySelectorAll('[data-price]');
+
+  let activeCategory = 'all';
+  let activePrice = 'all';
+
+  function filterCards() {
+    cards.forEach(card => {
+      const matchCat = activeCategory === 'all' || card.dataset.category === activeCategory;
+      const matchPrice = activePrice === 'all' || card.dataset.priceType === activePrice;
+      card.style.display = (matchCat && matchPrice) ? '' : 'none';
+    });
+  }
+
+  catBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      catBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeCategory = btn.dataset.category;
+      filterCards();
+    });
+  });
+
+  priceBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      priceBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activePrice = btn.dataset.price;
+      filterCards();
+    });
+  });
+});
+</script>
+{{ end }}

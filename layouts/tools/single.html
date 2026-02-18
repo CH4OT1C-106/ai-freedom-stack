@@ -1,0 +1,19 @@
+{{ define "main" }}
+<article class="tool-single">
+  <div class="tool-category" style="color: var(--text-muted); text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.05em; margin-bottom: var(--space-sm);">{{ .Params.category }}</div>
+  <h1>{{ .Title }}</h1>
+  <p style="color: var(--text-muted); font-size: 0.9rem;">Last updated: {{ .Date.Format "January 2, 2006" }}</p>
+  
+  <div class="verdict">
+    <strong>Verdict:</strong> {{ .Params.verdict }}
+  </div>
+
+  {{ .Content }}
+
+  {{ with .Params.affiliate_url }}
+  <div style="text-align: center; margin: var(--space-2xl) 0;">
+    <a href="{{ . }}" class="btn btn-primary" target="_blank" rel="nofollow sponsored">Try {{ $.Title }} →</a>
+  </div>
+  {{ end }}
+</article>
+{{ end }}

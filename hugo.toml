@@ -1,0 +1,20 @@
+baseURL = ""
+relativeURLs = true
+uglyURLs = false
+languageCode = "en-us"
+title = "AI Freedom Stack"
+description = "Curated AI tools and workflows for solo builders escaping the 9-5"
+
+[params]
+  tagline = "Build solo. Build smart. Build free."
+  description = "Curated AI tools and workflows for solo builders escaping the 9-5"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+  unsafe = true

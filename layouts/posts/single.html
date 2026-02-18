@@ -1,0 +1,7 @@
+{{ define "main" }}
+<article class="tool-single">
+  <p style="color: var(--text-muted); font-size: 0.9rem;">{{ .Date.Format "January 2, 2006" }}</p>
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+{{ end }}
