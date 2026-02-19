@@ -3,57 +3,126 @@
 <!-- Hero -->
 <section class="hero">
   <div class="container">
+    <p class="hero-eyebrow">For freelancers, indie makers, and one-person startups</p>
     <h1>AI tools to <span class="highlight">build your freedom</span></h1>
-    <p class="tagline">Curated tools, honest reviews, and real workflows for solo builders who want to escape the 9-5 — not just dream about it.</p>
+    <p class="tagline">Every tool here has been tested building real projects — not just reviewed from a spec sheet. Honest ratings, real workflows, zero sponsored rankings.</p>
     <span style="display:none;">Impact-Site-Verification: 11cff3be-dfca-4230-9c83-9dd7885726ea</span>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="stat-number">{{ len (where .Site.RegularPages "Section" "tools") }}</span>
+        <span class="stat-label">Tools Reviewed</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-number">{{ len (where .Site.RegularPages "Section" "compare") }}</span>
+        <span class="stat-label">Comparisons</span>
+      </div>
+      <div class="hero-stat">
+        <span class="stat-number">{{ len (where .Site.RegularPages "Section" "stacks") }}</span>
+        <span class="stat-label">Curated Stacks</span>
+      </div>
+    </div>
     <div class="cta-group">
       <a href="/tools/" class="btn btn-primary">Browse Tools</a>
-      <a href="#newsletter" class="btn btn-secondary">Get the Newsletter</a>
+      <a href="/compare/overview/" class="btn btn-secondary">See All Scores</a>
     </div>
   </div>
 </section>
 
-<!-- Featured Carousel -->
+<!-- What is Freedom Score -->
+<section class="section trust-bar">
+  <div class="container">
+    <div class="trust-content">
+      <h2>Every tool gets a <span class="highlight">Freedom Score</span></h2>
+      <p>We rate tools on what matters to solo builders — not enterprise feature checklists. Five factors, one question: <strong>does this tool help you build independently, or trap you in another subscription?</strong></p>
+      <div class="trust-factors">
+        <span class="trust-factor">🔒 Vendor Lock-in</span>
+        <span class="trust-factor">🧑‍💻 Solo Builder Fit</span>
+        <span class="trust-factor">💰 Cost Efficiency</span>
+        <span class="trust-factor">🔄 Portability</span>
+        <span class="trust-factor">📖 Open Source</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Tools (bigger cards) -->
 {{ $featured := where .Site.RegularPages "Params.featured" true }}
 {{ if $featured }}
 <section class="section">
   <div class="container">
     <div class="section-header">
-      <h2>🔥 Featured</h2>
+      <h2>🔥 Editor's Picks</h2>
+      <p class="section-desc">The tools we'd recommend first to any solo builder starting out.</p>
     </div>
-    <div class="featured-carousel">
+    <div class="featured-grid">
       {{ range $featured }}
-      <a href="{{ .RelPermalink }}" class="featured-card">
-        <div class="featured-content">
+      <a href="{{ .RelPermalink }}" class="featured-card-big">
+        <div class="featured-card-top">
           <span class="featured-badge">Editor's Pick</span>
-          <h3>{{ .Title }}</h3>
-          <p class="tool-desc">{{ .Description }}</p>
-          <div class="tool-meta">
-            <span class="tool-price">{{ .Params.price }}</span>
-            <span class="tool-rating">{{ .Params.rating }}</span>
-          </div>
+          {{ with .Params.freedom_score }}
+          {{ $color := "#ef4444" }}
+          {{ if ge . 7 }}{{ $color = "#22c55e" }}
+          {{ else if ge . 5 }}{{ $color = "#eab308" }}
+          {{ else if ge . 3 }}{{ $color = "#f97316" }}
+          {{ end }}
+          <span class="featured-score" style="color: {{ $color }}">🛡️ {{ . }}/10</span>
+          {{ end }}
         </div>
-        <div class="featured-image">
-          {{ with .Params.image }}<img src="{{ . }}" alt="{{ $.Title }}">{{ end }}
+        <div class="featured-icon">{{ .Params.icon }}</div>
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description }}</p>
+        <div class="tool-meta">
+          <span class="tool-price">{{ .Params.price }}</span>
+          {{ with .Params.freedom_label }}<span class="freedom-tag">{{ . }}</span>{{ end }}
         </div>
       </a>
-      {{ end }}
-    </div>
-    <div class="carousel-dots">
-      {{ range $i, $e := $featured }}
-      <button class="carousel-dot{{ if eq $i 0 }} active{{ end }}" aria-label="Slide {{ add $i 1 }}"></button>
       {{ end }}
     </div>
   </div>
 </section>
 {{ end }}
 
+<!-- Browse by Use Case -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>🎯 Find Tools by What You're Building</h2>
+    </div>
+    <div class="usecase-grid">
+      <a href="/use-cases/faceless-youtube/" class="usecase-card">
+        <span class="usecase-icon">🎬</span>
+        <span class="usecase-label">Faceless YouTube</span>
+      </a>
+      <a href="/use-cases/newsletter-automation/" class="usecase-card">
+        <span class="usecase-icon">📧</span>
+        <span class="usecase-label">Newsletter Automation</span>
+      </a>
+      <a href="/use-cases/solo-saas/" class="usecase-card">
+        <span class="usecase-icon">🚀</span>
+        <span class="usecase-label">Solo SaaS</span>
+      </a>
+      <a href="/use-cases/ai-research/" class="usecase-card">
+        <span class="usecase-icon">🔍</span>
+        <span class="usecase-label">AI Research</span>
+      </a>
+      <a href="/use-cases/local-private-ai/" class="usecase-card">
+        <span class="usecase-icon">🔒</span>
+        <span class="usecase-label">Local & Private AI</span>
+      </a>
+      <a href="/stacks/" class="usecase-card">
+        <span class="usecase-icon">📦</span>
+        <span class="usecase-label">Curated Stacks</span>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- Latest Tools -->
 <section class="section">
   <div class="container">
     <div class="section-header">
-      <h2>Latest Tools</h2>
-      <a href="/tools/" class="view-all">View all →</a>
+      <h2>Latest Reviews</h2>
+      <a href="/tools/" class="view-all">View all {{ len (where .Site.RegularPages "Section" "tools") }} tools →</a>
     </div>
     <div class="tools-grid">
       {{ range first 6 (where .Site.RegularPages "Section" "tools") }}
@@ -71,7 +140,14 @@
         <p class="tool-desc">{{ .Description }}</p>
         <div class="tool-meta">
           <span class="tool-price">{{ .Params.price }}</span>
-          <span class="tool-rating">{{ .Params.rating }}</span>
+          {{ with .Params.freedom_score }}
+          {{ $color := "#ef4444" }}
+          {{ if ge . 7 }}{{ $color = "#22c55e" }}
+          {{ else if ge . 5 }}{{ $color = "#eab308" }}
+          {{ else if ge . 3 }}{{ $color = "#f97316" }}
+          {{ end }}
+          <span style="color: {{ $color }}; font-weight: 600;">🛡️ {{ . }}/10</span>
+          {{ end }}
         </div>
       </a>
       {{ end }}
@@ -79,21 +155,18 @@
   </div>
 </section>
 
-<!-- Latest Posts -->
+<!-- Popular Comparisons -->
 <section class="section">
   <div class="container">
     <div class="section-header">
-      <h2>Latest Posts</h2>
-      <a href="/posts/" class="view-all">View all →</a>
+      <h2>⚔️ Popular Comparisons</h2>
+      <a href="/compare/" class="view-all">View all →</a>
     </div>
-    <div class="posts-list">
-      {{ range first 4 (where .Site.RegularPages "Section" "posts") }}
-      <a href="{{ .RelPermalink }}" class="post-item">
-        <span class="post-date">{{ .Date.Format "Jan 2" }}</span>
-        <div>
-          <div class="post-title">{{ .Title }}</div>
-          <p class="post-excerpt">{{ .Description }}</p>
-        </div>
+    <div class="compare-grid">
+      {{ range first 4 (where .Site.RegularPages "Section" "compare") }}
+      <a href="{{ .RelPermalink }}" class="compare-card">
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Description }}</p>
       </a>
       {{ end }}
     </div>
@@ -104,13 +177,26 @@
 <section class="section" id="newsletter">
   <div class="container">
     <div class="newsletter-cta">
-      <h2>Stay ahead of the curve</h2>
-      <p>Weekly AI tools, workflows, and strategies for solo builders. No fluff.</p>
+      <span class="newsletter-badge">Free Weekly Newsletter</span>
+      <h2>The AI tools your competitors don't know about yet</h2>
+      <p>Every Wednesday: one new tool breakdown, one workflow you can steal, and the honest take on what's worth your time. Join solo builders who actually ship.</p>
+      <div class="newsletter-features">
+        <span>✅ New tool reviews</span>
+        <span>✅ Steal-worthy workflows</span>
+        <span>✅ Zero fluff, unsubscribe anytime</span>
+      </div>
       <div class="email-form">
         <input type="email" placeholder="your@email.com">
-        <button class="btn btn-primary">Subscribe</button>
+        <button class="btn btn-primary">Subscribe Free →</button>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- Curator line -->
+<section class="section curator-bar">
+  <div class="container" style="text-align: center;">
+    <p style="color: var(--text-secondary); font-size: 0.95rem;">Curated by <a href="/about/" style="color: var(--accent-secondary);">Adrian Mercer</a> — building with AI tools every day so you don't have to test everything yourself. <a href="/about/" style="color: var(--accent-secondary);">Learn more →</a></p>
   </div>
 </section>
 
