@@ -185,10 +185,11 @@
         <span>✅ Steal-worthy workflows</span>
         <span>✅ Zero fluff, unsubscribe anytime</span>
       </div>
-      <div class="email-form">
-        <input type="email" placeholder="your@email.com">
-        <button class="btn btn-primary">Subscribe Free →</button>
-      </div>
+      <form class="email-form" action="https://app.beehiiv.com/forms/subscribe" method="POST">
+        <input type="hidden" name="publication_id" value="pub_c271e2f6-3114-4e83-8301-73bfc9231fb6">
+        <input type="email" name="email" placeholder="your@email.com" required>
+        <button type="submit" class="btn btn-primary">Subscribe Free →</button>
+      </form>
     </div>
   </div>
 </section>
