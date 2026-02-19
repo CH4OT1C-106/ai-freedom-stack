@@ -185,11 +185,34 @@
         <span>✅ Steal-worthy workflows</span>
         <span>✅ Zero fluff, unsubscribe anytime</span>
       </div>
-      <form class="email-form" action="https://app.beehiiv.com/forms/subscribe" method="POST">
-        <input type="hidden" name="publication_id" value="pub_c271e2f6-3114-4e83-8301-73bfc9231fb6">
-        <input type="email" name="email" placeholder="your@email.com" required>
-        <button type="submit" class="btn btn-primary">Subscribe Free →</button>
+      <form class="email-form" id="hp-subscribe" onsubmit="return hpSubscribe(event)">
+        <input type="email" id="hp-email" name="email" placeholder="your@email.com" required>
+        <button type="submit" class="btn btn-primary" id="hp-btn">Subscribe Free →</button>
       </form>
+      <div id="hp-success" style="display:none; color: var(--accent-primary); font-weight: 600; font-family: var(--font-display); padding: 1rem 0;">✓ You're in — check your inbox!</div>
+      <p style="margin-top: var(--space-sm);"><a href="/newsletter/" style="color: var(--text-muted); font-size: 0.85rem;">Learn more about the newsletter →</a></p>
+      <script>
+      async function hpSubscribe(e) {
+        e.preventDefault();
+        const btn = document.getElementById('hp-btn');
+        btn.textContent = 'Subscribing...';
+        btn.disabled = true;
+        try {
+          const res = await fetch('/.netlify/functions/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email: document.getElementById('hp-email').value }),
+          });
+          if (res.ok) {
+            document.getElementById('hp-subscribe').style.display = 'none';
+            document.getElementById('hp-success').style.display = 'block';
+          } else { throw new Error(); }
+        } catch(err) {
+          btn.textContent = 'Try again →';
+          btn.disabled = false;
+        }
+      }
+      </script>
     </div>
   </div>
 </section>

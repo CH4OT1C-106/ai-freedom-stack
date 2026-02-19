@@ -1,0 +1,105 @@
+{{ define "main" }}
+<section class="nl-page">
+  <div class="nl-container">
+    
+    <div class="nl-hero">
+      <span class="nl-eyebrow">Free · Weekly · No Fluff</span>
+      <h1>The tools your competitors<br><span class="nl-highlight">haven't found yet</span></h1>
+      <p class="nl-subtitle">Every Wednesday, one email. New AI tools dissected, workflows you can steal immediately, and the honest take on what's actually worth your time and money.</p>
+    </div>
+
+    <div class="nl-form-card" id="nl-form-section">
+      <form id="nl-subscribe" class="nl-form" onsubmit="return handleSubscribe(event)">
+        <div class="nl-input-row">
+          <input type="email" id="nl-email" name="email" placeholder="you@example.com" required autocomplete="email">
+          <button type="submit" class="nl-btn" id="nl-btn">
+            <span class="nl-btn-text">Join Free →</span>
+            <span class="nl-btn-loading" style="display:none;">Subscribing...</span>
+          </button>
+        </div>
+        <p class="nl-privacy">No spam. Unsubscribe anytime. Your email stays between us.</p>
+      </form>
+      <div id="nl-success" class="nl-success" style="display:none;">
+        <span class="nl-check">✓</span>
+        <h3>You're in.</h3>
+        <p>Check your inbox for a welcome email. First issue drops Wednesday.</p>
+      </div>
+      <div id="nl-error" class="nl-error" style="display:none;">
+        <p>Something went wrong. Try again or email us directly.</p>
+      </div>
+    </div>
+
+    <div class="nl-what">
+      <h2>What you get</h2>
+      <div class="nl-grid">
+        <div class="nl-card">
+          <span class="nl-card-icon">🔍</span>
+          <h3>Tool Breakdowns</h3>
+          <p>Deep, honest reviews of AI tools — not feature lists. Real workflows, real costs, real gotchas. Every tool gets a Freedom Score.</p>
+        </div>
+        <div class="nl-card">
+          <span class="nl-card-icon">⚡</span>
+          <h3>Steal-Worthy Workflows</h3>
+          <p>Step-by-step automation recipes you can implement the same day. Built for one person, not a team of ten.</p>
+        </div>
+        <div class="nl-card">
+          <span class="nl-card-icon">🎯</span>
+          <h3>What's Overhyped</h3>
+          <p>Every week something gets hyped to the moon. We tell you what's real and what's noise — before you waste money finding out.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="nl-who">
+      <h2>Built for solo builders</h2>
+      <p>Freelancers. Indie hackers. One-person startups. People using AI to build something of their own — not to optimize someone else's enterprise. If you're building your way out of the 9-5, this is your weekly briefing.</p>
+      <p class="nl-who-not">Not for you if: you want enterprise AI strategy, vague "thought leadership," or another newsletter that just summarizes OpenAI announcements.</p>
+    </div>
+
+    <div class="nl-cta-bottom">
+      <a href="#nl-form-section" class="nl-btn" onclick="document.getElementById('nl-email').focus(); return false;">Subscribe Free →</a>
+    </div>
+
+  </div>
+</section>
+
+<script>
+async function handleSubscribe(e) {
+  e.preventDefault();
+  
+  const email = document.getElementById('nl-email').value;
+  const btn = document.getElementById('nl-btn');
+  const btnText = btn.querySelector('.nl-btn-text');
+  const btnLoading = btn.querySelector('.nl-btn-loading');
+  const form = document.getElementById('nl-subscribe');
+  const success = document.getElementById('nl-success');
+  const error = document.getElementById('nl-error');
+  
+  btnText.style.display = 'none';
+  btnLoading.style.display = 'inline';
+  btn.disabled = true;
+  error.style.display = 'none';
+  
+  try {
+    const res = await fetch('/.netlify/functions/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email }),
+    });
+    
+    if (res.ok) {
+      form.style.display = 'none';
+      success.style.display = 'block';
+      success.style.animation = 'fadeSlideUp 0.4s ease-out';
+    } else {
+      throw new Error('Failed');
+    }
+  } catch (err) {
+    error.style.display = 'block';
+    btnText.style.display = 'inline';
+    btnLoading.style.display = 'none';
+    btn.disabled = false;
+  }
+}
+</script>
+{{ end }}
