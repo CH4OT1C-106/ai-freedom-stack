@@ -1,4 +1,150 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI Freedom Stack</title><link>https://freedomstackai.com/</link><description>Recent content on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 18 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/index.xml" rel="self" type="application/rss+xml"/><item><title>About AI Freedom Stack</title><link>https://freedomstackai.com/about/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/about/</guid><description>&lt;h2 id="what-this-is">What This Is&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI Freedom Stack</title><link>https://freedomstackai.com/</link><description>Recent content on AI Freedom Stack</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 19 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://freedomstackai.com/index.xml" rel="self" type="application/rss+xml"/><item><title>ChatGPT vs Perplexity — AI Assistant or AI Search Engine?</title><link>https://freedomstackai.com/compare/chatgpt-vs-perplexity/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/chatgpt-vs-perplexity/</guid><description>&lt;h2 id="chatgpt-vs-perplexity-the-quick-answer">ChatGPT vs Perplexity: The Quick Answer&lt;/h2>
+&lt;p>&lt;strong>ChatGPT&lt;/strong> is a general-purpose AI assistant — writing, coding, brainstorming, image generation. &lt;strong>Perplexity&lt;/strong> is an AI-powered search engine — research, fact-finding, and sourced answers. They&amp;rsquo;re not really competitors. They solve different problems. Most power users have both.&lt;/p>
+&lt;hr>
+&lt;h2 id="research">Research&lt;/h2>
+&lt;p>&lt;strong>Winner: Perplexity (by a lot)&lt;/strong>&lt;/p>
+&lt;p>This is Perplexity&amp;rsquo;s whole thing, and it&amp;rsquo;s excellent at it. Every answer comes with cited sources. You can see exactly where the information came from and click through to verify. The follow-up questions drill deeper into topics naturally.&lt;/p></description></item><item><title>Claude vs Gemini — Quality vs Context Window</title><link>https://freedomstackai.com/compare/claude-vs-gemini/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/claude-vs-gemini/</guid><description>&lt;h2 id="claude-vs-gemini-the-quick-answer">Claude vs Gemini: The Quick Answer&lt;/h2>
+&lt;p>&lt;strong>Claude&lt;/strong> produces better output — cleaner writing, stronger reasoning, more reliable code. &lt;strong>Gemini&lt;/strong> has the biggest context window in the game (1M+ tokens) and deep Google integration. Claude wins on quality. Gemini wins on volume. For most solo builders, quality matters more.&lt;/p>
+&lt;hr>
+&lt;h2 id="writing-quality">Writing Quality&lt;/h2>
+&lt;p>&lt;strong>Winner: Claude&lt;/strong>&lt;/p>
+&lt;p>Claude writes with a clarity and directness that Gemini can&amp;rsquo;t match. The prose is tighter, the tone is more natural, and the first draft needs less editing.&lt;/p></description></item><item><title>Cloudflare Workers vs Vercel vs Railway — Where to Deploy Your Solo Project</title><link>https://freedomstackai.com/compare/cloudflare-vs-vercel-vs-railway/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/cloudflare-vs-vercel-vs-railway/</guid><description>&lt;h2 id="cloudflare-vs-vercel-vs-railway-the-quick-answer">Cloudflare vs Vercel vs Railway: The Quick Answer&lt;/h2>
+&lt;p>&lt;strong>Cloudflare Workers&lt;/strong> is the cheapest and fastest edge compute — best for APIs and lightweight apps. &lt;strong>Vercel&lt;/strong> is the best frontend/fullstack platform — best for Next.js and web apps. &lt;strong>Railway&lt;/strong> is the simplest way to deploy anything with a Dockerfile — best for backends, databases, and non-web projects. Different tools, different strengths.&lt;/p>
+&lt;hr>
+&lt;h2 id="what-each-platform-actually-is">What Each Platform Actually Is&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>Cloudflare Workers&lt;/th>
+ &lt;th>Vercel&lt;/th>
+ &lt;th>Railway&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Model&lt;/td>
+ &lt;td>Edge functions (V8 isolates)&lt;/td>
+ &lt;td>Serverless + CDN&lt;/td>
+ &lt;td>Containers (Docker)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Best for&lt;/td>
+ &lt;td>APIs, edge logic, lightweight apps&lt;/td>
+ &lt;td>Web apps, SSR, static sites&lt;/td>
+ &lt;td>Backends, databases, anything&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Runs&lt;/td>
+ &lt;td>Globally at edge (300+ locations)&lt;/td>
+ &lt;td>Serverless (regional)&lt;/td>
+ &lt;td>Containers (US/EU)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Think of it as&lt;/td>
+ &lt;td>&amp;ldquo;Smart CDN that runs code&amp;rdquo;&lt;/td>
+ &lt;td>&amp;ldquo;Deploy your frontend&amp;rdquo;&lt;/td>
+ &lt;td>&amp;ldquo;Heroku but modern&amp;rdquo;&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2 id="pricing">Pricing&lt;/h2>
+&lt;p>&lt;strong>Winner: Cloudflare Workers&lt;/strong>&lt;/p></description></item><item><title>Cursor vs GitHub Copilot — AI Code Editor vs AI Autocomplete</title><link>https://freedomstackai.com/compare/cursor-vs-copilot/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/cursor-vs-copilot/</guid><description>&lt;h2 id="cursor-vs-github-copilot-the-quick-answer">Cursor vs GitHub Copilot: The Quick Answer&lt;/h2>
+&lt;p>&lt;strong>Cursor&lt;/strong> is an AI-native code editor — the whole IDE is built around AI. &lt;strong>GitHub Copilot&lt;/strong> is an AI autocomplete plugin for your existing editor. Cursor is more powerful. Copilot is less disruptive. For solo builders writing a lot of code, Cursor is worth the switch. For light coding, Copilot in VS Code is enough.&lt;/p>
+&lt;hr>
+&lt;h2 id="the-fundamental-difference">The Fundamental Difference&lt;/h2>
+&lt;p>Copilot adds AI to your editor. Cursor &lt;em>is&lt;/em> an AI editor.&lt;/p></description></item><item><title>Descript vs CapCut — Best Video Editor for Solo Creators</title><link>https://freedomstackai.com/compare/descript-vs-capcut/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/descript-vs-capcut/</guid><description>&lt;h2 id="descript-vs-capcut-the-quick-answer">Descript vs CapCut: The Quick Answer&lt;/h2>
+&lt;p>&lt;strong>Descript&lt;/strong> lets you edit video by editing text — revolutionary for talking-head and podcast content. &lt;strong>CapCut&lt;/strong> is a free, powerful traditional editor with great templates and effects. Descript saves time on content-heavy videos. CapCut is better for visually creative edits. Both are great for solo creators.&lt;/p>
+&lt;hr>
+&lt;h2 id="core-editing-approach">Core Editing Approach&lt;/h2>
+&lt;p>&lt;strong>Different tools for different jobs&lt;/strong>&lt;/p>
+&lt;p>Descript&amp;rsquo;s magic: it transcribes your video, and you edit the transcript. Delete a sentence → the video cut happens automatically. It&amp;rsquo;s editing video like editing a Google Doc. For anyone who creates talking-head content, tutorials, or podcasts, this is a game-changer.&lt;/p></description></item><item><title>ElevenLabs vs Whisper — AI Voice Tools Compared</title><link>https://freedomstackai.com/compare/elevenlabs-vs-whisper/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/elevenlabs-vs-whisper/</guid><description>&lt;h2 id="elevenlabs-vs-whisper-the-quick-answer">ElevenLabs vs Whisper: The Quick Answer&lt;/h2>
+&lt;p>These tools do &lt;strong>opposite things&lt;/strong>. &lt;strong>ElevenLabs&lt;/strong> turns text into speech (TTS). &lt;strong>Whisper&lt;/strong> turns speech into text (STT). They&amp;rsquo;re not competitors — they&amp;rsquo;re complements. But since people search for this comparison, let&amp;rsquo;s break down when you need each and how they compare within their categories.&lt;/p>
+&lt;hr>
+&lt;h2 id="what-they-do">What They Do&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>ElevenLabs&lt;/th>
+ &lt;th>Whisper&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Direction&lt;/td>
+ &lt;td>Text → Speech&lt;/td>
+ &lt;td>Speech → Text&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Use case&lt;/td>
+ &lt;td>Voiceovers, narration, AI voices&lt;/td>
+ &lt;td>Transcription, captions, dictation&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>How it runs&lt;/td>
+ &lt;td>Cloud API&lt;/td>
+ &lt;td>Local or cloud&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>If you need a voice reading your content: ElevenLabs.
+If you need your voice turned into text: Whisper.&lt;/p></description></item><item><title>Obsidian vs Notion vs Logseq — Where Should Solo Builders Keep Notes?</title><link>https://freedomstackai.com/compare/obsidian-vs-notion-vs-logseq/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/obsidian-vs-notion-vs-logseq/</guid><description>&lt;h2 id="obsidian-vs-notion-vs-logseq-the-quick-answer">Obsidian vs Notion vs Logseq: The Quick Answer&lt;/h2>
+&lt;p>&lt;strong>Obsidian&lt;/strong> is the freedom play — local files, your data, plugin ecosystem. &lt;strong>Notion&lt;/strong> is the all-in-one workspace — databases, wikis, projects. &lt;strong>Logseq&lt;/strong> is the outliner for networked thinkers — open source, graph-first, block-based. For solo builders who care about owning their notes: Obsidian. For project management + notes in one place: Notion. For daily journaling and idea linking: Logseq.&lt;/p>
+&lt;hr>
+&lt;h2 id="data-ownership">Data Ownership&lt;/h2>
+&lt;p>&lt;strong>Winner: Obsidian&lt;/strong>&lt;/p></description></item><item><title>Runway vs HeyGen vs Synthesia — Which AI Video Tool Do You Need?</title><link>https://freedomstackai.com/compare/runway-vs-heygen-vs-synthesia/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/runway-vs-heygen-vs-synthesia/</guid><description>&lt;h2 id="runway-vs-heygen-vs-synthesia-the-quick-answer">Runway vs HeyGen vs Synthesia: The Quick Answer&lt;/h2>
+&lt;p>&lt;strong>Runway&lt;/strong> is for AI-powered video editing and generation (creative effects, gen-AI clips). &lt;strong>HeyGen&lt;/strong> makes avatar-based talking-head videos from text. &lt;strong>Synthesia&lt;/strong> does the same but targets enterprise/training content. These tools solve different problems. Runway is creative. HeyGen and Synthesia are presentational.&lt;/p>
+&lt;hr>
+&lt;h2 id="what-each-tool-actually-does">What Each Tool Actually Does&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th>&lt;/th>
+ &lt;th>Runway&lt;/th>
+ &lt;th>HeyGen&lt;/th>
+ &lt;th>Synthesia&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td>Core use&lt;/td>
+ &lt;td>AI video editing &amp;amp; generation&lt;/td>
+ &lt;td>AI avatar videos&lt;/td>
+ &lt;td>AI avatar videos&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Input&lt;/td>
+ &lt;td>Video/image + prompts&lt;/td>
+ &lt;td>Script + avatar&lt;/td>
+ &lt;td>Script + avatar&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Output&lt;/td>
+ &lt;td>Creative video clips, effects&lt;/td>
+ &lt;td>Talking-head videos&lt;/td>
+ &lt;td>Training/explainer videos&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td>Target user&lt;/td>
+ &lt;td>Creators, filmmakers&lt;/td>
+ &lt;td>Marketers, content creators&lt;/td>
+ &lt;td>Enterprise, L&amp;amp;D teams&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;p>&lt;strong>Important:&lt;/strong> Runway and HeyGen/Synthesia are barely competitors. Runway generates/edits creative video. HeyGen and Synthesia generate presenter-style videos. The real comparison is HeyGen vs Synthesia.&lt;/p></description></item><item><title>Supabase vs Firebase — Open Source Backend or Google Lock-in?</title><link>https://freedomstackai.com/compare/supabase-vs-firebase/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/supabase-vs-firebase/</guid><description>&lt;h2 id="supabase-vs-firebase-the-quick-answer">Supabase vs Firebase: The Quick Answer&lt;/h2>
+&lt;p>&lt;strong>Supabase&lt;/strong> is the freedom play — open source, Postgres under the hood, and you can self-host. &lt;strong>Firebase&lt;/strong> is the convenience play — deeper Google ecosystem integration and more mature tooling. For solo builders who care about owning their data layer, Supabase wins. If you&amp;rsquo;re already deep in Google and just want to ship fast, Firebase works.&lt;/p>
+&lt;hr>
+&lt;h2 id="database">Database&lt;/h2>
+&lt;p>&lt;strong>Winner: Supabase&lt;/strong>&lt;/p>
+&lt;p>Supabase gives you a real Postgres database. Full SQL, joins, views, functions, triggers — the stuff production apps need. You already know SQL (or should learn it). Your data model grows with your app.&lt;/p></description></item><item><title>Vercel vs Netlify — Best Hosting for Solo Builders (2026)</title><link>https://freedomstackai.com/compare/vercel-vs-netlify/</link><pubDate>Thu, 19 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/compare/vercel-vs-netlify/</guid><description>&lt;h2 id="vercel-vs-netlify-the-quick-answer">Vercel vs Netlify: The Quick Answer&lt;/h2>
+&lt;p>&lt;strong>Vercel&lt;/strong> is the best place to deploy Next.js and the fastest platform overall. &lt;strong>Netlify&lt;/strong> is simpler, more flexible with frameworks, and has a more generous free tier. Both are excellent. Your framework choice probably decides this for you.&lt;/p>
+&lt;hr>
+&lt;h2 id="framework-support">Framework Support&lt;/h2>
+&lt;p>&lt;strong>Winner: Depends&lt;/strong>&lt;/p>
+&lt;p>Vercel owns Next.js. The integration is flawless — every Next.js feature works perfectly because the same team builds both. If you use Next.js, Vercel is the obvious choice.&lt;/p></description></item><item><title>About AI Freedom Stack</title><link>https://freedomstackai.com/about/</link><pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate><guid>https://freedomstackai.com/about/</guid><description>&lt;h2 id="what-this-is">What This Is&lt;/h2>
 &lt;p>AI Freedom Stack is a curated directory of AI tools reviewed specifically for &lt;strong>solo builders&lt;/strong> — freelancers, indie makers, one-person startups, and anyone using AI to build something of their own.&lt;/p>
 &lt;p>Every review answers one question: &lt;strong>Does this tool help you build independently, or does it create another dependency?&lt;/strong>&lt;/p>
 &lt;h2 id="why-this-exists">Why This Exists&lt;/h2>
